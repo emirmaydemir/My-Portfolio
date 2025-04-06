@@ -1,64 +1,64 @@
 "use client";
 import React from "react";
-import dynamic from "next/dynamic";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/autoplay";
+import { motion } from "framer-motion";
+import { SiReact, SiNextdotjs, SiDotnet, SiCss3, SiAmazonaws, SiJavascript, SiTailwindcss } from "react-icons/si";
+import { IconContext } from "react-icons";
 
-const AnimatedNumbers = dynamic(
-  () => {
-    return import("react-animated-numbers");
-  },
-  { ssr: false }
-);
-
-const achievementsList = [
-  {
-    metric: "Projects",
-    value: "100",
-    postfix: "+",
-  },
-  {
-    prefix: "~",
-    metric: "Users",
-    value: "100,000",
-  },
-  {
-    metric: "Awards",
-    value: "7",
-  },
-  {
-    metric: "Years",
-    value: "5",
-  },
+const skills = [
+  { name: "React", icon: SiReact, color: "#61DBFB" },
+  { name: "Next.js", icon: SiNextdotjs, color: "#000000" },
+  { name: ".NET", icon: SiDotnet, color: "#5C2D91" },
+  { name: "CSS3", icon: SiCss3, color: "#264de4" },
+  { name: "JavaScript", icon: SiJavascript, color: "#f0db4f" },
+  { name: "Tailwind CSS", icon: SiTailwindcss, color: "#38bdf8" },
 ];
 
 const AchievementsSection = () => {
+  const [isMounted, setIsMounted] = React.useState(false);
+
+  React.useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
+  if (!isMounted) return null;
+
   return (
-    <div className="py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-      <div className="sm:border-[#33353F] sm:border rounded-md py-8 px-16 flex flex-col sm:flex-row items-center justify-between">
-        {achievementsList.map((achievement, index) => {
+    <div className="py-8 px-4 mt-10 mb-10 bg-gradient-to-r from-[#0f2027] via-[#203a43] to-[#2c5364] rounded-lg shadow-2xl">
+      <h2 className="text-3xl font-bold text-white text-center mb-12">Yeteneklerim</h2>
+      <Swiper
+        modules={[Autoplay]}
+        spaceBetween={20}
+        slidesPerView={3}
+        autoplay={{
+          delay: 1000,
+          disableOnInteraction: false,
+        }}
+        loop={true}
+        speed={500} // animasyon geçiş süresi
+        breakpoints={{
+          640: { slidesPerView: 3 },
+          768: { slidesPerView: 4 },
+          1024: { slidesPerView: 5 },
+        }}
+      >
+        {skills.map((skill, index) => {
+          const Icon = skill.icon;
           return (
-            <div key={index} className="flex flex-col items-center justify-center mx-4 my-4 sm:my-0">
-              <h2 className="text-white text-4xl font-bold flex flex-row">
-                {achievement.prefix}
-                <AnimatedNumbers
-                  includeComma
-                  animateToNumber={parseInt(achievement.value)}
-                  locale="en-US"
-                  className="text-white text-4xl font-bold"
-                  configs={(_, index) => {
-                    return {
-                      mass: 1,
-                      friction: 100,
-                      tensions: 140 * (index + 1),
-                    };
-                  }}
-                />
-                {achievement.postfix}
-              </h2>
-              <p className="text-[#ADB7BE] text-base">{achievement.metric}</p>
-            </div>
+            <SwiperSlide key={index} className="flex flex-col items-center justify-center">
+              <IconContext.Provider value={{ size: "3rem", color: skill.color }}>
+                <motion.div whileHover={{ scale: 1.2, rotate: 5 }} whileTap={{ scale: 0.95 }} transition={{ type: "spring", stiffness: 300 }} className="flex flex-col items-center justify-center">
+                  <Icon />
+                  <span className="mt-2 text-white font-medium">{skill.name}</span>
+                </motion.div>
+              </IconContext.Provider>
+            </SwiperSlide>
           );
         })}
-      </div>
+      </Swiper>
     </div>
   );
 };
