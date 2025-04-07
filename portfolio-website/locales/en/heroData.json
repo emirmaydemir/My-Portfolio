@@ -1,0 +1,10 @@
+{
+  "heroData": {
+    "hero_title": "Hello",
+    "hero_subtitle": "I'm",
+    "hero_description": "I am a Full Stack Developer with 4 years of experience. On the backend, I use .NET, and on the frontend, I develop web and mobile applications using React and TypeScript. I focus on creating user-friendly and sustainable solutions, adhering to clean code principles.",
+    "hero_cv": "Download CV",
+    "hero_contact": "Hire Me",
+    "hero_sequence": ["Full Stack Developer", 1000, "Back-End Developer", 1000, "Front-End Developer", 1000, "UI/UX Designer", 1000, "Web Developer", 1000, "Mobile Developer", 1000, "ERP Software Developer", 1000, "Emir Muhammet Aydemir", 1000]
+  }
+}

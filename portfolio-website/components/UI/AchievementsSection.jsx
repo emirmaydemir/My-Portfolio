@@ -5,7 +5,7 @@ import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/autoplay";
 import { motion } from "framer-motion";
-import { SiDotnet, SiSharp, SiReact, SiNextdotjs, SiTypescript, SiJavascript, SiHtml5, SiCss3, SiTailwindcss, SiPython, SiGithub, SiSubversion, SiBootstrap, SiAxios, SiAndroidstudio, SiPostman, SiGithubactions } from "react-icons/si";
+import { SiDotnet, SiSharp, SiReact, SiNextdotjs, SiTypescript, SiJavascript, SiHtml5, SiCss3, SiTailwindcss, SiPython, SiGithub, SiSubversion, SiBootstrap, SiAxios, SiAndroidstudio, SiPostman, SiGithubactions, SiGoogleads } from "react-icons/si";
 import { FaAws, FaJava, FaDatabase, FaRegCheckCircle } from "react-icons/fa";
 import { TbApi, TbSeo } from "react-icons/tb";
 import { DiVisualstudio } from "react-icons/di";
@@ -39,6 +39,7 @@ const skills = [
   { name: "Android Studio", icon: SiAndroidstudio, color: "#3DDC84" },
   { name: "Postman", icon: SiPostman, color: "#FF6C37" },
   { name: "Search Engine Optimization", icon: TbSeo, color: "#9E9E9E" },
+  { name: "Google Ads", icon: SiGoogleads, color: "#4285F4" },
 ];
 
 const MotionIcon = ({ Icon, color, name }) => (
