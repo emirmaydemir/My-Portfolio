@@ -4,16 +4,10 @@ import Image from "next/image";
 import TabButton from "@/components/UI/TabButton";
 import CertificationCard from "@/components/UI/CertificationCard";
 import PublicationCard from "@/components/UI/PublicationCard";
+import { motion } from "framer-motion";
 
 const AboutSection = () => {
   const [tab, setTab] = useState("skills");
-  const [isPending, startTransition] = useTransition();
-
-  const handleTabChange = (id) => {
-    startTransition(() => {
-      setTab(id);
-    });
-  };
 
   // Sertifikalar verileri
   const certifications = [
@@ -72,9 +66,9 @@ const AboutSection = () => {
       content: (
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 justify-items-center">
           {[".NET Core", "C#", "Rest API", "Clean Architecture", "Multi-Project Solution", "CI/CD", "CQRS and Mediator pattern", "ERP Software", "Dependency Injection", "SignalR", "OOP", "Data Structures", "React.js", "Next.js", "CSS", "Tailwind CSS", "Bootstrap", "TypeScript", "JavaScript", "Mobx", "AutoMapper", "XML", "JSON", "Visual Studio", "Android Studio", "Android Development", "Java", "Firebase", "SDK", "JDBC", "SQL", "Database Management", "AWS S3", "Git", "GitHub", "Subversion", "Postman", "Unit Testing", "xUnit", "Python"].map((skill, i) => (
-            <div key={i} className="w-36 h-12 flex items-center justify-center rounded-full shadow-lg bg-gradient-to-r from-gray-700 to-gray-800 hover:from-primary-500 hover:to-secondary-600 transition-transform duration-300 transform hover:scale-105 px-2">
+            <motion.div key={i} initial={{ opacity: 0, scale: 0.9 }} whileInView={{ opacity: 1, scale: 1 }} transition={{ duration: 0.3, delay: i * 0.05 }} viewport={{ once: false }} className="w-36 h-12 flex items-center justify-center rounded-full shadow-lg bg-gradient-to-r from-gray-700 to-gray-800 hover:from-primary-500 hover:to-secondary-600 transition-transform duration-300 transform hover:scale-105 px-2">
               <span className="text-sm font-medium text-white text-center">{skill}</span>
-            </div>
+            </motion.div>
           ))}
         </div>
       ),
@@ -84,9 +78,16 @@ const AboutSection = () => {
       id: "publications",
       content: (
         <div className="space-y-6">
-          {publications.map((pub) => (
-            <PublicationCard key={pub.id} title={pub.title} date={pub.date} description={pub.description} onShow={() => handleShowPublication(pub)} />
-          ))}
+          {publications.map(
+            (
+              pub,
+              i // 'i' burada tanımlandı
+            ) => (
+              <motion.div key={pub.id} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.4, delay: i * 0.2 }} viewport={{ once: false, amount: 0.5 }}>
+                <PublicationCard title={pub.title} date={pub.date} description={pub.description} onShow={() => handleShowPublication(pub)} />
+              </motion.div>
+            )
+          )}
         </div>
       ),
     },
@@ -95,16 +96,23 @@ const AboutSection = () => {
       id: "certifications",
       content: (
         <div className="space-y-4">
-          {certifications.map((cert) => (
-            <CertificationCard key={cert.id} title={cert.title} institution={cert.institution} date={cert.date} />
-          ))}
+          {certifications.map(
+            (
+              cert,
+              i // 'i' burada tanımlandı
+            ) => (
+              <motion.div key={cert.id} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.4, delay: i * 0.2 }} viewport={{ once: false, amount: 0.5 }}>
+                <CertificationCard title={cert.title} institution={cert.institution} date={cert.date} />
+              </motion.div>
+            )
+          )}
         </div>
       ),
     },
   ];
 
   return (
-    <section className="text-white mb-20" id="about">
+    <section id="about" className="mb-20">
       {/* Başlık */}
       <div className="text-center pt-16 pb-8 px-4 mb-5">
         <h2 className="text-4xl font-bold mb-4">About Me</h2>
@@ -112,25 +120,28 @@ const AboutSection = () => {
       </div>
 
       {/* Hakkımda: Resim ve Yazı */}
-      <div className="md:grid md:grid-cols-2 items-start mb-16 px-5">
-        <div className="flex justify-center">
-          <Image src="/images/about-image.png" width={475} height={475} alt="Hakkımda" />
-        </div>
-        <div className="mt-4 md:mt-0 flex flex-col">
+      <div className="md:grid md:grid-cols-2 items-center mb-16 px-5">
+        <motion.div initial={{ x: -150, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} transition={{ duration: 0.9 }} viewport={{ once: false, amount: 0.85 }} className="flex justify-center">
+          <Image src="/images/about-image.png" width={475} height={475} alt="About Me" />
+        </motion.div>
+
+        <motion.div initial={{ x: 150, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} transition={{ duration: 0.9 }} viewport={{ once: false, amount: 0.85 }} className="mt-4 md:mt-0 flex flex-col">
           <p className="text-base lg:text-lg mb-6 text-justify">I am a Computer Engineer with 4 years of Full Stack development experience, driven by continuous improvement and a strong interest in emerging technologies. On the backend, I develop RESTful APIs using .NET Core, and efficiently utilize SQL databases along with cloud services such as AWS S3. I manage CI/CD pipelines through GitHub Actions and prioritize sustainability by writing Unit Tests for every piece of code. On the frontend, I build fast, user-centric, and modern interfaces with React and TypeScript, while adhering to UI/UX principles. I actively contribute to projects that involve transforming multi-layered desktop ERP applications into modern web-based architectures by applying software design patterns such as Clean Architecture. Additionally, I develop corporate websites using Next.js as a freelancer. My strongest assets are my analytical thinking, problem-solving skills, and dedication to software quality.</p>
-        </div>
+        </motion.div>
       </div>
 
       {/* Sekme Geçişleri: Skills / Publications / Certifications */}
       <div className="px-4 xl:px-16">
         <div className="flex flex-wrap gap-4 justify-center mb-8">
           {TAB_DATA.map((t) => (
-            <TabButton key={t.id} selectTab={() => handleTabChange(t.id)} active={tab === t.id}>
+            <TabButton key={t.id} selectTab={() => setTab(t.id)} active={tab === t.id}>
               {t.title}
             </TabButton>
           ))}
         </div>
-        <div className="transition-opacity duration-300 ease-in-out max-w-5xl mx-auto">{TAB_DATA.find((t) => t.id === tab).content}</div>
+        <motion.div className="max-w-5xl mx-auto" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.5 }} viewport={{ once: false }}>
+          {TAB_DATA.find((t) => t.id === tab).content}
+        </motion.div>
       </div>
     </section>
   );

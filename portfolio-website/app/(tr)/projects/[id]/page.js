@@ -27,7 +27,7 @@ export default function ProjectDetailPage({ params: { id } }) {
   if (!project) return <div className="text-center p-8">Proje bulunamadı.</div>;
 
   return (
-    <div className="max-w-5xl mx-auto p-4">
+    <div className="max-w-5xl mx-auto p-4 pt-28 mt-5">
       <ProjectHeader title={project.title} tagline={project.tagline} />
       <MediaCarousel media={project.media} />
       <ProjectDescription description={project.description} />

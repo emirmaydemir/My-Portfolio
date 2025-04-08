@@ -29,9 +29,9 @@ export default function Technologies({ technologies }) {
           const Icon = iconMap[tech] || FaQuestion;
 
           return (
-            <div key={index} className="flex items-center gap-2 bg-gray-100 px-3 py-1 rounded-full text-sm shadow-sm">
-              <Icon className="text-xl text-blue-600" />
-              <span className="text-black">{tech}</span>
+            <div key={index} className="flex items-center gap-2 bg-gray-900 px-3 py-1 rounded-full text-sm shadow hover:scale-105 transition-transform duration-300">
+              <Icon className="text-xl text-blue-500" />
+              <span className="text-white">{tech}</span>
             </div>
           );
         })}

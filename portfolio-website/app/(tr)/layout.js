@@ -2,6 +2,7 @@ import "@/app/globals.css";
 import { Inter } from "next/font/google";
 import { LanguageProvider } from "@/components/LanguageProvider";
 import { Fragment } from "react";
+import Navbar from "@/components/UI/Navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,6 +17,7 @@ export default function RootLayout({ children }) {
       <LanguageProvider>
         <body className={inter.className}>
           <Fragment>
+            <Navbar />
             <main>{children}</main>
           </Fragment>
         </body>
