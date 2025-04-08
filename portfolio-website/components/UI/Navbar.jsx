@@ -10,6 +10,7 @@ import LanguageChanger from "../LanguageChanger";
 const navLinks = [
   { title: "About", path: "#about" },
   { title: "Projects", path: "#projects" },
+  { title: "Experience", path: "#experience" },
   { title: "Contact", path: "#contact" },
   { title: "Blog", path: "#blog" },
 ];
