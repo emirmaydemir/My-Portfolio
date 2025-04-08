@@ -28,11 +28,6 @@ export default function ProjectDetailPage({ params: { id } }) {
 
   return (
     <div className="max-w-5xl mx-auto p-4">
-      {/* Geri Dön Butonu */}
-      <button onClick={() => router.push("/projects")} className="text-blue-500 hover:underline">
-        &larr; Tüm Projeler
-      </button>
-
       <ProjectHeader title={project.title} tagline={project.tagline} />
       <MediaCarousel media={project.media} />
       <ProjectDescription description={project.description} />
