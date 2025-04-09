@@ -1,6 +1,6 @@
 import { SiUdemy, SiFreecodecamp } from "react-icons/si";
 
-const CertificationCard = ({ title, institution, date }) => {
+const CertificationCard = ({ title, institution, date, buttonText }) => {
   const renderInstitutionIcon = (institution) => {
     switch (institution.toLowerCase()) {
       case "udemy":
@@ -30,7 +30,7 @@ const CertificationCard = ({ title, institution, date }) => {
 
       {/* Buton */}
       <button onClick={handleShowCertificate} className="self-end bg-primary-500 hover:bg-primary-600 text-white text-sm font-semibold py-1.5 px-4 rounded transition-colors duration-300">
-        Sertifikayı Göster
+        {buttonText}
       </button>
     </div>
   );

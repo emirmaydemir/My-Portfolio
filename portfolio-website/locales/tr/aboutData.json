@@ -1,0 +1,51 @@
+{
+  "aboutData": {
+    "about_title": "Hakkımda",
+    "about_description": "Bilgisayar Mühendisiyim ve 4 yıllık Full Stack geliştirme deneyimim var. Kendimi sürekli geliştirmeyi hedefliyor, yeni teknolojileri yakından takip ediyorum. Backend tarafında .NET Core ile RESTful API’ler geliştiriyor, SQL veritabanlarını ve AWS S3 gibi bulut servislerini etkin bir şekilde kullanıyorum. GitHub Actions ile CI/CD süreçlerini yönetiyor, her geliştirdiğim bileşen için Unit Test yazarak sürdürülebilir ve güvenilir bir yazılım mimarisi oluşturuyorum. Frontend tarafında ise React ve TypeScript ile kullanıcı odaklı, modern ve hızlı arayüzler geliştiriyorum ve bu süreçte UI/UX prensiplerine sadık kalmaya özen gösteriyorum. Masaüstü tabanlı, çok katmanlı ERP uygulamalarını modern web mimarilerine dönüştüren projelerde aktif rol alıyor, Clean Architecture gibi yazılım tasarım desenlerini uyguluyorum. Aynı zamanda freelancer olarak Next.js ile kurumsal web siteleri geliştiriyorum. Analitik düşünme yeteneğim, problem çözme becerim ve yazılım kalitesine duyduğum bağlılık en güçlü yönlerim arasında yer alıyor.",
+    "about_skill": "Yetenekler",
+    "about_publications": "Yayınlar",
+    "about_certifications": "Sertifikalar",
+    "about_publications_button": "Yayını Göster",
+    "about_certifications_button": "Sertifikayı Göster"
+  },
+  "certifications": [
+    {
+      "id": 1,
+      "title": "Next.js 15 & React - The Complete Guide",
+      "institution": "Udemy",
+      "date": "Yayınlama Ekim 2024"
+    },
+    {
+      "id": 2,
+      "title": "Complete guide to building an app with .Net Core and React",
+      "institution": "Udemy",
+      "date": "Yayınlama Kasım 2023"
+    },
+    {
+      "id": 3,
+      "title": "Android Mobil Uygulama Kursu: Kotlin & Java",
+      "institution": "Udemy",
+      "date": "Yayınlama Mart 2021"
+    },
+    {
+      "id": 4,
+      "title": "JavaScript Algorithms and Data Structures",
+      "institution": "freeCodeCamp",
+      "date": "Yayınlama Nisan 2025"
+    }
+  ],
+  "publications": [
+    {
+      "id": 1,
+      "title": "Note Ideas Not Defteri",
+      "date": "9 Haz 2021",
+      "description": "Android Studio üzerinde Java programlama dili ile yazılmış bir not uygulamasıdır. Veritabanı tarafında ise SQL nesneleri ile çalışmayı kolaylaştıran Room kütüphanesi kullanılmıştır."
+    },
+    {
+      "id": 2,
+      "title": "İnoksist Endüstri Paslanmaz Civata Paslanmaz Somun",
+      "date": "23 Ekim 2024",
+      "description": "Bu proje, paslanmaz civata firması için Next.js ve React kullanılarak geliştirilen modern ve kullanıcı dostu bir web sitesi olup, dinamik içerik yönetimi ve responsive tasarım özellikleri taşımaktadır."
+    }
+  ]
+}

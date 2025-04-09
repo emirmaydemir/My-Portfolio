@@ -121,11 +121,17 @@ function ProjectsSection() {
 
   return (
     <section id="projects" className="pt-20">
-      <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">My Projects</h2>
-      <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
+      <div className="text-center pt-16 pb-8 px-4">
+        <h2 className="text-4xl font-bold mb-4">My Projects</h2>
+        <div className="w-24 h-1 bg-gradient-to-r from-primary-400 to-secondary-600 mx-auto rounded"></div>
+      </div>
+      <div className="text-white flex flex-wrap justify-center items-center gap-2 md:gap-4 py-6 px-4">
         <ProjectTag onClick={() => handleTagChange("All")} name="All" isSelected={tag === "All"} />
         <ProjectTag onClick={() => handleTagChange("Web")} name="Web" isSelected={tag === "Web"} />
         <ProjectTag onClick={() => handleTagChange("Mobile")} name="Mobile" isSelected={tag === "Mobile"} />
+        <ProjectTag onClick={() => handleTagChange("Desktop")} name="Desktop" isSelected={tag === "Desktop"} />
+        <ProjectTag onClick={() => handleTagChange("Backend")} name="Backend & ERP" isSelected={tag === "Backend"} />
+        <ProjectTag onClick={() => handleTagChange("AI")} name="AI / Data / Vision" isSelected={tag === "AI"} />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
         {filteredProjects.slice(0, visibleProjectsCount).map((project, index) => (

@@ -1,0 +1,51 @@
+{
+  "aboutData": {
+    "about_title": "About Me",
+    "about_description": "I am a Computer Engineer with 4 years of Full Stack development experience, driven by continuous improvement and a strong interest in emerging technologies. On the backend, I develop RESTful APIs using .NET Core, and efficiently utilize SQL databases along with cloud services such as AWS S3. I manage CI/CD pipelines through GitHub Actions and prioritize sustainability by writing Unit Tests for every piece of code. On the frontend, I build fast, user-centric, and modern interfaces with React and TypeScript, while adhering to UI/UX principles. I actively contribute to projects that involve transforming multi-layered desktop ERP applications into modern web-based architectures by applying software design patterns such as Clean Architecture. Additionally, I develop corporate websites using Next.js as a freelancer. My strongest assets are my analytical thinking, problem-solving skills, and dedication to software quality.",
+    "about_skill": "Skills",
+    "about_publications": "Publications",
+    "about_certifications": "Certifications",
+    "about_publications_button": "Show Publication",
+    "about_certifications_button": "Show Certificate"
+  },
+  "certifications": [
+    {
+      "id": 1,
+      "title": "Next.js 15 & React - The Complete Guide",
+      "institution": "Udemy",
+      "date": "Issued October 2024"
+    },
+    {
+      "id": 2,
+      "title": "Complete guide to building an app with .Net Core and React",
+      "institution": "Udemy",
+      "date": "Issued November 2023"
+    },
+    {
+      "id": 3,
+      "title": "Android Mobile Application Course: Kotlin & Java",
+      "institution": "Udemy",
+      "date": "Issued March 2021"
+    },
+    {
+      "id": 4,
+      "title": "JavaScript Algorithms and Data Structures",
+      "institution": "freeCodeCamp",
+      "date": "Issued April 2025"
+    }
+  ],
+  "publications": [
+    {
+      "id": 1,
+      "title": "Note Ideas Notebook",
+      "date": "June 9, 2021",
+      "description": "This is a note-taking application developed using the Java programming language on Android Studio. On the database side, the Room library is used to simplify working with SQL objects."
+    },
+    {
+      "id": 2,
+      "title": "Inoksist Industrial Stainless Bolts Stainless Nuts",
+      "date": "October 23, 2024",
+      "description": "This project is a modern, user-friendly website developed using Next.js and React for a stainless bolt company. It features dynamic content management and responsive design."
+    }
+  ]
+}
