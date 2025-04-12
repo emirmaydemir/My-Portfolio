@@ -1,236 +1,202 @@
 {
-  "projectData": {
-    "project_id": "1",
-    "project_title": "",
-    "project_description": "",
-    "project_image": "",
-    "project_gitUrl": ["All", "Web"],
-    "project_contact": "",
-    "project_previewUrl": ""
-  },
-  "projectData": {
-    "project_id": "2",
-    "project_title": "",
-    "project_description": "",
-    "project_image": "",
-    "project_gitUrl": ["All", "Web"],
-    "project_contact": "",
-    "project_previewUrl": ""
-  },
-  "projectData": {
-    "project_id": "3",
-    "project_title": "",
-    "project_description": "",
-    "project_image": "",
-    "project_gitUrl": ["All", "Web"],
-    "project_contact": "",
-    "project_previewUrl": ""
-  },
-  "projectData": {
-    "project_id": "4",
-    "project_title": "",
-    "project_description": "",
-    "project_image": "",
-    "project_gitUrl": ["All", "Web"],
-    "project_contact": "",
-    "project_previewUrl": ""
-  },
-  "projectData": {
-    "project_id": "5",
-    "project_title": "",
-    "project_description": "",
-    "project_image": "",
-    "project_gitUrl": ["All", "Web"],
-    "project_contact": "",
-    "project_previewUrl": ""
-  },
-  "projectData": {
-    "project_id": "6",
-    "project_title": "",
-    "project_description": "",
-    "project_image": "",
-    "project_gitUrl": ["All", "Web"],
-    "project_contact": "",
-    "project_previewUrl": ""
-  },
-  "projectData": {
-    "project_id": "7",
-    "project_title": "",
-    "project_description": "",
-    "project_image": "",
-    "project_gitUrl": ["All", "Web"],
-    "project_contact": "",
-    "project_previewUrl": ""
-  },
-  "projectData": {
-    "project_id": "8",
-    "project_title": "",
-    "project_description": "",
-    "project_image": "",
-    "project_gitUrl": ["All", "Web"],
-    "project_contact": "",
-    "project_previewUrl": ""
-  },
-  "projectData": {
-    "project_id": "9",
-    "project_title": "",
-    "project_description": "",
-    "project_image": "",
-    "project_gitUrl": ["All", "Web"],
-    "project_contact": "",
-    "project_previewUrl": ""
-  },
-  "projectData": {
-    "project_id": "10",
-    "project_title": "",
-    "project_description": "",
-    "project_image": "",
-    "project_gitUrl": ["All", "Web"],
-    "project_contact": "",
-    "project_previewUrl": ""
-  },
-  "projectData": {
-    "project_id": "11",
-    "project_title": "",
-    "project_description": "",
-    "project_image": "",
-    "project_gitUrl": ["All", "Web"],
-    "project_contact": "",
-    "project_previewUrl": ""
-  },
-  "projectData": {
-    "project_id": "12",
-    "project_title": "",
-    "project_description": "",
-    "project_image": "",
-    "project_gitUrl": ["All", "Web"],
-    "project_contact": "",
-    "project_previewUrl": ""
-  },
-  "projectData": {
-    "project_id": "13",
-    "project_title": "",
-    "project_description": "",
-    "project_image": "",
-    "project_gitUrl": ["All", "Web"],
-    "project_contact": "",
-    "project_previewUrl": ""
-  },
-  "projectData": {
-    "project_id": "14",
-    "project_title": "",
-    "project_description": "",
-    "project_image": "",
-    "project_gitUrl": ["All", "Web"],
-    "project_contact": "",
-    "project_previewUrl": ""
-  },
-  "projectData": {
-    "project_id": "15",
-    "project_title": "",
-    "project_description": "",
-    "project_image": "",
-    "project_gitUrl": ["All", "Web"],
-    "project_contact": "",
-    "project_previewUrl": ""
-  },
-  "projectData": {
-    "project_id": "16",
-    "project_title": "",
-    "project_description": "",
-    "project_image": "",
-    "project_gitUrl": ["All", "Web"],
-    "project_contact": "",
-    "project_previewUrl": ""
-  },
-  "projectData": {
-    "project_id": "17",
-    "project_title": "",
-    "project_description": "",
-    "project_image": "",
-    "project_gitUrl": ["All", "Web"],
-    "project_contact": "",
-    "project_previewUrl": ""
-  },
-  "projectData": {
-    "project_id": "18",
-    "project_title": "",
-    "project_description": "",
-    "project_image": "",
-    "project_gitUrl": ["All", "Web"],
-    "project_contact": "",
-    "project_previewUrl": ""
-  },
-  "projectData": {
-    "project_id": "19",
-    "project_title": "",
-    "project_description": "",
-    "project_image": "",
-    "project_gitUrl": ["All", "Web"],
-    "project_contact": "",
-    "project_previewUrl": ""
-  },
-  "projectData": {
-    "project_id": "20",
-    "project_title": "",
-    "project_description": "",
-    "project_image": "",
-    "project_gitUrl": ["All", "Web"],
-    "project_contact": "",
-    "project_previewUrl": ""
-  },
-  "projectData": {
-    "project_id": "21",
-    "project_title": "",
-    "project_description": "",
-    "project_image": "",
-    "project_gitUrl": ["All", "Web"],
-    "project_contact": "",
-    "project_previewUrl": ""
-  },
-  "projectData": {
-    "project_id": "22",
-    "project_title": "",
-    "project_description": "",
-    "project_image": "",
-    "project_gitUrl": ["All", "Web"],
-    "project_contact": "",
-    "project_previewUrl": ""
-  },
-  "projectData": {
-    "project_id": "23",
-    "project_title": "",
-    "project_description": "",
-    "project_image": "",
-    "project_gitUrl": ["All", "Web"],
-    "project_contact": "",
-    "project_previewUrl": ""
-  },
-  "projectData": {
-    "project_id": "24",
-    "project_title": "",
-    "project_description": "",
-    "project_image": "",
-    "project_gitUrl": ["All", "Web"],
-    "project_contact": "",
-    "project_previewUrl": ""
-  },
-  "projectData": {
-    "project_id": "25",
-    "project_title": "",
-    "project_description": "",
-    "project_image": "",
-    "project_gitUrl": ["All", "Web"],
-    "project_contact": "",
-    "project_previewUrl": ""
-  },
-  "projectData": {
-    "project_id": "26",
-    "project_title": "",
-    "project_description": "",
-    "project_image": "",
-    "project_gitUrl": ["All", "Web"],
-    "project_contact": "",
-    "project_previewUrl": ""
-  }
+  "projectData": [
+    {
+      "project_id": "1",
+      "project_title": "Note Ideas Not Defteri",
+      "project_description": "Android studio üzerinde java programlama dili ile yazılmış bir not uygulamasıdır.",
+      "project_image": "/images/projects/note-ideas-app.png",
+      "project_tag": ["All", "Mobile"],
+      "project_gitUrl": "https://github.com/emirmaydemir/advanced-note-app",
+      "project_previewUrl": "https://play.google.com/store/apps/details?id=com.noteideas.notdefterim"
+    },
+    {
+      "project_id": "2",
+      "project_title": "İnoksist Endüstri",
+      "project_description": "Next.js ile yazılmış ticari web sitesi",
+      "project_image": "/images/projects/inoksist-web-site.png",
+      "project_tag": ["All", "Web"],
+      "project_gitUrl": "https://github.com/emirmaydemir/Inoksist-Industry-Web",
+      "project_previewUrl": "https://www.inoksist.com.tr/"
+    },
+    {
+      "project_id": "3",
+      "project_title": "Portfolio Web Site",
+      "project_description": "Kişisel web sitesi",
+      "project_image": "/images/projects/portfolio-web.png",
+      "project_tag": ["All", "Web"],
+      "project_gitUrl": "https://github.com/emirmaydemir/emirmaydemir.github.io",
+      "project_previewUrl": "https://emirmaydemir.github.io/"
+    },
+    {
+      "project_id": "4",
+      "project_title": "Smart Shopping E-Commerce App",
+      "project_description": "E-ticaret alışveriş mobil uygulamasıdır.",
+      "project_image": "/images/projects/shop-mobile-app.png",
+      "project_tag": ["All", "Mobile"],
+      "project_gitUrl": "https://github.com/emirmaydemir/ShopApp",
+      "project_previewUrl": ""
+    },
+    {
+      "project_id": "5",
+      "project_title": "Reactivities",
+      "project_description": "Etkinlik katılım web sitesi",
+      "project_image": "/images/projects/re-activity-web.png",
+      "project_tag": ["All", "Web"],
+      "project_gitUrl": "https://github.com/emirmaydemir/Reactivities",
+      "project_previewUrl": ""
+    },
+    {
+      "project_id": "6",
+      "project_title": "BloodBank",
+      "project_description": "Hastaneler, hastalar ve donörleri bir araya getiren bir kan bankası sistemi",
+      "project_image": "/images/projects/bloodbank-desktop-app.png",
+      "project_tag": ["All", "Desktop"],
+      "project_gitUrl": "https://github.com/emirmaydemir/BloodBank2/tree/main/BloodBankk",
+      "project_previewUrl": ""
+    },
+    {
+      "project_id": "7",
+      "project_title": "Cep Marketim",
+      "project_description": "Ürünlerin qr kodunu okutarak fiyatını ve birçok özelliğini görebildiğimiz mobil app",
+      "project_image": "/images/projects/cep-marketim-app.png",
+      "project_tag": ["All", "Mobile"],
+      "project_gitUrl": "https://github.com/emirmaydemir/CepMarketimAndroid",
+      "project_previewUrl": ""
+    },
+    {
+      "project_id": "8",
+      "project_title": "Cep Marketim Blog",
+      "project_description": "Cep Marketim Öneri / Şikayet sayfası",
+      "project_image": "/images/projects/cep-marketim-web-blog.png",
+      "project_tag": ["All", "Web"],
+      "project_gitUrl": "https://github.com/emirmaydemir/blogprojesiCepMarketim",
+      "project_previewUrl": ""
+    },
+    {
+      "project_id": "9",
+      "project_title": "Stadyum Projesi",
+      "project_description": "Kombine ve normal bilet alınabilen stadyum projesi",
+      "project_image": "/images/projects/stadyum-projesi.PNG",
+      "project_tag": ["All", "Desktop"],
+      "project_gitUrl": "https://github.com/emirmaydemir/ProjeStadyum_Java",
+      "project_previewUrl": ""
+    },
+    {
+      "project_id": "10",
+      "project_title": "Müzik Öneri Uygulaması",
+      "project_description": "Spotify API'si kullanılarak müzik önerme uygulaması yapıldı.",
+      "project_image": "/images/projects/music-recommendation-system.png",
+      "project_tag": ["All", "AI"],
+      "project_gitUrl": "https://github.com/emirmaydemir/music-recommendation-system",
+      "project_previewUrl": ""
+    },
+    {
+      "project_id": "11",
+      "project_title": "MultinomialNB Kelime Analizi",
+      "project_description": "Veri madenciliği kapsamında cümlelerdeki Çoklu-kelime anlam belirsizliği probleminin Naive-Bayes algoritması kullanılarak çözülmesi.",
+      "project_image": "/images/projects//Naive-Bayes.png",
+      "project_tag": ["All", "AI"],
+      "project_gitUrl": "https://github.com/emirmaydemir/MultinomialNB-classifier-for-text",
+      "project_previewUrl": ""
+    },
+    {
+      "project_id": "12",
+      "project_title": "Kenny Catch App",
+      "project_description": "Refkleks geliştirme oyunu",
+      "project_image": "/images/projects/kenny-catch-app.png",
+      "project_tag": ["All", "Mobile"],
+      "project_gitUrl": "https://github.com/emirmaydemir/Game_AndroidStudio",
+      "project_previewUrl": ""
+    },
+    {
+      "project_id": "13",
+      "project_title": "LightDetect",
+      "project_description": "This project is a system that detects the colors of traffic lights. Using image processing techniques, it identifies the red, yellow, and green colors of traffic lights and ensures the correct signal is recognized.",
+      "project_image": "/images/projects/traffic-light-color-detection.png",
+      "project_tag": ["All", "AI"],
+      "project_gitUrl": "https://github.com/emirmaydemir/LightDetect",
+      "project_previewUrl": ""
+    },
+    {
+      "project_id": "14",
+      "project_title": "Student Registration System",
+      "project_description": "A system that enables students to register for courses and manage their personal and academic information easily.",
+      "project_image": "/images/projects/student-registration-system.png",
+      "project_tag": ["All", "Desktop"],
+      "project_gitUrl": "https://github.com/emirmaydemir/Student-Registration-System/tree/master/kayitentity",
+      "project_previewUrl": ""
+    },
+    {
+      "project_id": "15",
+      "project_title": "Iyzico payment integration",
+      "project_description": "ERP tabanlı yazılıma Iyzico alt yapısı kullanılarak ödeme entegrasyonu yapıldı",
+      "project_image": "/images/projects/payment-integration.png",
+      "project_tag": ["All", "Backend"],
+      "project_gitUrl": "https://paneltest.eofis.com.tr/",
+      "project_previewUrl": "https://paneltest.eofis.com.tr/"
+    },
+    {
+      "project_id": "16",
+      "project_title": "Haxball Bot",
+      "project_description": "Functional haxball bot with many options includes maps, commands and more",
+      "project_image": "/images/projects/haxball-bot.png",
+      "project_tag": ["All", "Web"],
+      "project_gitUrl": "https://github.com/emirmaydemir/Haxball-Bot",
+      "project_previewUrl": ""
+    },
+    {
+      "project_id": "17",
+      "project_title": "Financial Advisor Mail Template",
+      "project_description": "Finansal danışmanların müşterilerine göndereceği hazır e-posta taslağı entegrasyonu.",
+      "project_image": "/images/projects/financial-advisor-template.png",
+      "project_tag": ["All", "Backend", "Web"],
+      "project_gitUrl": "",
+      "project_previewUrl": ""
+    },
+    {
+      "project_id": "18",
+      "project_title": "Welcome Mail Template",
+      "project_description": "Bu şablon, yeni müşterileri karşılamak ve onlara firmanın sunduğu hizmetler hakkında bilgi vermek amacıyla kullanılır.",
+      "project_image": "/images/projects/welcome-template.png",
+      "project_tag": ["All", "Backend", "Web"],
+      "project_gitUrl": "",
+      "project_previewUrl": ""
+    },
+    {
+      "project_id": "19",
+      "project_title": "eOfis ERP Program",
+      "project_description": "I worked full stack in all developments of the ERP program in the company I worked for.",
+      "project_image": "/images/projects/eOfis-erp-program.png",
+      "project_tag": ["All", "Backend", "Desktop"],
+      "project_gitUrl": "",
+      "project_previewUrl": ""
+    },
+    {
+      "project_id": "20",
+      "project_title": "eOfis Panel Web",
+      "project_description": "eOfis panel web sitesinin geliştirilmesinde fullstack yazılımcı olarak yer aldım.",
+      "project_image": "/images/projects/eofis-panel.png",
+      "project_tag": ["All", "Web"],
+      "project_gitUrl": "",
+      "project_previewUrl": ""
+    },
+    {
+      "project_id": "21",
+      "project_title": "Blockchain Project",
+      "project_description": "Kullanıcıların ödül yaptıkça ödül kazandığı blockchain projesi",
+      "project_image": "/images/projects/blockchain.jpg",
+      "project_tag": ["All", "Backend"],
+      "project_gitUrl": "",
+      "project_previewUrl": ""
+    },
+    {
+      "project_id": "22",
+      "project_title": "Hangfire Report Integration",
+      "project_description": "Bilkent komisyon raporunun sql sorgusunu oluşturup bunun her gün tetiklenmesini sağladım.",
+      "project_image": "/images/projects/hangfire.png",
+      "project_tag": ["All", "Backend"],
+      "project_gitUrl": "",
+      "project_previewUrl": ""
+    }
+  ]
 }

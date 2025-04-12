@@ -88,7 +88,7 @@ const projectsData = [
   },
 ];
 
-function ProjectsSection() {
+function ProjectsSection({ projectContent }) {
   const [tag, setTag] = useState("All");
   // Başlangıçta 6 proje gösterilecek
   const [expanded, setExpanded] = useState(false);
@@ -102,7 +102,7 @@ function ProjectsSection() {
     setVisibleProjectsCount(6);
   };
 
-  const filteredProjects = projectsData.filter((project) => project.tag.includes(tag));
+  const filteredProjects = projectContent.filter((project) => project.project_tag.includes(tag));
 
   const toggleShowMore = () => {
     if (expanded) {
@@ -135,8 +135,8 @@ function ProjectsSection() {
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
         {filteredProjects.slice(0, visibleProjectsCount).map((project, index) => (
-          <motion.li key={project.id} variants={cardVariants} initial="initial" animate={expanded || isInView ? "animate" : "initial"} transition={{ duration: 0.3, delay: expanded ? index * 0.1 : index * 0.4 }}>
-            <ProjectCard title={project.title} description={project.description} imgUrl={project.image} gitUrl={project.gitUrl} previewUrl={project.previewUrl} />
+          <motion.li key={project.project_id} variants={cardVariants} initial="initial" animate={expanded || isInView ? "animate" : "initial"} transition={{ duration: 0.3, delay: expanded ? index * 0.1 : index * 0.4 }}>
+            <ProjectCard title={project.project_title} description={project.project_description} imgUrl={project.project_image} gitUrl={project.project_gitUrl} previewUrl={project.project_previewUrl} />
           </motion.li>
         ))}
       </ul>
