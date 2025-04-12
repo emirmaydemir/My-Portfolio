@@ -1,0 +1,202 @@
+{
+  "projectData": [
+    {
+      "project_id": "1",
+      "project_title": "Note Ideas - Notebook App",
+      "project_description": "Developed using Java in Android Studio, this note-taking application offers a user-friendly and functional experience",
+      "project_image": "/images/projects/note-ideas-app.png",
+      "project_tag": ["All", "Mobile"],
+      "project_gitUrl": "https://github.com/emirmaydemir/advanced-note-app",
+      "project_previewUrl": "https://play.google.com/store/apps/details?id=com.noteideas.notdefterim"
+    },
+    {
+      "project_id": "2",
+      "project_title": "Inoksist Industry",
+      "project_description": "Developed using Next.js, this SEO-friendly website was built for a stainless fastener supplier",
+      "project_image": "/images/projects/inoksist-web-site.png",
+      "project_tag": ["All", "Web"],
+      "project_gitUrl": "https://github.com/emirmaydemir/Inoksist-Industry-Web",
+      "project_previewUrl": "https://www.inoksist.com.tr/"
+    },
+    {
+      "project_id": "3",
+      "project_title": "Portfolio Website",
+      "project_description": "A website I developed to showcase my projects and skills",
+      "project_image": "/images/projects/portfolio-web.png",
+      "project_tag": ["All", "Web"],
+      "project_gitUrl": "https://github.com/emirmaydemir/emirmaydemir.github.io",
+      "project_previewUrl": "https://emirmaydemir.github.io/"
+    },
+    {
+      "project_id": "4",
+      "project_title": "Smart Shopping App",
+      "project_description": "My project offering an economic and fast shopping experience with price comparison and mobile payment support",
+      "project_image": "/images/projects/shop-mobile-app.png",
+      "project_tag": ["All", "Mobile"],
+      "project_gitUrl": "https://github.com/emirmaydemir/ShopApp",
+      "project_previewUrl": ""
+    },
+    {
+      "project_id": "5",
+      "project_title": "Reactivities",
+      "project_description": "My project developed with React and .NET, where users can share and join events",
+      "project_image": "/images/projects/re-activity-web.png",
+      "project_tag": ["All", "Web", "Backend"],
+      "project_gitUrl": "https://github.com/emirmaydemir/Reactivities",
+      "project_previewUrl": ""
+    },
+    {
+      "project_id": "6",
+      "project_title": "Iyzico Payment Integration",
+      "project_description": "I integrated the Iyzico payment infrastructure into the ERP-based software, designing a secure payment interface for users. Additionally, I developed an automatic payment system and ensured regular payment deductions from companies with outstanding balances using Hangfire",
+      "project_image": "/images/projects/payment-integration.png",
+      "project_tag": ["All", "Backend"],
+      "project_gitUrl": "https://paneltest.eofis.com.tr/",
+      "project_previewUrl": "https://paneltest.eofis.com.tr/"
+    },
+    {
+      "project_id": "7",
+      "project_title": "BloodBank",
+      "project_description": "A blood bank system that connects hospitals, patients, and donors",
+      "project_image": "/images/projects/bloodbank-desktop-app.png",
+      "project_tag": ["All", "Desktop", "Backend"],
+      "project_gitUrl": "https://github.com/emirmaydemir/BloodBank2/tree/main/BloodBankk",
+      "project_previewUrl": ""
+    },
+    {
+      "project_id": "8",
+      "project_title": "eOfis ERP System",
+      "project_description": "I worked full stack in all developments of the ERP program in the company I worked for. The OfficeSharp project under development at Zeugma includes 4 databases, 1 FTP server, 16 REST APIs, 7 client applications, 2 mobile apps, and 3 web panels",
+      "project_image": "/images/projects/eOfis-erp-program.png",
+      "project_tag": ["All", "Backend", "Desktop"],
+      "project_gitUrl": "",
+      "project_previewUrl": ""
+    },
+    {
+      "project_id": "9",
+      "project_title": "eOfis Panel Web",
+      "project_description": "I participated as a full-stack developer in the development of the eOfis panel website",
+      "project_image": "/images/projects/eofis-panel.png",
+      "project_tag": ["All", "Web"],
+      "project_gitUrl": "",
+      "project_previewUrl": ""
+    },
+    {
+      "project_id": "10",
+      "project_title": "Blockchain Project",
+      "project_description": "A decentralized and secure reward system has been developed, where users earn rewards by completing tasks. All transactions are transparently tracked on the blockchain, creating a sustainable, transparent, and auditable system",
+      "project_image": "/images/projects/blockchain.jpg",
+      "project_tag": ["All", "Backend"],
+      "project_gitUrl": "",
+      "project_previewUrl": ""
+    },
+    {
+      "project_id": "11",
+      "project_title": "Hangfire Report Integration",
+      "project_description": "I created the SQL query for the commission report and ensured it is triggered daily at a specific time using Hangfire, sending the report to the authorized person",
+      "project_image": "/images/projects/hangfire.png",
+      "project_tag": ["All", "Backend"],
+      "project_gitUrl": "",
+      "project_previewUrl": ""
+    },
+    {
+      "project_id": "12",
+      "project_title": "Cep Marketim",
+      "project_description": "This app allows users to scan product QR codes to view price, origin, ingredients, and other features",
+      "project_image": "/images/projects/cep-marketim-app.png",
+      "project_tag": ["All", "Mobile"],
+      "project_gitUrl": "https://github.com/emirmaydemir/CepMarketimAndroid",
+      "project_previewUrl": ""
+    },
+    {
+      "project_id": "13",
+      "project_title": "Cep Marketim Blog",
+      "project_description": "A page for sharing suggestions and complaints for the Cep Marketim app",
+      "project_image": "/images/projects/cep-marketim-web-blog.png",
+      "project_tag": ["All", "Web"],
+      "project_gitUrl": "https://github.com/emirmaydemir/blogprojesiCepMarketim",
+      "project_previewUrl": ""
+    },
+    {
+      "project_id": "14",
+      "project_title": "Stadium Project",
+      "project_description": "This project allows users to purchase season or regular tickets based on block and seat selection in the stadium",
+      "project_image": "/images/projects/stadyum-projesi.PNG",
+      "project_tag": ["All", "Desktop", "Backend"],
+      "project_gitUrl": "https://github.com/emirmaydemir/ProjeStadyum_Java",
+      "project_previewUrl": ""
+    },
+    {
+      "project_id": "15",
+      "project_title": "Music Recommendation App",
+      "project_description": "I developed a music recommendation app using the Spotify API that suggests music based on user preferences. The app uses the KNN machine learning algorithm to recommend 10 songs based on music genres and user preferences",
+      "project_image": "/images/projects/music-recommendation-system.png",
+      "project_tag": ["All", "AI"],
+      "project_gitUrl": "https://github.com/emirmaydemir/music-recommendation-system",
+      "project_previewUrl": ""
+    },
+    {
+      "project_id": "16",
+      "project_title": "MultinomialNB Word Analysis",
+      "project_description": "Solving the multi-word ambiguity problem in sentences using the Naive-Bayes algorithm as part of data mining",
+      "project_image": "/images/projects//Naive-Bayes.png",
+      "project_tag": ["All", "AI"],
+      "project_gitUrl": "https://github.com/emirmaydemir/MultinomialNB-classifier-for-text",
+      "project_previewUrl": ""
+    },
+    {
+      "project_id": "17",
+      "project_title": "LightDetect",
+      "project_description": "This project is a system that detects the colors of traffic lights. Using image processing techniques, it identifies the red, yellow, and green colors of traffic lights and ensures the correct signal is recognized",
+      "project_image": "/images/projects/traffic-light-color-detection.png",
+      "project_tag": ["All", "AI"],
+      "project_gitUrl": "https://github.com/emirmaydemir/LightDetect",
+      "project_previewUrl": ""
+    },
+    {
+      "project_id": "18",
+      "project_title": "Kenny Catch App",
+      "project_description": "Reflex training game.",
+      "project_image": "/images/projects/kenny-catch-app.png",
+      "project_tag": ["All", "Mobile"],
+      "project_gitUrl": "https://github.com/emirmaydemir/Game_AndroidStudio",
+      "project_previewUrl": ""
+    },
+    {
+      "project_id": "19",
+      "project_title": "Student Registration System",
+      "project_description": "This system allows adding courses, students, and teachers. It was developed as an attempt to clone the course registration system of Marmara University",
+      "project_image": "/images/projects/student-registration-system.png",
+      "project_tag": ["All", "Desktop"],
+      "project_gitUrl": "https://github.com/emirmaydemir/Student-Registration-System/tree/master/kayitentity",
+      "project_previewUrl": ""
+    },
+    {
+      "project_id": "20",
+      "project_title": "Haxball Bot",
+      "project_description": "A Haxball bot with multiple maps, bot commands, player controls, and more",
+      "project_image": "/images/projects/haxball-bot.png",
+      "project_tag": ["All", "Web"],
+      "project_gitUrl": "https://github.com/emirmaydemir/Haxball-Bot",
+      "project_previewUrl": ""
+    },
+    {
+      "project_id": "21",
+      "project_title": "Financial Advisor Mail Template",
+      "project_description": "Integration of a ready-made email template for financial advisors to send to their clients",
+      "project_image": "/images/projects/financial-advisor-template.png",
+      "project_tag": ["All", "Backend", "Web"],
+      "project_gitUrl": "",
+      "project_previewUrl": ""
+    },
+    {
+      "project_id": "22",
+      "project_title": "Mail Template Integration",
+      "project_description": "In the company I worked for, I integrated this template to welcome new customers and provide information about the services offered by the company",
+      "project_image": "/images/projects/welcome-template.png",
+      "project_tag": ["All", "Backend", "Web"],
+      "project_gitUrl": "",
+      "project_previewUrl": ""
+    }
+  ]
+}
