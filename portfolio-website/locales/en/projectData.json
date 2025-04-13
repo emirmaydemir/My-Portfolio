@@ -1,4 +1,8 @@
 {
+  "buttonText": {
+    "project_more": "Show More ...",
+    "project_less": "Show Less ..."
+  },
   "projectData": [
     {
       "project_id": "1",

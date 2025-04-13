@@ -7,15 +7,7 @@ import { Bars3Icon, XMarkIcon, SunIcon, MoonIcon } from "@heroicons/react/24/sol
 import MenuOverlay from "@/components/UI/MenuOverlay";
 import LanguageChanger from "../LanguageChanger";
 
-const navLinks = [
-  { title: "About", path: "#about" },
-  { title: "Projects", path: "#projects" },
-  { title: "Experience", path: "#experience" },
-  { title: "Contact", path: "#contact" },
-  { title: "Blog", path: "#blog" },
-];
-
-const Navbar = () => {
+const Navbar = ({ navbarContent }) => {
   const [navbarOpen, setNavbarOpen] = useState(false);
   const [darkMode, setDarkMode] = useState(false);
   const [activeLink, setActiveLink] = useState("");
@@ -55,7 +47,7 @@ const Navbar = () => {
         {/* Orta - Menü */}
         <div className="hidden md:flex flex-1 justify-center">
           <div className="flex space-x-6 px-6 py-2 border border-gray-300 dark:border-gray-600 rounded-full bg-gray-100 dark:bg-[#1e1e1e] shadow-md">
-            {navLinks.map((link, index) => (
+            {navbarContent.map((link, index) => (
               <NavLink key={index} href={link.path} title={link.title} isActive={activeLink === link.path} onClick={() => setActiveLink(link.path)} />
             ))}
           </div>
@@ -76,7 +68,7 @@ const Navbar = () => {
       </div>
 
       {/* Mobil Menü */}
-      {navbarOpen ? <MenuOverlay links={navLinks} /> : null}
+      {navbarOpen ? <MenuOverlay links={navbarContent} /> : null}
     </nav>
   );
 };

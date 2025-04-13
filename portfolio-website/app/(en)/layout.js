@@ -3,6 +3,8 @@ import { Inter } from "next/font/google";
 import { LanguageProvider } from "@/components/LanguageProvider";
 import { Fragment } from "react";
 import Navbar from "@/components/UI/Navbar";
+import ScrollToTopButton from "@/components/UI/ScrollToTopButton";
+import NavbarData from "@/locales/en/navbarData.json";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -12,13 +14,15 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  const navbarData = NavbarData.navbarData;
   return (
     <html lang="en">
       <LanguageProvider>
         <body className={inter.className}>
           <Fragment>
-            <Navbar />
-            <main>{children}</main>
+            <ScrollToTopButton />
+            <Navbar navbarContent={navbarData} />
+            <main className="bg-white text-black dark:bg-[#121212] dark:text-white">{children}</main>
           </Fragment>
         </body>
       </LanguageProvider>

@@ -1,0 +1,12 @@
+{
+  "emailData": {
+    "email_title": "Let's Connect",
+    "email_description": "If you have any questions or want to get in touch for any reason, feel free to reach out — I’ll do my best to get back to you as soon as possible.",
+    "email_mail": "Your email",
+    "email_subject": "Subject",
+    "email_subject_description": "Write your subject here",
+    "email_message": "Message",
+    "email_message_description": "Write your message here",
+    "email_button_text": "Send Message"
+  }
+}

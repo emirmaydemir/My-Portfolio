@@ -1,0 +1,35 @@
+{
+  "titleText": {
+    "experience": "My Experience",
+    "education": "Education"
+  },
+  "experienceData": [
+    {
+      "id": 1,
+      "title": "Software Developer",
+      "company": "Zeugma Software - Full-time",
+      "date": "July 2021 - Present",
+      "description": "I am part of the development team for the OfficeSharp Enterprise Resource Planning (ERP) Program at Zeugma. Our team is working on backend development using the .Net Framework. I am involved as a full-stack developer in the development of desktop, web, and mobile applications.",
+      "icon": "work",
+      "url": "https://zeugma.com.tr"
+    },
+    {
+      "id": 2,
+      "title": "Intern",
+      "company": "Motor Aşin Automotive Inc. - Intern",
+      "date": "September 2017 - June 2018",
+      "description": "I interned at Motor Aşin, contributing to the web development process. I assisted in preparing the company's website and supported the IT team in their work on servers and virtual machines.",
+      "icon": "work",
+      "url": "https://motorasin.com.tr"
+    },
+    {
+      "id": 3,
+      "title": "Computer Engineering",
+      "company": "Marmara University",
+      "date": "2019 - 2023",
+      "description": "Graduated from the Computer Engineering department at Marmara University.",
+      "icon": "education",
+      "url": "https://marmara.edu.tr"
+    }
+  ]
+}

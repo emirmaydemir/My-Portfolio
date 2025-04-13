@@ -1,0 +1,35 @@
+{
+  "titleText": {
+    "experience": "Deneyimlerim",
+    "education": "Eğitimlerim"
+  },
+  "experienceData": [
+    {
+      "id": 1,
+      "title": "Yazılım Geliştirici",
+      "company": "Zeugma Yazılım - Tam Zamanlı",
+      "date": "Temmuz 2021 - Halen",
+      "description": "Zeugma Şirketinde, OfficeSharp Enterprise Resource Planning (ERP) Programının geliştirme ekibindeyim. Ekibimiz .Net Framework ile backend geliştirme yapmaktadır. Masaüstü, web ve mobil uygulamaların geliştirilmesinde fullstack yazılımcı olarak yer alıyorum.",
+      "icon": "work",
+      "url": "https://zeugma.com.tr"
+    },
+    {
+      "id": 2,
+      "title": "Stajyer",
+      "company": "Motor Aşin Otomotiv A.Ş. - Stajyer",
+      "date": "Eylül 2017 - Haziran 2018",
+      "description": "Motor Aşin firmasında stajyer olarak web geliştirme sürecinde yer aldım. Şirketin web sitesinin hazırlanmasına ve IT ekibinin sunucular ve sanal makineler üzerinde yaptığı çalışmalara destek verdim.",
+      "icon": "work",
+      "url": "https://motorasin.com.tr"
+    },
+    {
+      "id": 3,
+      "title": "Bilgisayar Mühendisliği",
+      "company": "Marmara Üniversitesi",
+      "date": "2019 - 2023",
+      "description": "Marmara Üniversitesi Bilgisayar Mühendisliği bölümünden mezun oldum.",
+      "icon": "education",
+      "url": "https://marmara.edu.tr"
+    }
+  ]
+}

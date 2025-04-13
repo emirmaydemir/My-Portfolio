@@ -8,6 +8,10 @@ import AchievementsSection from "@/components/UI/AchievementsSection";
 import HeroData from "@/locales/en/heroData.json";
 import AboutData from "@/locales/en/aboutData.json";
 import ProjectData from "@/locales/en/projectData.json";
+import ExperienceData from "@/locales/en/experienceData.json";
+import EmailData from "@/locales/en/emailData.json";
+import FooterData from "@/locales/en/footerData.json";
+import FollowCursor from "@/components/UI/FollowCursor";
 
 export default function Home() {
   const heroData = HeroData.heroData;
@@ -15,17 +19,24 @@ export default function Home() {
   const certifications = AboutData.certifications;
   const publications = AboutData.publications;
   const projectData = ProjectData.projectData;
+  const buttonText = ProjectData.buttonText;
+  const experienceData = ExperienceData.experienceData;
+  const titleText = ExperienceData.titleText;
+  const emailData = EmailData.emailData;
+  const footerData = FooterData.footerData;
+
   return (
-    <main className="flex min-h-screen flex-col bg-white text-black dark:bg-[#121212] dark:text-white transition-colors duration-300">
+    <main className="flex min-h-screen flex-col transition-colors duration-300" id="top">
       <div className="container mt-24 mx-auto px-12 py-4">
+        <FollowCursor />
         <HeroSection heroContent={heroData} />
         <AchievementsSection />
         <AboutSection aboutContent={aboutData} certifications={certifications} publications={publications} />
-        <ProjectsSection projectContent={projectData} />
-        <ExperienceSection />
-        <EmailSection />
+        <ProjectsSection projectContent={projectData} projectText={buttonText} />
+        <ExperienceSection experienceContent={experienceData} experienceText={titleText} />
+        <EmailSection emailContent={emailData} />
       </div>
-      <Footer />
+      <Footer footerContent={footerData} />
     </main>
   );
 }

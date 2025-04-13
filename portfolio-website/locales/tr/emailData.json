@@ -1,0 +1,12 @@
+{
+  "emailData": {
+    "email_title": "İletişime Geçelim",
+    "email_description": "Bir sorunuz varsa ya da herhangi bir konuda iletişime geçmek istiyorsanız, bana her zaman ulaşabilirsiniz. Size en kısa sürede geri dönüş yapmak için elimden geleni yapacağım.",
+    "email_mail": "E-posta Adresiniz",
+    "email_subject": "Konu",
+    "email_subject_description": "Konu başlığınızı buraya yazınız",
+    "email_message": "Mesaj",
+    "email_message_description": "Mesajınızı buraya yazınız",
+    "email_button_text": "Mesaj Gönder"
+  }
+}
