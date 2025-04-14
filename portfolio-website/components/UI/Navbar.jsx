@@ -6,8 +6,10 @@ import NavLink from "@/components/UI/NavLink";
 import { Bars3Icon, XMarkIcon, SunIcon, MoonIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "@/components/UI/MenuOverlay";
 import LanguageChanger from "../LanguageChanger";
+import { useLanguage } from "@/components/LanguageProvider";
 
 const Navbar = ({ navbarContent }) => {
+  const { language } = useLanguage();
   const [navbarOpen, setNavbarOpen] = useState(false);
   const [darkMode, setDarkMode] = useState(false);
   const [activeLink, setActiveLink] = useState("");
@@ -31,7 +33,7 @@ const Navbar = ({ navbarContent }) => {
       <div className="container mx-auto flex items-center justify-between px-4 py-3 lg:py-4">
         {/* Sol - Logo */}
         <Link
-          href="/"
+          href={language === "en" ? `/en` : `/`}
           onClick={() => setActiveLink("")} // <-- aktif link sıfırlanıyor
           className="text-2xl md:text-4xl font-bold text-black dark:text-white ml-2"
         >

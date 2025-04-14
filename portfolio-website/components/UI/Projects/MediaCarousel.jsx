@@ -17,7 +17,7 @@ export default function MediaCarousel({ media }) {
       >
         {media.map((mediaItem, index) => (
           <SwiperSlide key={index}>
-            <motion.img src={mediaItem} alt={`Media ${index + 1}`} className="w-full h-auto rounded-lg shadow-lg" initial={{ scale: 0.95, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ duration: 0.5, delay: index * 0.2 }} />
+            <motion.img src={mediaItem} alt={`Media ${index + 1}`} className="w-full h-auto rounded-lg shadow-lg border border-gray-400" initial={{ scale: 0.95, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ duration: 0.5, delay: index * 0.2 }} />
           </SwiperSlide>
         ))}
       </Swiper>

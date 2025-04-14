@@ -20,18 +20,18 @@ const iconMap = {
   ".NET": SiDotnet,
 };
 
-export default function Technologies({ technologies }) {
+export default function Technologies({ technologies, technologiesTitle }) {
   return (
-    <div className="mt-8">
-      <h2 className="text-2xl font-bold mb-2">Kullanılan Teknolojiler</h2>
+    <div className="mt-10">
+      <h2 className="text-2xl font-bold mb-4">{technologiesTitle}</h2>
       <div className="flex flex-wrap gap-3">
         {technologies.map((tech, index) => {
           const Icon = iconMap[tech] || FaQuestion;
 
           return (
-            <div key={index} className="flex items-center gap-2 bg-gray-900 px-3 py-1 rounded-full text-sm shadow hover:scale-105 transition-transform duration-300">
+            <div key={index} className="flex items-center gap-2 bg-gray-900 dark:bg-white px-3 py-1 rounded-full text-sm shadow hover:scale-105 transition-transform duration-300 cursor-pointer">
               <Icon className="text-xl text-blue-500" />
-              <span className="text-white">{tech}</span>
+              <span className="text-white dark:text-black">{tech}</span>
             </div>
           );
         })}

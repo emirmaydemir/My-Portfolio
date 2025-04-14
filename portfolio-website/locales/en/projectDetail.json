@@ -1,0 +1,19 @@
+{
+  "projectDetail": [
+    {
+      "id": 1,
+      "title": "Note Ideas - Not Defteri",
+      "subtitle": "Kullanıcı dostu ve işlevsel bir not alma uygulaması",
+      "description_title": "Proje Açıklaması",
+      "description": "Java ile Android Studio kullanarak geliştirdiğim, kullanıcı dostu ve işlevsel bir not alma uygulaması",
+      "images": ["/images/projects/blockchain.jpg", "/images/projects/blockchain.jpg", "/images/projects/blockchain.jpg"],
+      "technologies_title": "Kullanılan Teknolojiler",
+      "technologies": ["React", "NextJS", "Tailwind CSS", "Framer Motion"],
+      "gitUrl": "https://github.com/emirmaydemir/advanced-note-app",
+      "previewUrl": "https://play.google.com/store/apps/details?id=com.noteideas.notdefterim",
+      "gitText": "Kodları Görüntüle",
+      "previewText": "Canlı Demo",
+      "previewId": "note-ideas"
+    }
+  ]
+}
