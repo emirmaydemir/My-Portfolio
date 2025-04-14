@@ -44,7 +44,7 @@ function ProjectsSection({ projectContent, projectText }) {
   };
 
   return (
-    <section id="projects" className="pt-20">
+    <section id="projects" className="pt-10">
       <div className="text-center pt-16 pb-8 px-4">
         <h2 className="text-4xl font-bold mb-4">My Projects</h2>
         <div className="w-24 h-1 bg-gradient-to-r from-primary-400 to-secondary-600 mx-auto rounded"></div>
