@@ -66,7 +66,7 @@ function ProjectsSection({ projectContent, projectText }) {
       </ul>
       {filteredProjects.length > 6 && (
         <div className="flex justify-center mt-8">
-          <button onClick={toggleShowMore} className="px-6 py-2 text-white bg-white/10 backdrop-blur-md border border-white/20 rounded-full hover:bg-white/30 hover:scale-105 transition duration-300">
+          <button onClick={toggleShowMore} className="px-6 py-2 text-black dark:text-white bg-black/10 dark:bg-white/10 backdrop-blur-md border border-black/20 dark:border-white/20 rounded-full hover:bg-black/20 dark:hover:bg-white/30 hover:scale-105 transition duration-300">
             {expanded ? projectText.project_less : projectText.project_more}
           </button>
         </div>

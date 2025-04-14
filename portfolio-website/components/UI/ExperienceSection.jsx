@@ -34,10 +34,10 @@ export default function ExperienceSection({ experienceContent, experienceText })
             {/* Sol: İkon ve Çizgi */}
             <div className="relative flex flex-col items-center mr-6">
               <div className="w-10 h-10 rounded-full bg-primary-500 flex items-center justify-center text-black shadow-lg z-10 group-hover:scale-110 transition-transform duration-300">{exp.icon === "work" ? <Briefcase size={20} /> : <GraduationCap size={20} />}</div>
-              <div className="w-px bg-white flex-1 mt-1"></div>
+              <div className="w-px bg-black dark:bg-white flex-1 mt-1"></div>
             </div>
             {/* Sağ: İçerik */}
-            <div className="bg-[#1f1f1f] p-5 rounded-xl border border-gray-700 hover:border-yellow-400 transition duration-300 flex-1">
+            <div className="bg-[#1e293b] dark:bg-[#1f1f1f] p-5 rounded-xl border border-gray-700 hover:border-yellow-400 transition duration-300 flex-1">
               <p className="text-sm text-gray-400 mb-1">{exp.date}</p>
               <h3 className="text-xl font-semibold text-white">{exp.title}</h3>
               <p className="text-md text-primary-400 mb-2">{exp.company}</p>
