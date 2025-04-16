@@ -1,23 +1,41 @@
 "use client";
 
-import { SiReact, SiNextdotjs, SiTailwindcss, SiJavascript, SiTypescript, SiHtml5, SiCss3, SiNodedotjs, SiMongodb, SiPostgresql, SiMysql, SiDotnet } from "react-icons/si";
-import { TbBrandFramerMotion } from "react-icons/tb";
-import { FaQuestion } from "react-icons/fa"; // Bilinmeyenler için yedek ikon
+import { SiDotnet, SiSharp, SiReact, SiNextdotjs, SiTypescript, SiJavascript, SiHtml5, SiCss3, SiTailwindcss, SiPython, SiGithub, SiSubversion, SiBootstrap, SiAxios, SiAndroidstudio, SiPostman, SiGithubactions, SiGoogleads, SiGoogleanalytics, SiCloudinary } from "react-icons/si";
+import { TbBrandFramerMotion, TbApi, TbSeo } from "react-icons/tb";
+import { FaAws, FaJava, FaDatabase, FaRegCheckCircle, FaGitAlt, FaGoogle, FaKey } from "react-icons/fa";
+import { DiVisualstudio } from "react-icons/di";
+import { MdArchitecture } from "react-icons/md";
+import { GrCloudSoftware } from "react-icons/gr";
+import { IoLogoFirebase } from "react-icons/io5";
+import { TbFileTypeXml } from "react-icons/tb";
+import { FcApproval } from "react-icons/fc";
 
 const iconMap = {
-  "Framer Motion": TbBrandFramerMotion,
-  React: SiReact,
-  NextJS: SiNextdotjs,
-  "Tailwind CSS": SiTailwindcss,
-  JavaScript: SiJavascript,
-  TypeScript: SiTypescript,
-  HTML: SiHtml5,
-  CSS: SiCss3,
-  "Node.js": SiNodedotjs,
-  MongoDB: SiMongodb,
-  PostgreSQL: SiPostgresql,
-  MySQL: SiMysql,
-  ".NET": SiDotnet,
+  Java: { icon: FaJava, color: "#3F7FBF" },
+  "Android Studio": { icon: SiAndroidstudio, color: "#3DDC84" },
+  SQL: { icon: FaDatabase, color: "#CC2927" },
+  Git: { icon: FaGitAlt, color: "#F05032" },
+  "Framer Motion": { icon: TbBrandFramerMotion, color: "#C445EA" },
+  React: { icon: SiReact, color: "#61DAFB" },
+  NextJS: { icon: SiNextdotjs, color: "#000000" },
+  "Tailwind CSS": { icon: SiTailwindcss, color: "#06B6D4" },
+  JavaScript: { icon: SiJavascript, color: "#F7DF1E" },
+  TypeScript: { icon: SiTypescript, color: "#3178C6" },
+  HTML: { icon: SiHtml5, color: "#E34F26" },
+  CSS: { icon: SiCss3, color: "#264de4" },
+  Bootstrap: { icon: SiBootstrap, color: "#7952B3" },
+  SEO: { icon: TbSeo, color: "#9E9E9E" },
+  "Google Ads": { icon: SiGoogleads, color: "#4285F4" },
+  "Search Console": { icon: FaGoogle, color: "#4285F4" },
+  Analytics: { icon: SiGoogleanalytics, color: "#F57C00" },
+  ".NET": { icon: SiDotnet, color: "#512BD4" },
+  "REST API": { icon: TbApi, color: "#FF5722" },
+  "Visual Studio": { icon: DiVisualstudio, color: "#5C2D91" },
+  Axios: { icon: SiAxios, color: "#5A29A0" },
+  Cloudinary: { icon: SiCloudinary, color: "#3448C5" },
+  JWT: { icon: FaKey, color: "#F05032" },
+  Firebase: { icon: IoLogoFirebase, color: "#FFCA28" },
+  XML: { icon: TbFileTypeXml, color: "#E44D26" },
 };
 
 export default function Technologies({ technologies, technologiesTitle }) {
@@ -26,12 +44,13 @@ export default function Technologies({ technologies, technologiesTitle }) {
       <h2 className="text-2xl font-bold mb-4">{technologiesTitle}</h2>
       <div className="flex flex-wrap gap-3">
         {technologies.map((tech, index) => {
-          const Icon = iconMap[tech] || FaQuestion;
+          const iconData = iconMap[tech] || { icon: FcApproval, color: "#6B7280" }; // varsayılan gri
+          const Icon = iconData.icon;
 
           return (
             <div key={index} className="flex items-center gap-2 bg-gray-900 dark:bg-white px-3 py-1 rounded-full text-sm shadow hover:scale-105 transition-transform duration-300 cursor-pointer">
-              <Icon className="text-xl text-blue-500" />
-              <span className="text-white dark:text-black">{tech}</span>
+              <Icon className="text-xl" style={{ color: iconData.color }} />
+              <span className="text-white dark:text-black text-base font-medium">{tech}</span>
             </div>
           );
         })}

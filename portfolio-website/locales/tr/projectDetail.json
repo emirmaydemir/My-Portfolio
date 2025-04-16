@@ -3,17 +3,135 @@
     {
       "id": 1,
       "title": "Note Ideas - Not Defteri",
-      "subtitle": "Kullanıcı dostu ve işlevsel bir not alma uygulaması",
+      "subtitle": "Sade, kullanıcı dostu ve işlevsel bir not alma uygulaması",
       "description_title": "Proje Açıklaması",
-      "description": "Java ile Android Studio kullanarak geliştirdiğim, kullanıcı dostu ve işlevsel bir not alma uygulaması",
-      "images": ["/images/projects/blockchain.jpg", "/images/projects/blockchain.jpg", "/images/projects/blockchain.jpg"],
+      "description": "Android Studio üzerinde Java programlama diliyle geliştirilen bu not uygulaması, kullanıcıların hızlı, güvenli ve pratik şekilde notlarını yönetmelerine olanak tanır. Veritabanı tarafında, SQL işlemlerini kolaylaştıran ve modern Android mimarisiyle uyumlu Room kütüphanesi kullanılmıştır.|Uygulama, reklamsız ve tamamen ücretsiz olarak sunulmakta olup, sade tasarımı ve basit kullanıcı arayüzüyle her seviyeden kullanıcıya hitap eder. Not ekleme, silme, güncelleme ve paylaşma gibi temel işlemler son derece kolay ve hızlı bir şekilde gerçekleştirilebilir.|Kullanıcıların ihtiyaçlarına göre özelleştirme imkânı sunan uygulama notlara arka plan rengi atama, yazı tipini değiştirme ve renklerle kategorize etme gibi görsel düzenlemelere olanak tanır. Ayrıca güçlü şifreleme özelliği sayesinde kişisel notlar güvenle korunabilir.|Her bir not tarih ve saat bilgisiyle saklanır. Bu sayede geçmiş notlara kolayca erişim sağlanabilir. Notlara görsel ve sesli içerik eklenebilmesiyle birlikte, uygulama çok yönlü ve zengin bir not deneyimi sunar.| **Öne Çıkan Özellikler:**| • Arka plan rengini değiştirme|• Notları şifreleme ve şifre çözme|• Notlara resim ekleme ve silme|• Ses kaydı ekleme veya silme|• Notlara link ekleme ve kaldırma|• Notlara tarih ve saat bilgisi ekleme|• Yazı tipini değiştirme|• Notlar arasında arama yapma|• Çoklu not silme|• Not sıralama seçenekleri|• Notları kategorilere ayırma|• Diğer uygulamalarda paylaşma|",
+      "media": [
+        { "type": "image", "src": "/images/detail/note-ideas-1.png" },
+        { "type": "image", "src": "/images/detail/note-ideas-2.png" },
+        { "type": "image", "src": "/images/detail/note-ideas-3.png" },
+        { "type": "image", "src": "/images/detail/note-ideas-4.png" },
+        { "type": "image", "src": "/images/detail/note-ideas-5.png" },
+        { "type": "image", "src": "/images/detail/note-ideas-6.png" },
+        { "type": "image", "src": "/images/detail/note-ideas-7.png" },
+        { "type": "image", "src": "/images/detail/note-ideas-8.png" }
+      ],
       "technologies_title": "Kullanılan Teknolojiler",
-      "technologies": ["React", "NextJS", "Tailwind CSS", "Framer Motion"],
+      "technologies": ["Java", "Android Studio", "SQL", "Git"],
       "gitUrl": "https://github.com/emirmaydemir/advanced-note-app",
       "previewUrl": "https://play.google.com/store/apps/details?id=com.noteideas.notdefterim",
       "gitText": "Kodları Görüntüle",
       "previewText": "Canlı Demo",
       "previewId": "note-ideas"
+    },
+
+    {
+      "id": 2,
+      "title": "İnoksist Endüstri",
+      "subtitle": "Paslanmaz civata tedarikçisi için geliştirilen modern ve SEO uyumlu web sitesi",
+      "description_title": "Proje Açıklaması",
+      "description": "Bu web sitesi, paslanmaz civata ve somun tedarikçisine özel olarak React ve Next.js teknolojileriyle geliştirilmiştir. Projeyi Next.js ile hayata geçirme nedenim, React ile oluşturulan geleneksel SPA yapılarının kaynak kodlarını gizleyememesi ve arama motorları için yeterince optimize olmamasıdır. Next.js’in sunduğu **Sunucu Taraflı Render (SSR)** özelliği sayesinde, sayfa içerikleri HTML olarak sunulmakta ve bu da SEO açısından önemli avantajlar sağlamaktadır. Böylece sayfa içeriği arama motorları tarafından daha iyi taranabilir ve dizine eklenebilir hale gelmiştir.|React kullanıcı arayüzleri oluşturmak için güçlü bir kütüphane olsa da SEO açısından bazı sınırlamalara sahiptir. Bunun temel nedeni, React’ın sanal DOM kullanması ve bu nedenle tarayıcının ilk yüklemede HTML içeriğini göstermemesi, dolayısıyla arama motorlarının içeriği algılayamamasıdır. Bu projede ise Next.js’in SSR yaklaşımıyla bu sorunlar minimize edilmiştir. Ayrıca zengin meta etiketleri, json-ld yapılandırılmış veriler ve semantik HTML kullanımı ile sayfa içeriği arama motorları için optimize edilmiştir. Google Search Console, Analytics ve Ads entegrasyonları sağlanarak projenin performans takibi ve pazarlama verimliliği artırılmıştır.|SEO çalışmaları kapsamında hedef kitleye uygun anahtar kelime analizi yapılmış, sayfalar bu doğrultuda yapılandırılmıştır. Görsellerin hızlı yüklenmesi için tüm medya içerikleri **Cloudinary** platformunda barındırılarak sunucu yükü azaltılmıştır. Ek olarak, AWS Amplify gibi bulut tabanlı servisler ile barındırma hedeflenmiş, böylece hem yüksek performanslı hem de ölçeklenebilir bir yapı elde edilmiştir. Sonuç olarak, kullanıcı deneyimiyle birlikte teknik altyapı ve SEO dostu yaklaşımın harmanlandığı profesyonel bir web platformu ortaya çıkarılmıştır.",
+      "media": [
+        { "type": "image", "src": "/images/detail/inoksist-1.png" },
+        { "type": "image", "src": "/images/detail/inoksist-2.png" },
+        { "type": "image", "src": "/images/detail/inoksist-3.png" },
+        { "type": "image", "src": "/images/detail/inoksist-4.png" },
+        { "type": "image", "src": "/images/detail/inoksist-5.png" },
+        { "type": "image", "src": "/images/detail/inoksist-6.png" },
+        { "type": "image", "src": "/images/detail/inoksist-7.png" }
+      ],
+      "technologies_title": "Kullanılan Teknolojiler",
+      "technologies": ["React", "NextJS", "JavaScript", "HTML", "CSS", "Git", "Google Ads", "SEO", "Analytics", "Search Console", "Cloudinary"],
+      "gitUrl": "https://github.com/emirmaydemir/Inoksist-Industry-Web",
+      "previewUrl": "https://www.inoksist.com.tr/",
+      "gitText": "Kodları Görüntüle",
+      "previewText": "Canlı Demo",
+      "previewId": "inoksist"
+    },
+
+    {
+      "id": 3,
+      "title": "Portfolyo Web Sitesi",
+      "subtitle": "Kişisel projelerimi sergilediğim modern portfolyo web sitesi.",
+      "description_title": "Proje Açıklaması",
+      "description": "Bu modern portfolyo web sitesi, kişisel projelerimi, yazılım alanındaki deneyimlerimi ve edindiğim sertifikaları sergilemek amacıyla geliştirilmiştir. Kullanıcı dostu arayüzü ve responsive tasarımıyla farklı cihazlarda sorunsuz bir deneyim sunar. Site, hem teknik becerilerimi hem de tasarım anlayışımı yansıtarak profesyonel bir dijital kimlik oluşturur.",
+      "media": [
+        { "type": "image", "src": "/images/detail/portfolio-web-1.png" },
+        { "type": "image", "src": "/images/detail/portfolio-web-2.png" },
+        { "type": "image", "src": "/images/detail/portfolio-web-3.png" },
+        { "type": "image", "src": "/images/detail/portfolio-web-4.png" },
+        { "type": "image", "src": "/images/detail/portfolio-web-5.png" },
+        { "type": "image", "src": "/images/detail/portfolio-web-6.png" }
+      ],
+      "technologies_title": "Kullanılan Teknolojiler",
+      "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap", "Git"],
+      "gitUrl": "https://github.com/emirmaydemir/emirmaydemir.github.io",
+      "previewUrl": "https://emirmaydemir.github.io/",
+      "gitText": "Kodları Görüntüle",
+      "previewText": "Canlı Demo",
+      "previewId": "portfolio-web"
+    },
+
+    {
+      "id": 4,
+      "title": "Smart Shopping",
+      "subtitle": "Kullanıcıların fiyat karşılaştırması yaparak tasarruf edebilmesi için geliştirdiğim mobil alışveriş uygulaması.",
+      "description_title": "Proje Açıklaması",
+      "description": "Bu mobil uygulama, Android Studio ortamında Java diliyle geliştirilmiş olup, günlük hayatta sık karşılaşılan bir soruna çözüm sunmayı amaçlamaktadır: Farklı mağazalar arasında ürün fiyatlarını karşılaştırarak harcamaları azaltmayı hedefler. Uygulama, kullanıcıların aradıkları ürünü kolayca bulmalarını ve çeşitli perakendecilerdeki fiyat bilgilerine anında erişmelerini sağlar. Aynı zamanda, alışveriş sepetindeki ürünlerin toplam maliyetini hesaplayarak, kullanıcıların mağazaları tek tek dolaşmasına gerek kalmadan zaman kazanmalarına ve kasada beklenmedik fiyatlarla karşılaşmamalarına yardımcı olur.|JDBC ve Firebase entegrasyonları sayesinde uygulama, hem üreticilerin ürün verilerini eklemesine olanak tanır hem de son kullanıcılara gerçek zamanlı fiyat karşılaştırmaları ve detaylı ürün bilgileri sunar. QR kod ve mobil ödeme teknolojileri ile kullanıcılar hem zamandan hem de ekonomik açıdan tasarruf sağlar. Ürünlere ait kullanıcı yorumları da Firebase veritabanında tutulmakta olup, kullanıcıların deneyimlerini paylaşmalarına ve diğer kullanıcıların bu yorumlardan faydalanarak daha bilinçli alışveriş kararları almalarına olanak tanır. Bu sayede uygulama, sadece fiyat karşılaştırması sunmakla kalmaz, aynı zamanda sosyal geri bildirimlerle desteklenen kapsamlı bir alışveriş rehberine dönüşür.|Veri erişimini optimize etmek ve arama işlemlerini hızlandırmak amacıyla HashMap veri yapısı kullanılmıştır. HashMap, anahtar-değer mantığıyla çalışarak ürün isimleri veya barkod gibi benzersiz tanımlayıcılar üzerinden hızlı ve etkili veri sorgulama imkânı sunar. Böylece kullanıcılar bir anahtar kelime girdiğinde, uygulama veri setinin tamamını taramak yerine ilgili bilgiyi anında getirerek performansı artırır.|Ayrıca uygulama, alışveriş sepetini dinamik olarak yönetebilmek için LinkedList veri yapısını kullanır. Bu yapı sayesinde kullanıcılar, sepete ürün ekleme ve çıkarma işlemlerini verimli bir şekilde gerçekleştirebilir. Geri alma (undo) işlevselliği için ise Stack veri yapısı tercih edilmiştir. Böylece kullanıcılar istemeden sildikleri ürünleri kolayca geri alabilirler. Tüm bu veri yapıları, nesne yönelimli programlama (OOP) prensipleriyle bir araya getirilerek uygulamanın performansını artırır, esnekliğini güçlendirir ve kullanıcı deneyimini iyileştirir.",
+      "media": [
+        { "type": "image", "src": "/images/detail/smart-shop-1.jpg" },
+        { "type": "image", "src": "/images/detail/smart-shop-2.jpg" },
+        { "type": "image", "src": "/images/detail/smart-shop-3.jpg" },
+        { "type": "image", "src": "/images/detail/smart-shop-4.jpg" },
+        { "type": "image", "src": "/images/detail/smart-shop-5.jpg" },
+        { "type": "image", "src": "/images/detail/smart-shop-6.jpg" },
+        { "type": "image", "src": "/images/detail/smart-shop-7.jpg" }
+      ],
+      "technologies_title": "Kullanılan Teknolojiler",
+      "technologies": ["Java", "Android Studio", "Firebase", "Data Structures", "OOP", "XML", "Git"],
+      "gitUrl": "https://github.com/emirmaydemir/ShopApp",
+      "previewUrl": "",
+      "gitText": "Kodları Görüntüle",
+      "previewText": "Canlı Demo",
+      "previewId": "smart-shopping"
+    },
+
+    {
+      "id": 5,
+      "title": "Reactivities",
+      "subtitle": "Etkinlik paylaşımı ve katılımı sağlayan sosyal platform projesi",
+      "description_title": "Proje Açıklaması",
+      "description": "Reactivities, kullanıcıların etkinlik oluşturabildiği, etkinliklere katılabildiği ve diğer katılımcılarla etkileşime geçebildiği sosyal bir platformdur. Etkinlik zamanlaması, yorum yapma, kullanıcı profilleri oluşturma, fotoğraf yükleme, katılımcı listesi görüntüleme ve takip etme gibi birçok özellik barındırır. Gerçek zamanlı sohbet desteği sayesinde kullanıcılar etkinlikler hakkında anlık olarak iletişim kurabilir.|Bu proje, ASP.NET Core ile geliştirilmiş bir Web API ve React (TypeScript) ile yazılmış istemci tarafı uygulamasından oluşan çok katmanlı bir mimariye sahiptir. Temiz Mimari (Clean Architecture) yaklaşımı ile tasarlanmış olan backend tarafında CQRS ve Mediator pattern kullanılmıştır. Otomatik mapping işlemleri için AutoMapper, durum yönetimi için MobX ve kullanıcı kimlik doğrulaması için ASP.NET Core Identity kullanılmıştır. Gerçek zamanlı özellikler SignalR ile sağlanırken, formlar Zod ve React Hook Form ile doğrulama destekli olarak geliştirilmiştir.|Uygulamanın kullanıcı arayüzü Semantic UI ile tasarlanmış ve responsive yapıdadır. Projenin geliştirme süreci boyunca Azure’a deployment yapılabilir yapıda hazırlanmış ve tüm kodlama Visual Studio Code üzerinde gerçekleştirilmiştir. Bu proje, hem frontend hem de backend geliştirme yeteneklerini aynı anda sergileyerek, modern web uygulama geliştirme pratiğini baştan sona sunan kapsamlı bir projedir.",
+      "media": [
+        { "type": "image", "src": "/images/detail/reactivities-1.png" },
+        { "type": "image", "src": "/images/detail/reactivities-2.png" },
+        { "type": "image", "src": "/images/detail/reactivities-3.png" },
+        { "type": "image", "src": "/images/detail/reactivities-4.png" },
+        { "type": "image", "src": "/images/detail/reactivities-5.png" }
+      ],
+      "technologies_title": "Kullanılan Teknolojiler",
+      "technologies": [".NET", "REST API", "CQRS", "Mediator Pattern", "AutoMapper", "ASP.NET Core Identity", "SignalR", "FluentValidation", "React", "TypeScript", "MobX", "Axios", "Visual Studio", "Azure", "SQL", "JWT", "Cloudinary", "Git"],
+      "gitUrl": "https://github.com/emirmaydemir/Reactivities",
+      "previewUrl": "",
+      "gitText": "Kodları Görüntüle",
+      "previewText": "Canlı Demo",
+      "previewId": "reactivities"
+    },
+
+    {
+      "id": 6,
+      "title": "Iyzico Ödeme Entegrasyonu",
+      "subtitle": "eOfis firması için Iyzico ile ödeme entegrasyonu yaptım.",
+      "description_title": "Proje Açıklaması",
+      "description": "",
+      "media": [{ "type": "video", "src": "/images/detail/iyzico.mp4" }],
+      "technologies_title": "Kullanılan Teknolojiler",
+      "technologies": [".NET", "REST API", "CQRS", "Mediator Pattern"],
+      "gitUrl": "",
+      "previewUrl": "https://paneltest.eofis.com.tr/",
+      "gitText": "Kodları Görüntüle",
+      "previewText": "Canlı Demo",
+      "previewId": "iyzico-integration"
     }
   ]
 }

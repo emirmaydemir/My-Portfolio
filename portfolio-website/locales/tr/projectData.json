@@ -1,7 +1,8 @@
 {
   "buttonText": {
     "project_more": "Daha Fazla Göster ...",
-    "project_less": "Daha Az Göster ..."
+    "project_less": "Daha Az Göster ...",
+    "title": "Projelerim"
   },
   "projectData": [
     {
@@ -20,7 +21,7 @@
       "project_image": "/images/projects/inoksist-web-site.png",
       "project_tag": ["All", "Web"],
       "project_gitUrl": "https://github.com/emirmaydemir/Inoksist-Industry-Web",
-      "project_previewUrl": "https://www.inoksist.com.tr/"
+      "project_previewUrl": "inoksist"
     },
     {
       "project_id": "3",
@@ -29,7 +30,7 @@
       "project_image": "/images/projects/portfolio-web.png",
       "project_tag": ["All", "Web"],
       "project_gitUrl": "https://github.com/emirmaydemir/emirmaydemir.github.io",
-      "project_previewUrl": "https://emirmaydemir.github.io/"
+      "project_previewUrl": "portfolio-web"
     },
     {
       "project_id": "4",
@@ -38,7 +39,7 @@
       "project_image": "/images/projects/shop-mobile-app.png",
       "project_tag": ["All", "Mobile"],
       "project_gitUrl": "https://github.com/emirmaydemir/ShopApp",
-      "project_previewUrl": ""
+      "project_previewUrl": "smart-shopping"
     },
     {
       "project_id": "5",
@@ -47,7 +48,7 @@
       "project_image": "/images/projects/re-activity-web.png",
       "project_tag": ["All", "Web", "Backend"],
       "project_gitUrl": "https://github.com/emirmaydemir/Reactivities",
-      "project_previewUrl": ""
+      "project_previewUrl": "reactivities"
     },
     {
       "project_id": "6",
@@ -56,7 +57,7 @@
       "project_image": "/images/projects/payment-integration.png",
       "project_tag": ["All", "Backend"],
       "project_gitUrl": "https://paneltest.eofis.com.tr/",
-      "project_previewUrl": "https://paneltest.eofis.com.tr/"
+      "project_previewUrl": "iyzico-integration"
     },
     {
       "project_id": "7",

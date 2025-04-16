@@ -20,7 +20,7 @@ export default function ProjectDetailPage({ params: { id } }) {
     <section className="max-w-5xl mx-auto p-4 pt-28 mt-5">
       <FollowCursor />
       <ProjectHeader title={project.title} tagline={project.subtitle} />
-      <MediaCarousel media={project.images} />
+      <MediaCarousel media={project.media} />
       <ProjectDescription description={project.description} descriptionTitle={project.description_title} />
       <Technologies technologies={project.technologies} technologiesTitle={project.technologies_title} />
       <ProjectLinks gitUrl={project.gitUrl} previewUrl={project.previewUrl} gitText={project.gitText} previewText={project.previewText} />

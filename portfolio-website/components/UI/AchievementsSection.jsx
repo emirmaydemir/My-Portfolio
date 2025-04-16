@@ -5,12 +5,13 @@ import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/autoplay";
 import { motion } from "framer-motion";
-import { SiDotnet, SiSharp, SiReact, SiNextdotjs, SiTypescript, SiJavascript, SiHtml5, SiCss3, SiTailwindcss, SiPython, SiGithub, SiSubversion, SiBootstrap, SiAxios, SiAndroidstudio, SiPostman, SiGithubactions, SiGoogleads } from "react-icons/si";
-import { FaAws, FaJava, FaDatabase, FaRegCheckCircle } from "react-icons/fa";
+import { SiDotnet, SiSharp, SiReact, SiNextdotjs, SiTypescript, SiJavascript, SiHtml5, SiCss3, SiTailwindcss, SiPython, SiGithub, SiSubversion, SiBootstrap, SiAxios, SiAndroidstudio, SiPostman, SiGithubactions, SiGoogleads, SiGoogleanalytics, SiCloudinary } from "react-icons/si";
+import { FaAws, FaJava, FaDatabase, FaRegCheckCircle, FaGitAlt, FaGoogle } from "react-icons/fa";
 import { TbApi, TbSeo } from "react-icons/tb";
 import { DiVisualstudio } from "react-icons/di";
 import { MdArchitecture } from "react-icons/md";
 import { GrCloudSoftware } from "react-icons/gr";
+import { IoLogoFirebase } from "react-icons/io5";
 
 const skills = [
   { name: "C#", icon: SiSharp, color: "#5C2D91" },
@@ -31,15 +32,21 @@ const skills = [
   { name: "Tailwind CSS", icon: SiTailwindcss, color: "#38bdf8" },
   { name: "Bootstrap", icon: SiBootstrap, color: "#7952B3" },
   { name: "Amazon S3", icon: FaAws, color: "#FF9900" },
+  { name: "Cloudinary", icon: SiCloudinary, color: "#3448C5" },
+  { name: "Analytics", icon: SiGoogleanalytics, color: "#F57C00" },
   { name: "Java", icon: FaJava, color: "#007396" },
   { name: "Python", icon: SiPython, color: "#306998" },
+  { name: "Git", icon: FaGitAlt, color: "#F05032" },
   { name: "GitHub", icon: SiGithub },
   { name: "Subversion", icon: SiSubversion, color: "#8097BF" },
   { name: "Visual Studio", icon: DiVisualstudio, color: "#5C2D91" },
   { name: "Android Studio", icon: SiAndroidstudio, color: "#3DDC84" },
+  { name: "Firebase", icon: IoLogoFirebase, color: "#FFCA28" },
   { name: "Postman", icon: SiPostman, color: "#FF6C37" },
   { name: "Search Engine Optimization", icon: TbSeo, color: "#9E9E9E" },
   { name: "Google Ads", icon: SiGoogleads, color: "#4285F4" },
+  { name: "Google Search Console", icon: FaGoogle, color: "#4285F4" },
+  { name: "Analytics", icon: SiGoogleanalytics, color: "#F57C00" },
 ];
 
 const MotionIcon = ({ Icon, color, name }) => (
