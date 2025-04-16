@@ -4,6 +4,6 @@
     { "title": "Projeler", "path": "#projects" },
     { "title": "Deneyim", "path": "#experience" },
     { "title": "İletişim", "path": "#contact" },
-    { "title": "Blog", "path": "#blog" }
+    { "title": "Blog", "path": "#top" }
   ]
 }

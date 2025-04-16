@@ -4,6 +4,6 @@
     { "title": "Projects", "path": "#projects" },
     { "title": "Experience", "path": "#experience" },
     { "title": "Contact", "path": "#contact" },
-    { "title": "Blog", "path": "#blog" }
+    { "title": "Blog", "path": "#top" }
   ]
 }
