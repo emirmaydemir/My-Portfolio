@@ -42,12 +42,12 @@ const Navbar = ({ navbarContent }) => {
             alt="Logo"
             width={150} // Logo genişliği
             height={50} // Logo yüksekliği
-            className="h-20 w-auto object-contain"
+            className="h-16 md:h-20 w-auto object-contain"
           />
         </Link>
 
         {/* Orta - Menü */}
-        <div className="hidden md:flex flex-1 justify-center">
+        <div className="hidden lg:flex flex-1 justify-center">
           <div className="flex space-x-6 px-6 py-2 border border-gray-300 dark:border-gray-600 rounded-full bg-gray-100 dark:bg-[#1e1e1e] shadow-md">
             {navbarContent.map((link, index) => (
               <NavLink key={index} href={link.path} title={link.title} isActive={activeLink === link.path} onClick={() => setActiveLink(link.path)} />
@@ -56,14 +56,14 @@ const Navbar = ({ navbarContent }) => {
         </div>
 
         {/* Sağ - Dil, Tema, Menü Toggle */}
-        <div className="flex items-center space-x-4 gap-3 mr-2">
+        <div className="flex items-center space-x-4 gap-2 md:gap-3 mr-2">
           <LanguageChanger />
           <button onClick={toggleTheme} className="text-black dark:text-white hover:text-yellow-400 transition" aria-label="Toggle Theme">
-            {darkMode ? <SunIcon className="w-8 h-8" /> : <MoonIcon className="w-8 h-8" />}
+            {darkMode ? <SunIcon className="w-7 h-7 md:w-8 md:h-8" /> : <MoonIcon className="w-7 h-7 md:w-8 md:h-8" />}
           </button>
-          <div className="md:hidden">
+          <div className="lg:hidden">
             <button onClick={() => setNavbarOpen(!navbarOpen)} className="p-2 border rounded border-slate-300 text-slate-700 dark:text-slate-200 hover:border-white">
-              {navbarOpen ? <XMarkIcon className="w-8 h-8" /> : <Bars3Icon className="w-8 h-8" />}
+              {navbarOpen ? <XMarkIcon className="w-6 h-6 md:w-8 md:h-8" /> : <Bars3Icon className="w-6 h-6 md:w-8 md:h-8" />}
             </button>
           </div>
         </div>

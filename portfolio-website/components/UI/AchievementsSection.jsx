@@ -50,46 +50,40 @@ const skills = [
 ];
 
 const MotionIcon = ({ Icon, color, name }) => (
-  <motion.div whileHover={{ scale: 1.2, rotate: 5 }} whileTap={{ scale: 0.95 }} transition={{ type: "spring", stiffness: 300 }} className="flex flex-col items-center justify-center">
-    <Icon size="3rem" color={color} />
-    <span className="mt-2 text-white font-medium">{name}</span>
+  <motion.div whileHover={{ scale: 1.2, rotate: 5 }} whileTap={{ scale: 0.95 }} transition={{ type: "spring", stiffness: 300 }} className="flex flex-col items-center justify-center h-full">
+    <Icon className="w-8 h-8 xl:w-12 xl:h-12" color={color} />
+    <span className="mt-2 text-[11px] xl:text-base text-white font-medium text-center">{name}</span>
   </motion.div>
 );
 
 const AchievementsSection = () => {
   const [isMounted, setIsMounted] = React.useState(false);
 
-  React.useEffect(() => {
-    setIsMounted(true);
-  }, []);
+  React.useEffect(() => setIsMounted(true), []);
 
   if (!isMounted) return null;
 
   return (
-    <div className="py-8 px-4 mt-10 mb-10 bg-gradient-to-r from-[#0f2027] via-[#203a43] to-[#2c5364] rounded-lg shadow-2xl">
+    <div className="py-8 px-4 mt-8 mb-12 bg-gradient-to-r from-[#0f2027] via-[#203a43] to-[#2c5364] rounded-lg shadow-2xl h-[120px] xl:h-[145px]">
       <Swiper
         modules={[Autoplay]}
         spaceBetween={20}
         slidesPerView={3}
-        autoplay={{
-          delay: 0,
-          disableOnInteraction: false,
-        }}
+        autoplay={{ delay: 0, disableOnInteraction: false }}
         loop={true}
-        speed={1500} // animasyon geçiş süresi
+        speed={1500}
         breakpoints={{
-          640: { slidesPerView: 3 },
+          0: { slidesPerView: 2 },
+          390: { slidesPerView: 3 },
           768: { slidesPerView: 4 },
           1024: { slidesPerView: 5 },
         }}
       >
-        {skills.map((skill, index) => {
-          return (
-            <SwiperSlide key={index} className="flex flex-col items-center justify-center">
-              <MotionIcon Icon={skill.icon} color={skill.color} name={skill.name} />
-            </SwiperSlide>
-          );
-        })}
+        {skills.map((skill, index) => (
+          <SwiperSlide key={index} className="flex items-center justify-center h-full">
+            <MotionIcon Icon={skill.icon} color={skill.color} name={skill.name} />
+          </SwiperSlide>
+        ))}
       </Swiper>
     </div>
   );

@@ -20,9 +20,9 @@ const itemVariants = {
 
 export default function ExperienceSection({ experienceContent, experienceText }) {
   return (
-    <section id="experience" className="py-16 px-4 sm:px-8 max-w-5xl mx-auto">
+    <section id="experience" className="py-5 sm:py-16 px-4 sm:px-8 max-w-5xl mx-auto">
       <div className="text-center pt-16 pb-8 px-4 mb-5">
-        <h2 className="text-3xl sm:text-4xl font-bold mb-4">
+        <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">
           {experienceText.experience} & <span className="text-primary-400">{experienceText.education}</span>
         </h2>
         <div className="w-24 h-1 bg-gradient-to-r from-primary-400 to-secondary-600 mx-auto rounded"></div>
@@ -38,10 +38,10 @@ export default function ExperienceSection({ experienceContent, experienceText })
             </div>
             {/* Sağ: İçerik */}
             <div className="bg-[#1e293b] dark:bg-[#1f1f1f] p-5 rounded-xl border border-gray-700 hover:border-yellow-400 transition duration-300 flex-1">
-              <p className="text-sm text-gray-400 mb-1">{exp.date}</p>
-              <h3 className="text-xl font-semibold text-white">{exp.title}</h3>
-              <p className="text-md text-primary-400 mb-2">{exp.company}</p>
-              <p className="text-gray-300 text-sm leading-relaxed">{exp.description}</p>
+              <p className="text-sm text-gray-400 mb-2">{exp.date}</p>
+              <h3 className="text-base lg:text-xl font-semibold text-white">{exp.title}</h3>
+              <p className="text-sm lg:text-base text-primary-400 mb-2">{exp.company}</p>
+              <p className="text-gray-300 text-sm lg:text-base leading-relaxed">{exp.description}</p>
             </div>
           </motion.a>
         ))}

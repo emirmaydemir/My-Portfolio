@@ -22,14 +22,14 @@ const CertificationCard = ({ title, institution, date, buttonText }) => {
       <div className="flex items-start gap-4">
         <div className="flex-shrink-0 mt-1">{renderInstitutionIcon(institution)}</div>
         <div className="space-y-1">
-          <h3 className="text-lg font-bold text-white">{title}</h3>
-          <p className="text-sm text-gray-300">{institution}</p>
+          <h3 className="text-sm sm:text-sm lg:text-lg font-bold text-white">{title}</h3>
+          <p className="text-xs lg:text-sm text-gray-300">{institution}</p>
           <p className="text-xs text-gray-400">{date}</p>
         </div>
       </div>
 
       {/* Buton */}
-      <button onClick={handleShowCertificate} className="self-end bg-primary-500 hover:bg-primary-600 text-white text-sm font-semibold py-1.5 px-4 rounded transition-colors duration-300">
+      <button onClick={handleShowCertificate} className="self-end bg-primary-500 hover:bg-primary-600 text-white text-xs lg:text-base font-semibold py-1.5 px-4 rounded transition-colors duration-300">
         {buttonText}
       </button>
     </div>

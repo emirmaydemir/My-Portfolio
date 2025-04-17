@@ -46,7 +46,7 @@ export default function LanguageChanger() {
   return (
     <div>
       <Menu as="div" className="relative inline-block text-left">
-        <MenuButton className="px-4 py-2 border border-[#4c4f5c] rounded-md bg-white text-black dark:bg-[#181818] dark:text-white">{displayLang}</MenuButton>
+        <MenuButton className="px-3 py-2 text-sm md:px-4 md:py-2 md:text-base border border-[#4c4f5c] rounded-md bg-white text-black dark:bg-[#181818] dark:text-white">{displayLang}</MenuButton>
 
         <MenuItems className="absolute top-full right-0 mt-2 w-24 origin-top-right bg-white dark:bg-[#181818] border border-gray-200 dark:border-[#33353F] rounded-md shadow-md focus:outline-none z-50">
           <div className="py-1">

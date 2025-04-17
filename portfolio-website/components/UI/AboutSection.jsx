@@ -7,7 +7,7 @@ import PublicationCard from "@/components/UI/PublicationCard";
 import { motion } from "framer-motion";
 
 const AboutSection = ({ aboutContent, certifications, publications }) => {
-  const [tab, setTab] = useState("skills");
+  const [tab, setTab] = useState("certifications");
 
   const handleShowPublication = (publication) => {
     // Buton işlevselliğini buraya ekleyebilirsin.
@@ -23,7 +23,7 @@ const AboutSection = ({ aboutContent, certifications, publications }) => {
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 justify-items-center">
           {[".NET Core", "C#", "Rest API", "Entity Framework Core", "Clean Architecture", "SOLID", "Multi-Project Solution", "CI/CD", "CQRS and Mediator pattern", "ERP Software", "Dependency Injection", "SignalR", "OOP", "Data Structures", "React.js", "Next.js", "CSS", "Tailwind CSS", "Bootstrap", "TypeScript", "JavaScript", "Mobx", "AutoMapper", "XML", "JSON", "Visual Studio", "Android Studio", "Java", "Firebase", "SDK", "JDBC", "SQL", "LINQ", "AWS S3", "Git", "GitHub", "Subversion", "Postman", "Unit Testing", "Python"].map((skill, i) => (
             <motion.div key={i} initial={{ opacity: 0, scale: 0.9 }} whileInView={{ opacity: 1, scale: 1 }} transition={{ duration: 0.2, delay: i * 0.05 }} viewport={{ once: false }} className="w-36 h-12 flex items-center justify-center rounded-full shadow-lg bg-gradient-to-r from-gray-700 to-gray-800 hover:from-primary-500 hover:to-secondary-600 transition-transform duration-300 transform hover:scale-105 px-2">
-              <span className="text-sm font-medium text-white text-center">{skill}</span>
+              <span className="text-xs lg:text-sm font-medium text-white text-center">{skill}</span>
             </motion.div>
           ))}
         </div>
@@ -68,21 +68,21 @@ const AboutSection = ({ aboutContent, certifications, publications }) => {
   ];
 
   return (
-    <section id="about" className="mb-20">
+    <section id="about" className="mb-5 sm:mb-20 ">
       {/* Başlık */}
       <div className="text-center pt-16 pb-8 px-4 mb-5">
-        <h2 className="text-4xl font-bold mb-4">{aboutContent.about_title}</h2>
+        <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">{aboutContent.about_title}</h2>
         <div className="w-24 h-1 bg-gradient-to-r from-primary-400 to-secondary-600 mx-auto rounded"></div>
       </div>
 
       {/* Hakkımda: Resim ve Yazı */}
-      <div className="md:grid md:grid-cols-2 items-center mb-16 px-5">
-        <motion.div initial={{ x: -150, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} transition={{ duration: 0.9 }} viewport={{ once: false, amount: 0.85 }} className="flex justify-center">
+      <div className="xl:grid xl:grid-cols-2 items-center mb-16 px-5">
+        <motion.div initial={{ x: -150, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} transition={{ duration: 0.9 }} viewport={{ once: false, amount: 0.85 }} className="flex justify-center mb-5">
           <Image src="/images/about-image.png" width={475} height={475} alt="About Me" />
         </motion.div>
 
         <motion.div initial={{ x: 150, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} transition={{ duration: 0.9 }} viewport={{ once: false, amount: 0.85 }} className="mt-4 md:mt-0 flex flex-col">
-          <p className="text-base lg:text-lg mb-6 text-justify">{aboutContent.about_description}</p>
+          <p className="text-sm lg:text-base xl:text-base 2xl:text-xl mb-6 text-justify">{aboutContent.about_description}</p>
         </motion.div>
       </div>
 
