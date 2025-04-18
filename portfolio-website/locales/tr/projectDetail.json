@@ -74,26 +74,18 @@
 
     {
       "id": 4,
-      "title": "Smart Shopping",
-      "subtitle": "Kullanıcıların fiyat karşılaştırması yaparak tasarruf edebilmesi için geliştirdiğim mobil alışveriş uygulaması.",
+      "title": "eOfis ERP Programı",
+      "subtitle": "Çalıştığım firmada .NET tabanlı ERP sisteminde full-stack geliştirici olarak görev aldım.",
       "description_title": "Proje Açıklaması",
-      "description": "Bu mobil uygulama, Android Studio ortamında Java diliyle geliştirilmiş olup, günlük hayatta sık karşılaşılan bir soruna çözüm sunmayı amaçlamaktadır: Farklı mağazalar arasında ürün fiyatlarını karşılaştırarak harcamaları azaltmayı hedefler. Uygulama, kullanıcıların aradıkları ürünü kolayca bulmalarını ve çeşitli perakendecilerdeki fiyat bilgilerine anında erişmelerini sağlar. Aynı zamanda, alışveriş sepetindeki ürünlerin toplam maliyetini hesaplayarak, kullanıcıların mağazaları tek tek dolaşmasına gerek kalmadan zaman kazanmalarına ve kasada beklenmedik fiyatlarla karşılaşmamalarına yardımcı olur.|JDBC ve Firebase entegrasyonları sayesinde uygulama, hem üreticilerin ürün verilerini eklemesine olanak tanır hem de son kullanıcılara gerçek zamanlı fiyat karşılaştırmaları ve detaylı ürün bilgileri sunar. QR kod ve mobil ödeme teknolojileri ile kullanıcılar hem zamandan hem de ekonomik açıdan tasarruf sağlar. Ürünlere ait kullanıcı yorumları da Firebase veritabanında tutulmakta olup, kullanıcıların deneyimlerini paylaşmalarına ve diğer kullanıcıların bu yorumlardan faydalanarak daha bilinçli alışveriş kararları almalarına olanak tanır. Bu sayede uygulama, sadece fiyat karşılaştırması sunmakla kalmaz, aynı zamanda sosyal geri bildirimlerle desteklenen kapsamlı bir alışveriş rehberine dönüşür.|Veri erişimini optimize etmek ve arama işlemlerini hızlandırmak amacıyla HashMap veri yapısı kullanılmıştır. HashMap, anahtar-değer mantığıyla çalışarak ürün isimleri veya barkod gibi benzersiz tanımlayıcılar üzerinden hızlı ve etkili veri sorgulama imkânı sunar. Böylece kullanıcılar bir anahtar kelime girdiğinde, uygulama veri setinin tamamını taramak yerine ilgili bilgiyi anında getirerek performansı artırır.|Ayrıca uygulama, alışveriş sepetini dinamik olarak yönetebilmek için LinkedList veri yapısını kullanır. Bu yapı sayesinde kullanıcılar, sepete ürün ekleme ve çıkarma işlemlerini verimli bir şekilde gerçekleştirebilir. Geri alma (undo) işlevselliği için ise Stack veri yapısı tercih edilmiştir. Böylece kullanıcılar istemeden sildikleri ürünleri kolayca geri alabilirler. Tüm bu veri yapıları, nesne yönelimli programlama (OOP) prensipleriyle bir araya getirilerek uygulamanın performansını artırır, esnekliğini güçlendirir ve kullanıcı deneyimini iyileştirir.",
-      "media": [
-        { "type": "image", "src": "/images/detail/smart-shop-1.jpg" },
-        { "type": "image", "src": "/images/detail/smart-shop-2.jpg" },
-        { "type": "image", "src": "/images/detail/smart-shop-3.jpg" },
-        { "type": "image", "src": "/images/detail/smart-shop-4.jpg" },
-        { "type": "image", "src": "/images/detail/smart-shop-5.jpg" },
-        { "type": "image", "src": "/images/detail/smart-shop-6.jpg" },
-        { "type": "image", "src": "/images/detail/smart-shop-7.jpg" }
-      ],
+      "description": "",
+      "media": [{ "type": "image", "src": "/images/detail/smart-shop-1.jpg" }],
       "technologies_title": "Kullanılan Teknolojiler",
-      "technologies": ["Java", "Android Studio", "Firebase", "Data Structures", "OOP", "XML", "Git"],
-      "gitUrl": "https://github.com/emirmaydemir/ShopApp",
+      "technologies": [".NET", "REST API", "N-tier Architecture", "AutoMapper", "Hangfire", "EF Core", "AWS S3", "SQL", "JWT", "ASP.NET Core Identity", "xUnit", "GitHub Actions", "FluentValidation", "React", "TypeScript", "JavaScript", "HTML", "CSS", "Tailwind CSS", "MobX", "Axios", "Visual Studio", "Git"],
+      "gitUrl": "",
       "previewUrl": "",
       "gitText": "Kodları Görüntüle",
       "previewText": "Canlı Demo",
-      "previewId": "smart-shopping"
+      "previewId": "eofis-erp"
     },
 
     {
@@ -123,15 +115,104 @@
       "title": "Iyzico Ödeme Entegrasyonu",
       "subtitle": "eOfis firması için Iyzico ile ödeme entegrasyonu yaptım.",
       "description_title": "Proje Açıklaması",
-      "description": "",
+      "description": "eOfis firması için Iyzico ödeme altyapısını entegre ederek full-stack bir ödeme sistemi geliştirdim. Bu entegrasyon kapsamında, kullanıcıların kolaylıkla ödeme yapabilmesi için HTML, CSS ve JavaScript kullanarak kullanıcı dostu bir arayüz tasarladım. Arka planda .NET teknolojisini kullanarak ödeme işlemlerini gerçekleştiren servisler yazdım. Kayıtlı kartlar üzerinden ödeme yapma sürecini kolaylaştırmak adına, kullanıcının kart bilgilerini güvenli bir şekilde token olarak SQL veritabanında depoladım. Kullanıcının daha önce kaydettiği kartları görüntüleyebilmesi, kartını silebilmesi ve dilediği kartla ödeme başlatabilmesi için API endpoint’leri geliştirdim. Aynı zamanda Iyzico API’si üzerinden ödeme başarılı olduğunda tarafımıza dönen yanıtları işleyen endpoint’leri de sistemin bir parçası haline getirdim. Bu sayede ödeme süreci kullanıcı deneyimini bozmadan, hızlı ve güvenli şekilde tamamlanabilir hale geldi.|Ödeme sistemi içerisinde güvenliği ve doğruluğu artırmak adına kart bilgileri girişinde bazı validasyon kuralları uyguladım. Kullanıcının girdiği isim ve soyismin, kart üzerindeki gibi ad ve soyad formatında olması gerektiğini kontrol ettim. Kart numarasının Luhn algoritmasına göre geçerli olup olmadığını test eden özel bir doğrulama sistemi oluşturdum. Son kullanım tarihi geçmiş kartlar için kullanıcıya uyarı mesajları gösterdim ve CVV kodunun en az 3 haneli olmasını zorunlu kıldım. Ayrıca kart adı alanının boş geçilmemesi gerektiğini belirten önleyici kontrollerle kullanıcıyı yönlendirdim. Bu validasyonların tümü hem frontend tarafında anlık olarak hem de backend tarafında güvenlik amacıyla tekrar test edilerek devreye alındı. Böylece, kullanıcı hatalarının ve kötü niyetli girişimlerin önüne geçilerek sağlam bir altyapı oluşturuldu.|Arka tarafta ise sistemin sürdürülebilirliği için SQL üzerinde detaylı bir yapı kurdum. Yazdığım fonksiyon ve view’lar aracılığıyla borcu olan kullanıcıları günlük olarak tespit ettim ve oluşturduğum özel listeyi kullanarak otomatik ödeme işlemini devreye aldım. .NET ortamında geliştirdiğim Schedule API ve Hangfire zamanlayıcı entegrasyonu sayesinde sistem, günde iki kez otomatik olarak ödeme almayı denemekte ve duruma göre başarılı ya da başarısız yanıtları kaydetmektedir. Ayrıca, ödeme verilerinin analizini kolaylaştırmak amacıyla bir Store Procedure yazarak hem borç durumu hem de yapılan tahsilatların detaylarını içeren kapsamlı bir rapor hazırladım. Bu raporları sistemde tanımlı yetkili kişilere periyodik olarak iletecek şekilde yapılandırdım. Tüm bu geliştirmeler sayesinde ödeme operasyonları tamamen dijitalleştirilmiş, manuel hatalar minimize edilmiş ve finansal süreçlerde ciddi anlamda zaman tasarrufu sağlanmış oldu.",
       "media": [{ "type": "video", "src": "/images/detail/iyzico.mp4" }],
       "technologies_title": "Kullanılan Teknolojiler",
-      "technologies": [".NET", "REST API", "CQRS", "Mediator Pattern"],
+      "technologies": [".NET", "REST API", "Hangfire", "SQL", "HTML", "CSS", "JavaScript", "Bootstrap"],
       "gitUrl": "",
       "previewUrl": "https://paneltest.eofis.com.tr/",
       "gitText": "Kodları Görüntüle",
       "previewText": "Canlı Demo",
       "previewId": "iyzico-integration"
+    },
+
+    {
+      "id": 7,
+      "title": "BloodBank",
+      "subtitle": "Hastaneler, hastalar ve donörleri bir araya getiren bir kan bankası sistemi",
+      "description_title": "Proje Açıklaması",
+      "description": "Hastaneler, hastalar ve donörleri tek bir sistemde bir araya getiren kapsamlı bir kan bankası uygulaması geliştirdim. Bu projede, veritabanı yapısını normalizasyon kurallarına uygun şekilde tasarladım ve SQL tarafında kan gruplarına ait stok bilgilerini gösteren view’lar gibi pek çok yapıyı aktif olarak kullandım. SQL veritabanıyla bağlantılı çalışan sistemde hastane kayıtları, hasta bilgileri ve donör profilleri arasında ilişkisel bir yapı kurarak veri bütünlüğünü sağladım. Ayrıca, sistemin ihtiyaç duyduğu tüm veri işlemleri için güvenilir ve optimize sorgular yazdım. Veritabanı üzerinde oluşturduğum tablolar, stored procedure'lar ve trigger'lar sayesinde sistemin hem performansını artırdım hem de hata payını minimuma indirdim.|Uygulamanın arayüzünü C# programlama dili kullanarak .NET Windows Forms teknolojisiyle geliştirdim. Toplamda 10 adet ekran tasarlayarak her biri farklı bir işlevi karşılayan kullanıcı dostu formlar oluşturdum. Bu ekranlarda tablo görünümleri, kontroller, progressbar’lar gibi çeşitli araçlar kullanarak kayıt ekleme, güncelleme, silme ve listeleme işlemleri sağladım. Böylece, yetkili kullanıcılar donör başvurularını yönetebiliyor, hastaların ihtiyaç duyduğu kan gruplarını anlık olarak görüntüleyebiliyor ve hastane bazında stok durumlarını detaylı biçimde takip edebiliyor. Proje sonucunda, yönetilebilirliği yüksek, kullanıcı dostu ve işlevsel bir kan bankası yönetim sistemi ortaya çıkardım.",
+      "media": [
+        { "type": "image", "src": "/images/detail/bloodbank-1.jpg" },
+        { "type": "image", "src": "/images/detail/bloodbank-2.jpg" },
+        { "type": "image", "src": "/images/detail/bloodbank-3.jpg" }
+      ],
+      "technologies_title": "Kullanılan Teknolojiler",
+      "technologies": [".NET", "C#", "SQL", "Git"],
+      "gitUrl": "https://github.com/emirmaydemir/BloodBank2",
+      "previewUrl": "",
+      "gitText": "Kodları Görüntüle",
+      "previewText": "Canlı Demo",
+      "previewId": "bloodbank"
+    },
+
+    {
+      "id": 8,
+      "title": "Smart Shopping",
+      "subtitle": "Kullanıcıların fiyat karşılaştırması yaparak tasarruf edebilmesi için geliştirdiğim mobil alışveriş uygulaması.",
+      "description_title": "Proje Açıklaması",
+      "description": "Bu mobil uygulama, Android Studio ortamında Java diliyle geliştirilmiş olup, günlük hayatta sık karşılaşılan bir soruna çözüm sunmayı amaçlamaktadır: Farklı mağazalar arasında ürün fiyatlarını karşılaştırarak harcamaları azaltmayı hedefler. Uygulama, kullanıcıların aradıkları ürünü kolayca bulmalarını ve çeşitli perakendecilerdeki fiyat bilgilerine anında erişmelerini sağlar. Aynı zamanda, alışveriş sepetindeki ürünlerin toplam maliyetini hesaplayarak, kullanıcıların mağazaları tek tek dolaşmasına gerek kalmadan zaman kazanmalarına ve kasada beklenmedik fiyatlarla karşılaşmamalarına yardımcı olur.|JDBC ve Firebase entegrasyonları sayesinde uygulama, hem üreticilerin ürün verilerini eklemesine olanak tanır hem de son kullanıcılara gerçek zamanlı fiyat karşılaştırmaları ve detaylı ürün bilgileri sunar. QR kod ve mobil ödeme teknolojileri ile kullanıcılar hem zamandan hem de ekonomik açıdan tasarruf sağlar. Ürünlere ait kullanıcı yorumları da Firebase veritabanında tutulmakta olup, kullanıcıların deneyimlerini paylaşmalarına ve diğer kullanıcıların bu yorumlardan faydalanarak daha bilinçli alışveriş kararları almalarına olanak tanır. Bu sayede uygulama, sadece fiyat karşılaştırması sunmakla kalmaz, aynı zamanda sosyal geri bildirimlerle desteklenen kapsamlı bir alışveriş rehberine dönüşür.|Veri erişimini optimize etmek ve arama işlemlerini hızlandırmak amacıyla HashMap veri yapısı kullanılmıştır. HashMap, anahtar-değer mantığıyla çalışarak ürün isimleri veya barkod gibi benzersiz tanımlayıcılar üzerinden hızlı ve etkili veri sorgulama imkânı sunar. Böylece kullanıcılar bir anahtar kelime girdiğinde, uygulama veri setinin tamamını taramak yerine ilgili bilgiyi anında getirerek performansı artırır.|Ayrıca uygulama, alışveriş sepetini dinamik olarak yönetebilmek için LinkedList veri yapısını kullanır. Bu yapı sayesinde kullanıcılar, sepete ürün ekleme ve çıkarma işlemlerini verimli bir şekilde gerçekleştirebilir. Geri alma (undo) işlevselliği için ise Stack veri yapısı tercih edilmiştir. Böylece kullanıcılar istemeden sildikleri ürünleri kolayca geri alabilirler. Tüm bu veri yapıları, nesne yönelimli programlama (OOP) prensipleriyle bir araya getirilerek uygulamanın performansını artırır, esnekliğini güçlendirir ve kullanıcı deneyimini iyileştirir.",
+      "media": [
+        { "type": "image", "src": "/images/detail/smart-shop-1.jpg" },
+        { "type": "image", "src": "/images/detail/smart-shop-2.jpg" },
+        { "type": "image", "src": "/images/detail/smart-shop-3.jpg" },
+        { "type": "image", "src": "/images/detail/smart-shop-4.jpg" },
+        { "type": "image", "src": "/images/detail/smart-shop-5.jpg" },
+        { "type": "image", "src": "/images/detail/smart-shop-6.jpg" },
+        { "type": "image", "src": "/images/detail/smart-shop-7.jpg" }
+      ],
+      "technologies_title": "Kullanılan Teknolojiler",
+      "technologies": ["Java", "Android Studio", "Firebase", "Data Structures", "OOP", "XML", "Git"],
+      "gitUrl": "https://github.com/emirmaydemir/ShopApp",
+      "previewUrl": "",
+      "gitText": "Kodları Görüntüle",
+      "previewText": "Canlı Demo",
+      "previewId": "smart-shopping"
+    },
+
+    {
+      "id": 9,
+      "title": "eOfis Panel Web",
+      "subtitle": "eOfis panel web sitesinin geliştirilmesinde fullstack yazılımcı olarak yer aldım",
+      "description_title": "Proje Açıklaması",
+      "description": "eOfis panel web sitesinin geliştirilmesinde fullstack geliştirici olarak aktif rol aldım. Projenin back-end kısmında .NET teknolojisini kullanarak veri işleme, kullanıcı yönetimi, rezervasyon ve ödeme işlemlerine dair iş mantığını geliştirdim. Front-end tarafında ise HTML, CSS ve JavaScript ile kullanıcı arayüzünü tasarlayarak kullanıcıların işlemlerini hızlı ve kolay bir şekilde gerçekleştirmelerini sağladım. Panelin dashboard ekranında kullanıcılar günlük çağrı sayısını, gelen-giden kargoları, yapılan sözleşme sayılarını ve cari durumlarını kolayca görüntüleyebiliyor. Bu sayede şirket yöneticileri ve çalışanlar günlük operasyonel akışı tek bir ekrandan takip edebiliyor. Raporlar ekranı üzerinden personel giriş-çıkışları detaylı şekilde izlenebiliyor, böylece personel devamlılıkları ve vardiya planlamaları daha verimli hâle getiriliyor.|Finans sekmesinde kullanıcılar ödeme bilgilerini görüntüleyebiliyor, geçmiş ödemeleri kontrol edebiliyor ve fiyat bilgilendirmelerine ulaşabiliyor. Panel aracılığıyla eOfis’e ait herhangi bir ofis için hızlıca rezervasyon yapılabiliyor. Kullanıcılar aynı zamanda hizmetlerle ilgili geri bildirim göndererek sistemin gelişimine katkıda bulunabiliyor. Etkinlik takvimi sayesinde özel kampanyalar ve indirimler de sistem üzerinden takip edilebiliyor. Tüm bu modüllerin yazılım geliştirme süreçlerinde analizden kodlamaya kadar aktif görev alarak, projeye bütünsel katkı sağladım. Geliştirdiğim bu sistem sayesinde hem şirket çalışanları hem de müşteriler için süreçler daha erişilebilir, yönetilebilir ve kullanıcı dostu bir hâle getirildi.",
+      "media": [
+        { "type": "image", "src": "/images/detail/eofis-panel-1.png" },
+        { "type": "image", "src": "/images/detail/eofis-panel-2.png" },
+        { "type": "image", "src": "/images/detail/eofis-panel-3.png" },
+        { "type": "image", "src": "/images/detail/eofis-panel-4.png" }
+      ],
+      "technologies_title": "Kullanılan Teknolojiler",
+      "technologies": [".NET", "REST API", "SQL", "HTML", "CSS", "JavaScript", "Bootstrap"],
+      "gitUrl": "",
+      "previewUrl": "https://paneltest.eofis.com.tr/",
+      "gitText": "Kodları Görüntüle",
+      "previewText": "Canlı Demo",
+      "previewId": "eofis-panel"
+    },
+
+    {
+      "id": 10,
+      "title": "Blockchain Projesi",
+      "subtitle": "Kullanıcıların görevleri tamamlayarak ödül kazandığı merkeziyetsiz bir sistem geliştirildi.",
+      "description_title": "Proje Açıklaması",
+      "description": "Bu proje, üniversitelerin öğrenci veya öğretim görevlilerine yönelik şeffaf ve güvenli bir ödül sistemi oluşturmayı hedefleyen blok zincir tabanlı bir uygulamadır. Kullanıcılar, belirlenen görevleri tamamlayarak ödül kazandıkları merkeziyetsiz bir yapı içerisinde işlem yapabilmektedir. Geliştirilen sistem sayesinde kullanıcıların ödülleri, blok zincir üzerinde şeffaf bir şekilde takip edilebilmekte, aynı zamanda bu yapı sayesinde ödül süreçleri güvenli, sürdürülebilir ve denetlenebilir bir hale getirilmektedir. Üniversiteler bu sistemi kullanarak hem öğrencilere hem de akademik personele adil ve izlenebilir ödül süreçleri sunabilir, böylece katılımı ve bağlılığı artırabilir. |Projenin teknik altyapısında, RESTful API uç noktaları kullanıcılar kadar kontrol mekanizmaları için de özel olarak tasarlanmıştır. Kullanıcılar, kayıt uç noktası üzerinden kullanıcı adı, e-posta ve şifre bilgilerini JSON formatında göndererek sisteme kayıt olabilirken sistem, bu bilgileri doğrulayıp uygunluğu durumunda kullanıcıyı veritabanına kaydetmektedir. Uygulamanın ilk etapta geliştirilen kullanıcı arayüzü, kayıt ve giriş işlemlerini gerçekleştirmek üzere tasarlanmıştır. Bu sayede kullanıcılar sisteme kolayca giriş yapabilir ve kendi hesaplarına erişebilir hale gelmektedir. |Sisteme giriş yapan kullanıcılar, ana sayfada kendi blok zincir cüzdan adreslerini görüntüleyebilir, ödül miktarlarını görebilir ve adreslerini kopyalayabilirler. Sayfanın alt kısmında yer alan butonlar aracılığıyla kullanıcılar sistemdeki zinciri güncelleyebilir veya görevler sayfasına geçiş yapabilir. Görevler sayfasında kullanıcıya atanmış mevcut görevlerin listesi sunulmakta ve görevler tamamlandıkça sistem tarafından otomatik olarak işlenmektedir. Bu yapı, kullanıcıların etkileşimlerini hem kolaylaştırmakta hem de blok zincir ile doğrudan bir ilişki kurmalarını sağlamaktadır. |Sistemin önemli bileşenlerinden biri de geliştirilen P2P ağıdır. Kullanıcılar arası iletişimi sağlayan bu ağ, WebSocket protokolü ile çalışmakta ve tamamen dağıtık bir mimariyi temel almaktadır. Merkezi bir sunucuya ihtiyaç duymadan çalışan bu yapı sayesinde, her kullanıcı sistemde aktif bir düğüm haline gelmekte ve veri paylaşımı doğrudan kullanıcılar arasında gerçekleşmektedir. Bu yapı, hem blok zincir zincirinin doğrulanmasını hem de ağ üzerindeki işlemlerin hızla yayılmasını mümkün kılmaktadır. Sonuç olarak geliştirilen uygulama, kullanıcı dostu arayüzü, güvenilir veri akışı ve blok zincir teknolojisinin gücü ile merkeziyetsiz ödül sistemlerine yenilikçi bir örnek sunmaktadır.",
+      "media": [
+        { "type": "image", "src": "/images/detail/blockchain-1.jpg" },
+        { "type": "image", "src": "/images/detail/blockchain-2.jpg" },
+        { "type": "image", "src": "/images/detail/blockchain-3.jpg" },
+        { "type": "image", "src": "/images/detail/blockchain-4.jpg" },
+        { "type": "image", "src": "/images/detail/blockchain-5.jpg" },
+        { "type": "image", "src": "/images/detail/blockchain-6.jpg" },
+        { "type": "image", "src": "/images/detail/blockchain-7.jpg" }
+      ],
+      "technologies_title": "Kullanılan Teknolojiler",
+      "technologies": ["C#", ".NET", "REST API", "SQL", "EF Core", "WebSocket", "Git"],
+      "gitUrl": "https://github.com/emirmaydemir/Blockchain-Project",
+      "previewUrl": "",
+      "gitText": "Kodları Görüntüle",
+      "previewText": "Canlı Demo",
+      "previewId": "blockchain"
     }
   ]
 }

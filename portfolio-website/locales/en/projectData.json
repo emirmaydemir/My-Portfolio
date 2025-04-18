@@ -34,12 +34,12 @@
     },
     {
       "project_id": "4",
-      "project_title": "Smart Shopping App",
-      "project_description": "My project offering an economic and fast shopping experience with price comparison and mobile payment support",
-      "project_image": "/images/projects/shop-mobile-app.png",
-      "project_tag": ["All", "Mobile"],
-      "project_gitUrl": "https://github.com/emirmaydemir/ShopApp",
-      "project_previewUrl": "smart-shopping"
+      "project_title": "eOfis ERP System",
+      "project_description": "Worked as a full-stack developer on a .NET-based ERP system at my company.",
+      "project_image": "/images/projects/eOfis-erp-program.png",
+      "project_tag": ["All", "Backend", "Desktop"],
+      "project_gitUrl": "",
+      "project_previewUrl": "eofis-erp"
     },
     {
       "project_id": "5",
@@ -53,7 +53,7 @@
     {
       "project_id": "6",
       "project_title": "Iyzico Payment Integration",
-      "project_description": "I integrated the Iyzico payment infrastructure into the ERP-based software, designing a secure payment interface for users. Additionally, I developed an automatic payment system and ensured regular payment deductions from companies with outstanding balances using Hangfire",
+      "project_description": "I implemented the payment integration with Iyzico for the eOfis company.",
       "project_image": "/images/projects/payment-integration.png",
       "project_tag": ["All", "Backend"],
       "project_gitUrl": "https://paneltest.eofis.com.tr/",
@@ -65,17 +65,17 @@
       "project_description": "A blood bank system that connects hospitals, patients, and donors",
       "project_image": "/images/projects/bloodbank-desktop-app.png",
       "project_tag": ["All", "Desktop", "Backend"],
-      "project_gitUrl": "https://github.com/emirmaydemir/BloodBank2/tree/main/BloodBankk",
-      "project_previewUrl": ""
+      "project_gitUrl": "https://github.com/emirmaydemir/BloodBank2",
+      "project_previewUrl": "bloodbank"
     },
     {
       "project_id": "8",
-      "project_title": "eOfis ERP System",
-      "project_description": "I worked full stack in all developments of the ERP program in the company I worked for. The OfficeSharp project under development at Zeugma includes 4 databases, 1 FTP server, 16 REST APIs, 7 client applications, 2 mobile apps, and 3 web panels",
-      "project_image": "/images/projects/eOfis-erp-program.png",
-      "project_tag": ["All", "Backend", "Desktop"],
-      "project_gitUrl": "",
-      "project_previewUrl": ""
+      "project_title": "Smart Shopping App",
+      "project_description": "My project offering an economic and fast shopping experience with price comparison and mobile payment support",
+      "project_image": "/images/projects/shop-mobile-app.png",
+      "project_tag": ["All", "Mobile"],
+      "project_gitUrl": "https://github.com/emirmaydemir/ShopApp",
+      "project_previewUrl": "smart-shopping"
     },
     {
       "project_id": "9",
@@ -83,17 +83,17 @@
       "project_description": "I participated as a full-stack developer in the development of the eOfis panel website",
       "project_image": "/images/projects/eofis-panel.png",
       "project_tag": ["All", "Web"],
-      "project_gitUrl": "",
-      "project_previewUrl": ""
+      "project_gitUrl": "https://paneltest.eofis.com.tr/",
+      "project_previewUrl": "eofis-panel"
     },
     {
       "project_id": "10",
       "project_title": "Blockchain Project",
-      "project_description": "A decentralized and secure reward system has been developed, where users earn rewards by completing tasks. All transactions are transparently tracked on the blockchain, creating a sustainable, transparent, and auditable system",
+      "project_description": "Users earn rewards by completing tasks in a decentralized system.",
       "project_image": "/images/projects/blockchain.jpg",
       "project_tag": ["All", "Backend"],
       "project_gitUrl": "",
-      "project_previewUrl": ""
+      "project_previewUrl": "blockchain"
     },
     {
       "project_id": "11",
@@ -102,7 +102,7 @@
       "project_image": "/images/projects/hangfire.png",
       "project_tag": ["All", "Backend"],
       "project_gitUrl": "",
-      "project_previewUrl": ""
+      "project_previewUrl": "hangfire"
     },
     {
       "project_id": "12",
@@ -111,7 +111,7 @@
       "project_image": "/images/projects/cep-marketim-app.png",
       "project_tag": ["All", "Mobile"],
       "project_gitUrl": "https://github.com/emirmaydemir/CepMarketimAndroid",
-      "project_previewUrl": ""
+      "project_previewUrl": "cep-market"
     },
     {
       "project_id": "13",
@@ -120,7 +120,7 @@
       "project_image": "/images/projects/cep-marketim-web-blog.png",
       "project_tag": ["All", "Web"],
       "project_gitUrl": "https://github.com/emirmaydemir/blogprojesiCepMarketim",
-      "project_previewUrl": ""
+      "project_previewUrl": "cep-market-blog"
     },
     {
       "project_id": "14",
@@ -129,7 +129,7 @@
       "project_image": "/images/projects/stadyum-projesi.PNG",
       "project_tag": ["All", "Desktop", "Backend"],
       "project_gitUrl": "https://github.com/emirmaydemir/ProjeStadyum_Java",
-      "project_previewUrl": ""
+      "project_previewUrl": "stadium"
     },
     {
       "project_id": "15",
@@ -138,7 +138,7 @@
       "project_image": "/images/projects/music-recommendation-system.png",
       "project_tag": ["All", "AI"],
       "project_gitUrl": "https://github.com/emirmaydemir/music-recommendation-system",
-      "project_previewUrl": ""
+      "project_previewUrl": "music-recommendation"
     },
     {
       "project_id": "16",
@@ -147,7 +147,7 @@
       "project_image": "/images/projects//Naive-Bayes.png",
       "project_tag": ["All", "AI"],
       "project_gitUrl": "https://github.com/emirmaydemir/MultinomialNB-classifier-for-text",
-      "project_previewUrl": ""
+      "project_previewUrl": "multinomialnb"
     },
     {
       "project_id": "17",
@@ -156,7 +156,7 @@
       "project_image": "/images/projects/traffic-light-color-detection.png",
       "project_tag": ["All", "AI"],
       "project_gitUrl": "https://github.com/emirmaydemir/LightDetect",
-      "project_previewUrl": ""
+      "project_previewUrl": "lightdetect"
     },
     {
       "project_id": "18",
@@ -165,7 +165,7 @@
       "project_image": "/images/projects/kenny-catch-app.png",
       "project_tag": ["All", "Mobile"],
       "project_gitUrl": "https://github.com/emirmaydemir/Game_AndroidStudio",
-      "project_previewUrl": ""
+      "project_previewUrl": "kenny-catch"
     },
     {
       "project_id": "19",
@@ -174,7 +174,7 @@
       "project_image": "/images/projects/student-registration-system.png",
       "project_tag": ["All", "Desktop"],
       "project_gitUrl": "https://github.com/emirmaydemir/Student-Registration-System/tree/master/kayitentity",
-      "project_previewUrl": ""
+      "project_previewUrl": "student-registration-system"
     },
     {
       "project_id": "20",
@@ -183,25 +183,7 @@
       "project_image": "/images/projects/haxball-bot.png",
       "project_tag": ["All", "Web"],
       "project_gitUrl": "https://github.com/emirmaydemir/Haxball-Bot",
-      "project_previewUrl": ""
-    },
-    {
-      "project_id": "21",
-      "project_title": "Financial Advisor Mail Template",
-      "project_description": "Integration of a ready-made email template for financial advisors to send to their clients",
-      "project_image": "/images/projects/financial-advisor-template.png",
-      "project_tag": ["All", "Backend", "Web"],
-      "project_gitUrl": "",
-      "project_previewUrl": ""
-    },
-    {
-      "project_id": "22",
-      "project_title": "Mail Template Integration",
-      "project_description": "In the company I worked for, I integrated this template to welcome new customers and provide information about the services offered by the company",
-      "project_image": "/images/projects/welcome-template.png",
-      "project_tag": ["All", "Backend", "Web"],
-      "project_gitUrl": "",
-      "project_previewUrl": ""
+      "project_previewUrl": "haxball-bot"
     }
   ]
 }

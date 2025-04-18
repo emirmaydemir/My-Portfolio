@@ -34,12 +34,12 @@
     },
     {
       "project_id": "4",
-      "project_title": "Smart Shopping Uygulaması",
-      "project_description": "Fiyat karşılaştırması ve mobil ödeme desteğiyle ekonomik ve hızlı alışveriş deneyimi sunan projem",
-      "project_image": "/images/projects/shop-mobile-app.png",
-      "project_tag": ["All", "Mobile"],
-      "project_gitUrl": "https://github.com/emirmaydemir/ShopApp",
-      "project_previewUrl": "smart-shopping"
+      "project_title": "eOfis ERP Programı",
+      "project_description": "Çalıştığım firmada .NET tabanlı ERP sisteminde full-stack geliştirici olarak görev aldım.",
+      "project_image": "/images/projects/eOfis-erp-program.png",
+      "project_tag": ["All", "Backend", "Desktop"],
+      "project_gitUrl": "",
+      "project_previewUrl": "eofis-erp"
     },
     {
       "project_id": "5",
@@ -53,7 +53,7 @@
     {
       "project_id": "6",
       "project_title": "Iyzico Ödeme Entegrasyonu",
-      "project_description": "ERP tabanlı yazılıma Iyzico ödeme altyapısını entegre ederek, kullanıcıların güvenli bir şekilde ödeme yapabilecekleri bir ekran tasarladım. Ayrıca, otomatik ödeme sistemini geliştirdim ve Hangfire kullanarak borcu olan firmalardan düzenli aralıklarla ödeme çekilmesini sağladım",
+      "project_description": "eOfis firması için Iyzico ile ödeme entegrasyonu yaptım.",
       "project_image": "/images/projects/payment-integration.png",
       "project_tag": ["All", "Backend"],
       "project_gitUrl": "https://paneltest.eofis.com.tr/",
@@ -65,17 +65,17 @@
       "project_description": "Hastaneler, hastalar ve donörleri bir araya getiren bir kan bankası sistemi",
       "project_image": "/images/projects/bloodbank-desktop-app.png",
       "project_tag": ["All", "Desktop", "Backend"],
-      "project_gitUrl": "https://github.com/emirmaydemir/BloodBank2/tree/main/BloodBankk",
-      "project_previewUrl": ""
+      "project_gitUrl": "https://github.com/emirmaydemir/BloodBank2",
+      "project_previewUrl": "bloodbank"
     },
     {
       "project_id": "8",
-      "project_title": "eOfis ERP Programı",
-      "project_description": "Çalıştığım firmada, .NET ile geliştirilen ERP sisteminin tüm geliştirmelerinde full stack olarak yer aldım. Zeugma bünyesinde geliştirilen OfficeSharp projesi, 4 veritabanı, 1 FTP sunucu, 16 REST API, 7 istemci programı, 2 mobil uygulama ve 3 web paneli içermektedir",
-      "project_image": "/images/projects/eOfis-erp-program.png",
-      "project_tag": ["All", "Backend", "Desktop"],
-      "project_gitUrl": "",
-      "project_previewUrl": ""
+      "project_title": "Smart Shopping Uygulaması",
+      "project_description": "Fiyat karşılaştırması ve mobil ödeme desteğiyle ekonomik ve hızlı alışveriş deneyimi sunan projem",
+      "project_image": "/images/projects/shop-mobile-app.png",
+      "project_tag": ["All", "Mobile"],
+      "project_gitUrl": "https://github.com/emirmaydemir/ShopApp",
+      "project_previewUrl": "smart-shopping"
     },
     {
       "project_id": "9",
@@ -83,17 +83,17 @@
       "project_description": "eOfis panel web sitesinin geliştirilmesinde fullstack yazılımcı olarak yer aldım",
       "project_image": "/images/projects/eofis-panel.png",
       "project_tag": ["All", "Web"],
-      "project_gitUrl": "",
-      "project_previewUrl": ""
+      "project_gitUrl": "https://paneltest.eofis.com.tr/",
+      "project_previewUrl": "eofis-panel"
     },
     {
       "project_id": "10",
       "project_title": "Blockchain Projesi",
-      "project_description": "Kullanıcıların görevleri tamamlayarak ödül kazandığı, merkeziyetsiz ve güvenli bir ödül sistemi geliştirilmiştir. Tüm işlemler şeffaf bir şekilde blok zincir üzerinde takip edilebilir, sürdürülebilir ve denetlenebilir bir yapı oluşturulmuştur",
+      "project_description": "Kullanıcıların görevleri tamamlayarak ödül kazandığı merkeziyetsiz bir sistem geliştirildi.",
       "project_image": "/images/projects/blockchain.jpg",
       "project_tag": ["All", "Backend"],
       "project_gitUrl": "",
-      "project_previewUrl": ""
+      "project_previewUrl": "blockchain"
     },
     {
       "project_id": "11",
@@ -102,7 +102,7 @@
       "project_image": "/images/projects/hangfire.png",
       "project_tag": ["All", "Backend"],
       "project_gitUrl": "",
-      "project_previewUrl": ""
+      "project_previewUrl": "hangfire"
     },
     {
       "project_id": "12",
@@ -111,7 +111,7 @@
       "project_image": "/images/projects/cep-marketim-app.png",
       "project_tag": ["All", "Mobile"],
       "project_gitUrl": "https://github.com/emirmaydemir/CepMarketimAndroid",
-      "project_previewUrl": ""
+      "project_previewUrl": "cep-market"
     },
     {
       "project_id": "13",
@@ -120,7 +120,7 @@
       "project_image": "/images/projects/cep-marketim-web-blog.png",
       "project_tag": ["All", "Web"],
       "project_gitUrl": "https://github.com/emirmaydemir/blogprojesiCepMarketim",
-      "project_previewUrl": ""
+      "project_previewUrl": "cep-market-blog"
     },
     {
       "project_id": "14",
@@ -129,7 +129,7 @@
       "project_image": "/images/projects/stadyum-projesi.PNG",
       "project_tag": ["All", "Desktop", "Backend"],
       "project_gitUrl": "https://github.com/emirmaydemir/ProjeStadyum_Java",
-      "project_previewUrl": ""
+      "project_previewUrl": "stadium"
     },
     {
       "project_id": "15",
@@ -138,7 +138,7 @@
       "project_image": "/images/projects/music-recommendation-system.png",
       "project_tag": ["All", "AI"],
       "project_gitUrl": "https://github.com/emirmaydemir/music-recommendation-system",
-      "project_previewUrl": ""
+      "project_previewUrl": "music-recommendation"
     },
     {
       "project_id": "16",
@@ -147,7 +147,7 @@
       "project_image": "/images/projects//Naive-Bayes.png",
       "project_tag": ["All", "AI"],
       "project_gitUrl": "https://github.com/emirmaydemir/MultinomialNB-classifier-for-text",
-      "project_previewUrl": ""
+      "project_previewUrl": "multinomialnb"
     },
     {
       "project_id": "17",
@@ -156,7 +156,7 @@
       "project_image": "/images/projects/traffic-light-color-detection.png",
       "project_tag": ["All", "AI"],
       "project_gitUrl": "https://github.com/emirmaydemir/LightDetect",
-      "project_previewUrl": ""
+      "project_previewUrl": "lightdetect"
     },
     {
       "project_id": "18",
@@ -165,7 +165,7 @@
       "project_image": "/images/projects/kenny-catch-app.png",
       "project_tag": ["All", "Mobile"],
       "project_gitUrl": "https://github.com/emirmaydemir/Game_AndroidStudio",
-      "project_previewUrl": ""
+      "project_previewUrl": "kenny-catch"
     },
     {
       "project_id": "19",
@@ -174,7 +174,7 @@
       "project_image": "/images/projects/student-registration-system.png",
       "project_tag": ["All", "Desktop"],
       "project_gitUrl": "https://github.com/emirmaydemir/Student-Registration-System/tree/master/kayitentity",
-      "project_previewUrl": ""
+      "project_previewUrl": "student-registration-system"
     },
     {
       "project_id": "20",
@@ -183,25 +183,7 @@
       "project_image": "/images/projects/haxball-bot.png",
       "project_tag": ["All", "Web"],
       "project_gitUrl": "https://github.com/emirmaydemir/Haxball-Bot",
-      "project_previewUrl": ""
-    },
-    {
-      "project_id": "21",
-      "project_title": "Finansal Danışman E-posta Taslağı",
-      "project_description": "Finansal danışmanların müşterilerine göndereceği hazır e-posta taslağının entegrasyonunu gerçekleştirdim",
-      "project_image": "/images/projects/financial-advisor-template.png",
-      "project_tag": ["All", "Backend", "Web"],
-      "project_gitUrl": "",
-      "project_previewUrl": ""
-    },
-    {
-      "project_id": "22",
-      "project_title": "E-posta Şablonu Entegrasyonu",
-      "project_description": "Çalıştığım firmada, yeni müşterileri karşılamak ve onlara firmanın sunduğu hizmetler hakkında bilgi vermek amacıyla bu şablonun entegrasyonunu sağladım",
-      "project_image": "/images/projects/welcome-template.png",
-      "project_tag": ["All", "Backend", "Web"],
-      "project_gitUrl": "",
-      "project_previewUrl": ""
+      "project_previewUrl": "haxball-bot"
     }
   ]
 }

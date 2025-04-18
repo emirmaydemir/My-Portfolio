@@ -74,6 +74,80 @@
 
     {
       "id": 4,
+      "title": "eOfis ERP System",
+      "subtitle": "Worked as a full-stack developer on a .NET-based ERP system at my company.",
+      "description_title": "Project Description",
+      "description": "",
+      "media": [{ "type": "image", "src": "/images/detail/smart-shop-1.jpg" }],
+      "technologies_title": "Technologies Used",
+      "technologies": [".NET", "REST API", "N-tier Architecture", "AutoMapper", "Hangfire", "EF Core", "AWS S3", "SQL", "JWT", "ASP.NET Core Identity", "xUnit", "GitHub Actions", "FluentValidation", "React", "TypeScript", "JavaScript", "HTML", "CSS", "Tailwind CSS", "MobX", "Axios", "Visual Studio", "Git"],
+      "gitUrl": "",
+      "previewUrl": "",
+      "gitText": "View Code",
+      "previewText": "Live Demo",
+      "previewId": "eofis-erp"
+    },
+
+    {
+      "id": 5,
+      "title": "Reactivities",
+      "subtitle": "Event-sharing and participation platform with real-time interaction.",
+      "description_title": "Project Description",
+      "description": "Reactivities is a social platform where users can create events, join existing ones, and interact with other participants. It includes a variety of features such as scheduling, commenting, user profiles, photo uploads, participant lists, and following functionality. With real-time chat support, users can instantly communicate about the events they are interested in.|The project is built with a multi-layered architecture, consisting of a Web API developed in ASP.NET Core and a client-side application written in React with TypeScript. The backend follows the Clean Architecture approach, utilizing the CQRS and Mediator patterns. It also incorporates AutoMapper for object mapping, MobX for state management, and ASP.NET Core Identity for authentication. Real-time features are implemented using SignalR, and form handling is managed with Zod and React Hook Form for robust validation.|The user interface is designed with Semantic UI and is fully responsive. The project is structured for easy deployment to Azure, and all development was done using Visual Studio Code. This project showcases both frontend and backend development skills, offering a complete example of building a modern web application from scratch.",
+      "media": [
+        { "type": "image", "src": "/images/detail/reactivities-1.png" },
+        { "type": "image", "src": "/images/detail/reactivities-2.png" },
+        { "type": "image", "src": "/images/detail/reactivities-3.png" },
+        { "type": "image", "src": "/images/detail/reactivities-4.png" },
+        { "type": "image", "src": "/images/detail/reactivities-5.png" }
+      ],
+      "technologies_title": "Technologies Used",
+      "technologies": [".NET", "REST API", "CQRS", "Mediator Pattern", "AutoMapper", "ASP.NET Core Identity", "SignalR", "FluentValidation", "React", "TypeScript", "MobX", "Axios", "Visual Studio", "Azure", "SQL", "JWT", "Cloudinary", "Git"],
+      "gitUrl": "https://github.com/emirmaydemir/Reactivities",
+      "previewUrl": "",
+      "gitText": "View Code",
+      "previewText": "Live Demo",
+      "previewId": "reactivities"
+    },
+
+    {
+      "id": 6,
+      "title": "Iyzico Payment Integration",
+      "subtitle": "I implemented the payment integration with Iyzico for the eOfis company.",
+      "description_title": "Project Description",
+      "description": "I successfully integrated the Iyzico payment infrastructure for the company eOfis, developing a fully functional end-to-end payment system. As part of this integration, I designed a user-friendly web interface using HTML, CSS, and JavaScript to ensure a smooth payment experience. On the backend, I used .NET to develop services that handle payment transactions. I securely stored users' saved card information as tokens in a SQL database to facilitate easier future payments. I created API endpoints that allow users to view their saved cards, delete cards, and initiate payments using any of their stored cards. Additionally, I implemented endpoints to handle the response messages sent from the Iyzico API upon successful payments, ensuring seamless and reliable transaction flows for all users.|To increase the reliability and security of the payment system, I applied a series of validation rules when users enter their card details. These validations included ensuring that the cardholder's name was entered in a first name + last name format, checking the validity of the card number using the Luhn algorithm, displaying warnings if the expiration date was in the past, and requiring the CVV code to be at least three digits. Moreover, the card name field was made mandatory and could not be left empty. All validations were implemented both on the frontend for instant user feedback and on the backend to prevent malicious or invalid data submissions. These controls helped to reduce user errors and secure the overall payment process.|On the backend, I also built a robust SQL structure to support automated operations. By creating custom SQL functions and views, I was able to dynamically generate a list of users with outstanding balances. Using this list, I developed an automatic payment system that attempts to collect these dues on a daily basis. I integrated this logic with a scheduling system using Hangfire and a custom-built Schedule API in .NET, allowing the system to automatically trigger payment requests twice a day. Additionally, I wrote a detailed stored procedure to generate regular reports summarizing debts and collections. These reports were automatically sent to authorized personnel at scheduled intervals. Through this project, the manual workload was significantly reduced, and the entire payment workflow became automated, accurate, and sustainable.",
+      "media": [{ "type": "video", "src": "/images/detail/iyzico.mp4" }],
+      "technologies_title": "Technologies Used",
+      "technologies": [".NET", "REST API", "Hangfire", "SQL", "HTML", "CSS", "JavaScript", "Bootstrap"],
+      "gitUrl": "",
+      "previewUrl": "https://paneltest.eofis.com.tr/",
+      "gitText": "View Code",
+      "previewText": "Live Demo",
+      "previewId": "iyzico-integration"
+    },
+
+    {
+      "id": 7,
+      "title": "BloodBank",
+      "subtitle": "A blood bank system that connects hospitals, patients, and donors",
+      "description_title": "Project Description",
+      "description": "I developed a comprehensive blood bank application that brings together hospitals, patients, and donors in a single system. In this project, I designed the database structure in accordance with normalization rules and actively utilized various structures on the SQL side, such as views showing blood type stock levels. I established a relational structure between hospital records, patient information, and donor profiles, ensuring data integrity throughout the system. I also wrote reliable and optimized queries for all data operations required by the system. Through the use of tables, stored procedures, and triggers that I created on the database, I increased system performance and minimized error rates.|I developed the user interface using C# programming language with .NET Windows Forms technology. I designed a total of 10 screens, each serving a unique function, creating user-friendly forms. On these screens, I used table views, controls, and progress bars to enable users to add, update, delete, and list records. This allowed authorized users to manage donor applications, view the blood types needed by patients in real-time, and monitor stock levels in hospitals in detail. As a result of the project, I delivered a highly manageable, user-friendly, and functional blood bank management system.",
+      "media": [
+        { "type": "image", "src": "/images/detail/bloodbank-1.jpg" },
+        { "type": "image", "src": "/images/detail/bloodbank-2.jpg" },
+        { "type": "image", "src": "/images/detail/bloodbank-3.jpg" }
+      ],
+      "technologies_title": "Technologies Used",
+      "technologies": [".NET", "C#", "SQL", "Git"],
+      "gitUrl": "https://github.com/emirmaydemir/BloodBank2",
+      "previewUrl": "",
+      "gitText": "View Code",
+      "previewText": "Live Demo",
+      "previewId": "bloodbank"
+    },
+
+    {
+      "id": 8,
       "title": "Smart Shopping",
       "subtitle": "Mobile shopping application developed to help users save money by comparing prices.",
       "description_title": "Project Description",
@@ -97,25 +171,48 @@
     },
 
     {
-      "id": 5,
-      "title": "Reactivities",
-      "subtitle": "Event-sharing and participation platform with real-time interaction.",
+      "id": 9,
+      "title": "eOfis Panel Web",
+      "subtitle": "I participated as a full-stack developer in the development of the eOfis panel website",
       "description_title": "Project Description",
-      "description": "Reactivities is a social platform where users can create events, join existing ones, and interact with other participants. It includes a variety of features such as scheduling, commenting, user profiles, photo uploads, participant lists, and following functionality. With real-time chat support, users can instantly communicate about the events they are interested in.|The project is built with a multi-layered architecture, consisting of a Web API developed in ASP.NET Core and a client-side application written in React with TypeScript. The backend follows the Clean Architecture approach, utilizing the CQRS and Mediator patterns. It also incorporates AutoMapper for object mapping, MobX for state management, and ASP.NET Core Identity for authentication. Real-time features are implemented using SignalR, and form handling is managed with Zod and React Hook Form for robust validation.|The user interface is designed with Semantic UI and is fully responsive. The project is structured for easy deployment to Azure, and all development was done using Visual Studio Code. This project showcases both frontend and backend development skills, offering a complete example of building a modern web application from scratch.",
+      "description": "I played an active role as a full-stack developer in the development of the eOfis panel website. On the back-end side, I used .NET technologies to implement business logic related to data processing, user management, reservations, and payment transactions. On the front-end, I designed a responsive and user-friendly interface using HTML, CSS, and JavaScript, enabling users to complete their tasks quickly and intuitively. Through the dashboard screen, users can easily view daily call counts, incoming and outgoing cargo, signed contracts, and current account balances. This allows company managers and employees to monitor daily operational flow from a single interface. The reports screen provides detailed tracking of employee check-in and check-out times, making it easier to manage attendance and shift planning efficiently.|In the finance section, users can view payment details, review their past transactions, and access price information. The panel also allows for quick office reservations for any eOfis location, and users can provide feedback about services directly through the system. Special events and discounts are displayed via an integrated calendar, allowing users to stay updated on campaigns. I contributed to the development of all these modules from analysis to implementation, ensuring a cohesive and scalable system. As a result, the processes were made more accessible, manageable, and user-centric for both internal staff and customers.",
       "media": [
-        { "type": "image", "src": "/images/detail/reactivities-1.png" },
-        { "type": "image", "src": "/images/detail/reactivities-2.png" },
-        { "type": "image", "src": "/images/detail/reactivities-3.png" },
-        { "type": "image", "src": "/images/detail/reactivities-4.png" },
-        { "type": "image", "src": "/images/detail/reactivities-5.png" }
+        { "type": "image", "src": "/images/detail/eofis-panel-1.png" },
+        { "type": "image", "src": "/images/detail/eofis-panel-2.png" },
+        { "type": "image", "src": "/images/detail/eofis-panel-3.png" },
+        { "type": "image", "src": "/images/detail/eofis-panel-4.png" }
       ],
       "technologies_title": "Technologies Used",
-      "technologies": [".NET", "REST API", "CQRS", "Mediator Pattern", "AutoMapper", "ASP.NET Core Identity", "SignalR", "FluentValidation", "React", "TypeScript", "MobX", "Axios", "Visual Studio", "Azure", "SQL", "JWT", "Cloudinary", "Git"],
-      "gitUrl": "https://github.com/emirmaydemir/Reactivities",
+      "technologies": [".NET", "REST API", "SQL", "HTML", "CSS", "JavaScript", "Bootstrap"],
+      "gitUrl": "",
+      "previewUrl": "https://paneltest.eofis.com.tr/",
+      "gitText": "View Code",
+      "previewText": "Live Demo",
+      "previewId": "eofis-panel"
+    },
+
+    {
+      "id": 10,
+      "title": "Blockchain Project",
+      "subtitle": "Users earn rewards by completing tasks in a decentralized system.",
+      "description_title": "Project Description",
+      "description": "This project is a blockchain-based application developed to create a secure and transparent reward system for universities to reward students and academic staff. Users can earn rewards in a decentralized environment by completing assigned tasks. With the help of blockchain technology, rewards are recorded in a transparent and verifiable manner, ensuring a sustainable and auditable structure. Universities can use this system to offer fair and traceable reward processes, thereby increasing participation and loyalty among students and staff. |The technical infrastructure of the project includes RESTful API endpoints designed specifically for both users and control mechanisms. Users can register through a dedicated endpoint by submitting their username, email, and password in JSON format. The system then validates this data and saves the user to the database if eligible. The first interface developed in the application is the user registration and login screen. This allows users to easily create an account or access the system through a secure login process. |Once logged in, users are greeted with a homepage where they can view their blockchain wallet address, copy it, and see the reward balance available in their wallet. Buttons at the bottom of the page allow users to update the local blockchain chain or navigate to the tasks page. The tasks page presents a list of available tasks assigned to the user and allows users to complete them. Once a task is completed, the related processes are triggered and handled directly within this page, enhancing the overall interaction with the blockchain-based reward system. |One of the core components of the system is the developed P2P network that facilitates communication between users. This peer-to-peer network is built using the WebSocket protocol and operates in a completely distributed architecture. Without relying on a centralized server, each user acts as an individual node, enabling direct data sharing among participants. This design ensures that chain validation and network activities are efficiently synchronized. As a result, the application delivers a user-friendly interface, reliable data interaction, and a powerful example of decentralized reward systems using blockchain technology.",
+      "media": [
+        { "type": "image", "src": "/images/detail/blockchain-1.jpg" },
+        { "type": "image", "src": "/images/detail/blockchain-2.jpg" },
+        { "type": "image", "src": "/images/detail/blockchain-3.jpg" },
+        { "type": "image", "src": "/images/detail/blockchain-4.jpg" },
+        { "type": "image", "src": "/images/detail/blockchain-5.jpg" },
+        { "type": "image", "src": "/images/detail/blockchain-6.jpg" },
+        { "type": "image", "src": "/images/detail/blockchain-7.jpg" }
+      ],
+      "technologies_title": "Technologies Used",
+      "technologies": ["C#", ".NET", "REST API", "SQL", "EF Core", "WebSocket", "Git"],
+      "gitUrl": "https://github.com/emirmaydemir/Blockchain-Project",
       "previewUrl": "",
       "gitText": "View Code",
       "previewText": "Live Demo",
-      "previewId": "reactivities"
+      "previewId": "blockchain"
     }
   ]
 }

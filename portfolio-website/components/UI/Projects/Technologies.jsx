@@ -29,6 +29,7 @@ const iconMap = {
   "Search Console": { icon: FaGoogle, color: "#4285F4" },
   Analytics: { icon: SiGoogleanalytics, color: "#F57C00" },
   ".NET": { icon: SiDotnet, color: "#512BD4" },
+  "C#": { icon: SiSharp, color: "#5C2D91" },
   "REST API": { icon: TbApi, color: "#FF5722" },
   "Visual Studio": { icon: DiVisualstudio, color: "#5C2D91" },
   Axios: { icon: SiAxios, color: "#5A29A0" },
