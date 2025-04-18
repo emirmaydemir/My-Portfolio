@@ -1,13 +1,19 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import Image from "next/image";
 import TabButton from "@/components/UI/TabButton";
 import CertificationCard from "@/components/UI/CertificationCard";
 import PublicationCard from "@/components/UI/PublicationCard";
-import { motion } from "framer-motion";
+import { motion, useInView } from "framer-motion";
 
 const AboutSection = ({ aboutContent, certifications, publications }) => {
   const [tab, setTab] = useState("certifications");
+
+  const imageRef = useRef(null);
+  const textRef = useRef(null);
+
+  const isImageInView = useInView(imageRef, { once: false, amount: 0.6 });
+  const isTextInView = useInView(textRef, { once: false, amount: 0.6 });
 
   const handleShowPublication = (publication) => {
     // Buton işlevselliğini buraya ekleyebilirsin.
@@ -77,11 +83,13 @@ const AboutSection = ({ aboutContent, certifications, publications }) => {
 
       {/* Hakkımda: Resim ve Yazı */}
       <div className="xl:grid xl:grid-cols-2 items-center mb-16 px-5">
-        <motion.div initial={{ x: -150, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} transition={{ duration: 0.9 }} viewport={{ once: false, amount: 0.85 }} className="flex justify-center mb-5">
+        {/* Resim */}
+        <motion.div ref={imageRef} initial={{ x: -100, opacity: 0 }} animate={isImageInView ? { x: 0, opacity: 1 } : { x: -100, opacity: 0 }} transition={{ duration: 0.6, ease: "easeOut" }} className="flex justify-center mb-5">
           <Image src="/images/about-image.png" width={475} height={475} alt="About Me" />
         </motion.div>
 
-        <motion.div initial={{ x: 150, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} transition={{ duration: 0.9 }} viewport={{ once: false, amount: 0.85 }} className="mt-4 md:mt-0 flex flex-col">
+        {/* Yazı */}
+        <motion.div ref={textRef} initial={{ x: 100, opacity: 0 }} animate={isTextInView ? { x: 0, opacity: 1 } : { x: 100, opacity: 0 }} transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }} className="mt-4 md:mt-0 flex flex-col">
           <p className="text-sm lg:text-base xl:text-base 2xl:text-xl mb-6 text-justify">{aboutContent.about_description}</p>
         </motion.div>
       </div>
