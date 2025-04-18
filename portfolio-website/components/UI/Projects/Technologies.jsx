@@ -50,7 +50,7 @@ export default function Technologies({ technologies, technologiesTitle }) {
           return (
             <div key={index} className="flex items-center gap-2 bg-gray-900 dark:bg-white px-3 py-1 rounded-full text-sm shadow hover:scale-105 transition-transform duration-300 cursor-pointer">
               <Icon className="text-xl" style={{ color: iconData.color }} />
-              <span className="text-white dark:text-black text-base font-medium">{tech}</span>
+              <span className="text-white dark:text-black md:text-base font-medium">{tech}</span>
             </div>
           );
         })}

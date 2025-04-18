@@ -34,7 +34,7 @@ const ScrollToTopButton = () => {
   if (!isVisible) return null; // Görünmesin
 
   return (
-    <button onClick={scrollToTop} className="fixed bottom-6 right-6 z-50 bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-full shadow-lg transition-opacity duration-300" aria-label="Sayfanın en üstüne dön">
+    <button onClick={scrollToTop} className="fixed bottom-6 right-4 z-50 bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-full shadow-lg transition-opacity duration-300" aria-label="Sayfanın en üstüne dön">
       <FaArrowUp />
     </button>
   );
