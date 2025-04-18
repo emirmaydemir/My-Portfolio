@@ -7,6 +7,7 @@
     "email_subject_description": "Write your subject here",
     "email_message": "Message",
     "email_message_description": "Write your message here",
-    "email_button_text": "Send Message"
+    "email_button_text": "Send Message",
+    "email_success": "Your message has been sent successfully!"
   }
 }

@@ -7,6 +7,7 @@
     "email_subject_description": "Konu başlığınızı buraya yazınız",
     "email_message": "Mesaj",
     "email_message_description": "Mesajınızı buraya yazınız",
-    "email_button_text": "Mesaj Gönder"
+    "email_button_text": "Mesaj Gönder",
+    "email_success": "Mesajınız başarıyla gönderildi!"
   }
 }

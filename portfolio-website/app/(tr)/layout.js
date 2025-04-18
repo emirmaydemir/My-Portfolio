@@ -1,6 +1,7 @@
 import "@/app/globals.css";
 import { Inter } from "next/font/google";
 import { LanguageProvider } from "@/components/LanguageProvider";
+import ToastNotifications from "@/components/UI/ToastNotifications";
 import { Fragment } from "react";
 import Navbar from "@/components/UI/Navbar";
 import ScrollToTopButton from "@/components/UI/ScrollToTopButton";
@@ -23,6 +24,7 @@ export default function RootLayout({ children }) {
             <ScrollToTopButton />
             <Navbar navbarContent={navbarData} />
             <main className="bg-white text-black dark:bg-[#121212] dark:text-white">{children}</main>
+            <ToastNotifications />
           </Fragment>
         </body>
       </LanguageProvider>

@@ -59,7 +59,7 @@ function ProjectsSection({ projectContent, projectText }) {
       </div>
       <ul ref={ref} className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-8 md:gap-12">
         {filteredProjects.slice(0, visibleProjectsCount).map((project, index) => (
-          <motion.li key={project.project_id} variants={cardVariants} initial="initial" animate={expanded || isInView ? "animate" : "initial"} transition={{ duration: 0.3, delay: expanded ? index * 0.1 : index * 0.4 }}>
+          <motion.li key={project.project_id} variants={cardVariants} initial="initial" whileInView="animate" viewport={{ once: false, amount: 0.1 }} transition={{ duration: 0.3, delay: (index % 6) * 0.05 }}>
             <ProjectCard title={project.project_title} description={project.project_description} imgUrl={project.project_image} gitUrl={project.project_gitUrl} previewUrl={project.project_previewUrl} />
           </motion.li>
         ))}

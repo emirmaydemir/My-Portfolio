@@ -64,7 +64,7 @@ const AchievementsSection = () => {
   if (!isMounted) return null;
 
   return (
-    <div className="py-8 px-4 mt-8 mb-12 bg-gradient-to-r from-[#0f2027] via-[#203a43] to-[#2c5364] rounded-lg shadow-2xl h-[120px] xl:h-[145px]">
+    <div className="py-8 px-4 mt-8 mb-12 bg-gradient-to-r from-[#0f2027] via-[#203a43] to-[#2c5364] rounded-lg shadow-2xl h-[120px] xl:h-auto">
       <Swiper
         modules={[Autoplay]}
         spaceBetween={20}
