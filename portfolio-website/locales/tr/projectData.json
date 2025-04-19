@@ -35,10 +35,10 @@
     {
       "project_id": "4",
       "project_title": "eOfis ERP Programı",
-      "project_description": "Çalıştığım firmada .NET tabanlı ERP sisteminde full-stack geliştirici olarak görev aldım.",
+      "project_description": "Çalıştığım firmada .NET tabanlı ERP sisteminde full-stack geliştirici olarak görev aldım",
       "project_image": "/images/projects/eOfis-erp-program.png",
       "project_tag": ["All", "Backend", "Desktop"],
-      "project_gitUrl": "",
+      "project_gitUrl": "projects/eofis-erp",
       "project_previewUrl": "eofis-erp"
     },
     {
@@ -89,19 +89,19 @@
     {
       "project_id": "10",
       "project_title": "Blockchain Projesi",
-      "project_description": "Kullanıcıların görevleri tamamlayarak ödül kazandığı merkeziyetsiz bir sistem geliştirildi.",
+      "project_description": "Kullanıcıların görevleri tamamlayarak ödül kazandığı merkeziyetsiz bir sistem geliştirildi",
       "project_image": "/images/projects/blockchain.jpg",
       "project_tag": ["All", "Backend"],
-      "project_gitUrl": "",
+      "project_gitUrl": "https://github.com/emirmaydemir/Blockchain-Project",
       "project_previewUrl": "blockchain"
     },
     {
       "project_id": "11",
       "project_title": "Hangfire Rapor Entegrasyonu",
-      "project_description": "Komisyon raporunun SQL sorgusunu oluşturdum ve her gün Hangfire ile belirli bir saatte tetiklenmesini, ardından raporun yetkili kişiye gönderilmesini sağladım",
+      "project_description": "Hangfire ile günlük komisyon raporu sürecini otomatikleştirdim",
       "project_image": "/images/projects/hangfire.png",
       "project_tag": ["All", "Backend"],
-      "project_gitUrl": "",
+      "project_gitUrl": "projects/hangfire",
       "project_previewUrl": "hangfire"
     },
     {
@@ -125,7 +125,7 @@
     {
       "project_id": "14",
       "project_title": "Stadyum Projesi",
-      "project_description": "Sahadaki blok ve koltuk seçimine göre kombine veya normal bilet alımını sağlayan stadyum projem",
+      "project_description": "Stadyum Oturma Planı ile Akıllı Biletleme Sistemi",
       "project_image": "/images/projects/stadyum-projesi.PNG",
       "project_tag": ["All", "Desktop", "Backend"],
       "project_gitUrl": "https://github.com/emirmaydemir/ProjeStadyum_Java",
@@ -134,7 +134,7 @@
     {
       "project_id": "15",
       "project_title": "Müzik Öneri Uygulaması",
-      "project_description": "Spotify API'sini kullanarak, kullanıcıların müzik tercihlerine göre önerilerde bulunan bir müzik öneri uygulaması geliştirdim. Uygulama, makine öğrenmesi algoritmalarından KNN kullanarak müzik türleri ve kullanıcı tercihlerine göre 10 şarkı önerisi sunmaktadır",
+      "project_description": "Yapay Zeka Destekli Kişiselleştirilmiş Müzik Öneri Sistemi",
       "project_image": "/images/projects/music-recommendation-system.png",
       "project_tag": ["All", "AI"],
       "project_gitUrl": "https://github.com/emirmaydemir/music-recommendation-system",
@@ -143,7 +143,7 @@
     {
       "project_id": "16",
       "project_title": "MultinomialNB Kelime Analizi",
-      "project_description": "Veri madenciliği kapsamında cümlelerdeki çoklu-kelime anlam belirsizliği probleminin Naive-Bayes algoritması kullanılarak çözülmesi",
+      "project_description": "Çoklu-Kelime Anlam Belirsizliği Çözümü",
       "project_image": "/images/projects//Naive-Bayes.png",
       "project_tag": ["All", "AI"],
       "project_gitUrl": "https://github.com/emirmaydemir/MultinomialNB-classifier-for-text",
@@ -152,7 +152,7 @@
     {
       "project_id": "17",
       "project_title": "LightDetect",
-      "project_description": "Bu proje, trafik ışıklarının renklerini tespit eden bir sistemdir. Görüntü işleme teknikleri kullanarak, kırmızı, sarı ve yeşil renkleri tanır ve doğru sinyalin algılandığından emin olur",
+      "project_description": "Trafik ışıklarının renklerini tespit eden görüntü işleme tabanlı sistem",
       "project_image": "/images/projects/traffic-light-color-detection.png",
       "project_tag": ["All", "AI"],
       "project_gitUrl": "https://github.com/emirmaydemir/LightDetect",
@@ -170,10 +170,10 @@
     {
       "project_id": "19",
       "project_title": "Öğrenci Kayıt Sistemi",
-      "project_description": "Bu sistemde dersler, öğrenciler ve öğretmenler eklenebilir. Marmara Üniversitesi'nin ders kayıt sistemini klonlamaya yönelik bir proje olarak geliştirilmiştir",
+      "project_description": "Marmara Üniversitesi için geliştirdiğim ders kayıt sistemi",
       "project_image": "/images/projects/student-registration-system.png",
       "project_tag": ["All", "Desktop"],
-      "project_gitUrl": "https://github.com/emirmaydemir/Student-Registration-System/tree/master/kayitentity",
+      "project_gitUrl": "https://github.com/emirmaydemir/Student-Registration-System",
       "project_previewUrl": "student-registration-system"
     },
     {

@@ -13,25 +13,29 @@
       "id": 1,
       "title": "Next.js 15 & React - The Complete Guide",
       "institution": "Udemy",
-      "date": "Yayınlama Ekim 2024"
+      "date": "Yayınlama Ekim 2024",
+      "link": "https://www.udemy.com/certificate/UC-ebae91a9-ef3f-4d50-b3f1-6e60fd9254b2/"
     },
     {
       "id": 2,
       "title": "Complete guide to building an app with .Net Core and React",
       "institution": "Udemy",
-      "date": "Yayınlama Kasım 2023"
+      "date": "Yayınlama Kasım 2023",
+      "link": "https://www.udemy.com/course/complete-guide-to-building-an-app-with-net-core-and-react/"
     },
     {
       "id": 3,
       "title": "Android Mobil Uygulama Kursu: Kotlin & Java",
       "institution": "Udemy",
-      "date": "Yayınlama Mart 2021"
+      "date": "Yayınlama Mart 2021",
+      "link": "https://www.udemy.com/certificate/UC-591383b1-8be8-4ae7-a708-c5fb20ecfc3e/"
     },
     {
       "id": 4,
       "title": "JavaScript Algorithms and Data Structures",
       "institution": "freeCodeCamp",
-      "date": "Yayınlama Nisan 2025"
+      "date": "Yayınlama Nisan 2025",
+      "link": "https://www.freecodecamp.org/"
     }
   ],
   "publications": [
@@ -39,13 +43,15 @@
       "id": 1,
       "title": "Note Ideas Not Defteri",
       "date": "9 Haz 2021",
-      "description": "Android Studio üzerinde Java programlama dili ile yazılmış bir not uygulamasıdır. Veritabanı tarafında ise SQL nesneleri ile çalışmayı kolaylaştıran Room kütüphanesi kullanılmıştır."
+      "description": "Android Studio üzerinde Java programlama dili ile yazılmış bir not uygulamasıdır. Veritabanı tarafında ise SQL nesneleri ile çalışmayı kolaylaştıran Room kütüphanesi kullanılmıştır.",
+      "link": "https://play.google.com/store/apps/details?id=com.noteideas.notdefterim"
     },
     {
       "id": 2,
       "title": "İnoksist Endüstri Paslanmaz Civata Paslanmaz Somun",
       "date": "23 Ekim 2024",
-      "description": "Bu proje, paslanmaz civata firması için Next.js ve React kullanılarak geliştirilen modern ve kullanıcı dostu bir web sitesi olup, dinamik içerik yönetimi ve responsive tasarım özellikleri taşımaktadır."
+      "description": "Bu proje, paslanmaz civata firması için Next.js ve React kullanılarak geliştirilen modern ve kullanıcı dostu bir web sitesi olup, dinamik içerik yönetimi ve responsive tasarım özellikleri taşımaktadır.",
+      "link": "https://www.inoksist.com.tr/"
     }
   ]
 }

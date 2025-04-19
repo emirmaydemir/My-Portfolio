@@ -1,5 +1,6 @@
 import "@/app/globals.css";
 import { Inter } from "next/font/google";
+import ThemeManager from "@/components/ThemeManager";
 import { LanguageProvider } from "@/components/LanguageProvider";
 import ToastNotifications from "@/components/UI/ToastNotifications";
 import { Fragment } from "react";
@@ -25,6 +26,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <LanguageProvider>
         <body className={inter.className}>
+          <ThemeManager />
           <Fragment>
             <ScrollToTopButton />
             <Navbar navbarContent={navbarData} />

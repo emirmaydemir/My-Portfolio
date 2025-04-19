@@ -35,10 +35,10 @@
     {
       "project_id": "4",
       "project_title": "eOfis ERP System",
-      "project_description": "Worked as a full-stack developer on a .NET-based ERP system at my company.",
+      "project_description": "Worked as a full-stack developer on a .NET-based ERP system at my company",
       "project_image": "/images/projects/eOfis-erp-program.png",
       "project_tag": ["All", "Backend", "Desktop"],
-      "project_gitUrl": "",
+      "project_gitUrl": "projects/eofis-erp",
       "project_previewUrl": "eofis-erp"
     },
     {
@@ -53,7 +53,7 @@
     {
       "project_id": "6",
       "project_title": "Iyzico Payment Integration",
-      "project_description": "I implemented the payment integration with Iyzico for the eOfis company.",
+      "project_description": "I implemented the payment integration with Iyzico for the eOfis company",
       "project_image": "/images/projects/payment-integration.png",
       "project_tag": ["All", "Backend"],
       "project_gitUrl": "https://paneltest.eofis.com.tr/",
@@ -89,19 +89,19 @@
     {
       "project_id": "10",
       "project_title": "Blockchain Project",
-      "project_description": "Users earn rewards by completing tasks in a decentralized system.",
+      "project_description": "Users earn rewards by completing tasks in a decentralized system",
       "project_image": "/images/projects/blockchain.jpg",
       "project_tag": ["All", "Backend"],
-      "project_gitUrl": "",
+      "project_gitUrl": "https://github.com/emirmaydemir/Blockchain-Project",
       "project_previewUrl": "blockchain"
     },
     {
       "project_id": "11",
       "project_title": "Hangfire Report Integration",
-      "project_description": "I created the SQL query for the commission report and ensured it is triggered daily at a specific time using Hangfire, sending the report to the authorized person",
+      "project_description": "Automated daily commission report with Hangfire",
       "project_image": "/images/projects/hangfire.png",
       "project_tag": ["All", "Backend"],
-      "project_gitUrl": "",
+      "project_gitUrl": "projects/hangfire",
       "project_previewUrl": "hangfire"
     },
     {
@@ -125,7 +125,7 @@
     {
       "project_id": "14",
       "project_title": "Stadium Project",
-      "project_description": "This project allows users to purchase season or regular tickets based on block and seat selection in the stadium",
+      "project_description": "Stadium Ticketing System in Java",
       "project_image": "/images/projects/stadyum-projesi.PNG",
       "project_tag": ["All", "Desktop", "Backend"],
       "project_gitUrl": "https://github.com/emirmaydemir/ProjeStadyum_Java",
@@ -134,7 +134,7 @@
     {
       "project_id": "15",
       "project_title": "Music Recommendation App",
-      "project_description": "I developed a music recommendation app using the Spotify API that suggests music based on user preferences. The app uses the KNN machine learning algorithm to recommend 10 songs based on music genres and user preferences",
+      "project_description": "AI-Powered Personalized Music Recommendation System",
       "project_image": "/images/projects/music-recommendation-system.png",
       "project_tag": ["All", "AI"],
       "project_gitUrl": "https://github.com/emirmaydemir/music-recommendation-system",
@@ -143,7 +143,7 @@
     {
       "project_id": "16",
       "project_title": "MultinomialNB Word Analysis",
-      "project_description": "Solving the multi-word ambiguity problem in sentences using the Naive-Bayes algorithm as part of data mining",
+      "project_description": "Multi-Word Ambiguity Resolution",
       "project_image": "/images/projects//Naive-Bayes.png",
       "project_tag": ["All", "AI"],
       "project_gitUrl": "https://github.com/emirmaydemir/MultinomialNB-classifier-for-text",
@@ -152,7 +152,7 @@
     {
       "project_id": "17",
       "project_title": "LightDetect",
-      "project_description": "This project is a system that detects the colors of traffic lights. Using image processing techniques, it identifies the red, yellow, and green colors of traffic lights and ensures the correct signal is recognized",
+      "project_description": "A vision-based system that detects traffic light colors",
       "project_image": "/images/projects/traffic-light-color-detection.png",
       "project_tag": ["All", "AI"],
       "project_gitUrl": "https://github.com/emirmaydemir/LightDetect",
@@ -161,7 +161,7 @@
     {
       "project_id": "18",
       "project_title": "Kenny Catch App",
-      "project_description": "Reflex training game.",
+      "project_description": "Reflex training game",
       "project_image": "/images/projects/kenny-catch-app.png",
       "project_tag": ["All", "Mobile"],
       "project_gitUrl": "https://github.com/emirmaydemir/Game_AndroidStudio",
@@ -170,10 +170,10 @@
     {
       "project_id": "19",
       "project_title": "Student Registration System",
-      "project_description": "This system allows adding courses, students, and teachers. It was developed as an attempt to clone the course registration system of Marmara University",
+      "project_description": "Course Registration System Developed for Marmara University",
       "project_image": "/images/projects/student-registration-system.png",
       "project_tag": ["All", "Desktop"],
-      "project_gitUrl": "https://github.com/emirmaydemir/Student-Registration-System/tree/master/kayitentity",
+      "project_gitUrl": "https://github.com/emirmaydemir/Student-Registration-System",
       "project_previewUrl": "student-registration-system"
     },
     {

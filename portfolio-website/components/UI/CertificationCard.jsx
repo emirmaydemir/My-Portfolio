@@ -1,6 +1,6 @@
 import { SiUdemy, SiFreecodecamp } from "react-icons/si";
 
-const CertificationCard = ({ title, institution, date, buttonText }) => {
+const CertificationCard = ({ title, institution, date, buttonText, link }) => {
   const renderInstitutionIcon = (institution) => {
     switch (institution.toLowerCase()) {
       case "udemy":
@@ -13,7 +13,7 @@ const CertificationCard = ({ title, institution, date, buttonText }) => {
   };
 
   const handleShowCertificate = () => {
-    alert(`Sertifika: ${title}`);
+    window.open(link, "_blank");
   };
 
   return (

@@ -77,10 +77,13 @@
       "title": "eOfis ERP System",
       "subtitle": "Worked as a full-stack developer on a .NET-based ERP system at my company.",
       "description_title": "Project Description",
-      "description": "",
-      "media": [{ "type": "image", "src": "/images/detail/smart-shop-1.jpg" }],
+      "description": "##My General Role and Responsibilities|I work as a full-stack developer on the project. On the backend, I develop RESTful APIs using .NET Core. I manage data operations using SQL and ensure database normalization. I create scheduled tasks with Hangfire and manage CI/CD processes using GitHub Actions. I publish APIs on the server and take full responsibility for server management. I also improve software quality by writing unit tests and configure logging mechanisms. On the frontend, I develop user-friendly interfaces using React, HTML, CSS, and JavaScript.|##Key Contributions|I migrated the entire project to the web to improve accessibility. I implemented and integrated key modules such as custom contract integration, quotation infrastructure, iyzico payment system, and scheduled reporting tasks via Hangfire. I especially made the contract and quotation infrastructure fully dynamic to deliver personalized content for each user.|**Contract Module**|I stored both Turkish and English contract texts dynamically in the SQL database to generate personalized contracts for each client. This enabled a flexible system that can deliver tailored content.|**Quotation Module**|I developed a dynamic PDF generation system for personalized quotations per customer, using templates stored on the server.|**Payment Integration and Automated Collection**|Through iyzico integration, I enabled users to make direct payments within the system. Additionally, I set up an automatic payment request system for indebted companies, running twice daily via Hangfire, eliminating the need for manual follow-ups.|**Reporting Infrastructure**|I developed SQL procedures to generate critical reports such as accountant summaries, payment statuses, delayed offices, and current accounts. These are triggered by Hangfire and sent to managers via email at regular intervals.|**Migration Process (.NET → .NET Core)**|One of our major ongoing tasks is migrating the entire system from .NET Framework to .NET Core, making it fully web-based and platform-independent for global accessibility.|##Server Management|The servers are hosted in the Gebze Data Center rented via Turkcell Superonline, while backups and additional storage are provided through Microsoft Azure.|##Version Control System|The project uses SVN hosted on VisualSVN Server. Developers access repositories using TortoiseSVN, and access rights are managed individually per repository.|##Project Structure and Modules|The project includes client applications, RESTful APIs, and MSSQL databases. The OfficeSharpERP project consists of 4 databases, 1 FTP server, 16 REST APIs, 7 client programs, 2 mobile apps, and 3 web panels.|##OfficeSharpERP System Flow|Client programs do not directly access the database. All data access is handled through REST APIs, isolating business logic from the client and enhancing security. Authorization checks are performed at the API layer.|##Database Structure|Main databases used include: |Zeugma: Stores main user and license information. |OfficeSharpERP: Contains all business logic data for the admin panel. |OfficeSharpReport: Contains denormalized data tables for reporting. |Hangfire: Stores all scheduled task information and handles auto-cleanup.|##FTP Server Usage|The FTP server is used to host client program versions, project backups, third-party software, source code, invoice XMLs, and archived contract/quotation files.|##REST API Architecture|The API structure follows MVC (Model-View-Controller) architecture. Each module is implemented as an independent API project. Data models are exposed via DTOs, mapped using AutoMapper.|##Worker Structure|Used to simplify repetitive data operations in the API. Each worker performs specific tasks such as reading, adding, deleting, or updating data. Workers operate based on defined rules and can automate DB tasks.|**ReadWorker**|Fetches data from tables or views. Can return all data or filtered results (e.g., records with CompanyId = 2). Enables simple queries without complex SQL.|**CreateWorker**|Used for adding new records. Supports both single and batch inserts and automatically records the user who created the entry.|**DeleteWorker**|Deletes rows from the database, either individually, in batches, or based on defined rules. Cannot run without a condition to avoid mass deletions.|**UpdateWorker**|Updates the contents of records, supporting single, batch, or conditional updates.|**ReadWorkerUtility**|Fetches all data from a table including all rows and columns.|##Validation|Requests received by the API are validated via the Validate function within the respective worker. If validation passes, it returns an empty string; otherwise, it returns an error message. The worker proceeds based on this result.|##Request Authorization - Token|API requests require a valid token. Upon login, the system generates a GUID token, stores it in the database, and sends it to the user. Each request must include this token. Requests with invalid or missing tokens are rejected.|##AuthActionFilter|Performs checks before and after each API request. It is added to controllers to handle logging and authorization. Validates token and user permissions before processing the request.|##Database Management|I also manage the database, ensuring regular backups, data synchronization, logging, and performance optimization using important triggers.|**Backup**|Database backups are automatically taken daily at 02:00 via a Hangfire scheduler in the Scheduler API project. The sBackup procedure is triggered to back up OfficeSharpERP and OfficeSharpReport databases and uploads them to Azure.|**Synchronization**|Updates made on the development server must be synced with live databases using Devart dbForge Studio for SQL Server to avoid manual errors.|**Logging**|All insert, update, and delete operations are logged automatically by the system.|**Key Triggers**|Some operations are performed asynchronously via triggers to avoid affecting API response time. These operations are written to an intermediate table and processed by CRON jobs at set intervals.|",
+      "media": [
+        { "type": "image", "src": "/images/detail/eofis-erp-1.png" },
+        { "type": "image", "src": "/images/detail/eofis-erp-2.png" }
+      ],
       "technologies_title": "Technologies Used",
-      "technologies": [".NET", "REST API", "N-tier Architecture", "AutoMapper", "Hangfire", "EF Core", "AWS S3", "SQL", "JWT", "ASP.NET Core Identity", "xUnit", "GitHub Actions", "FluentValidation", "React", "TypeScript", "JavaScript", "HTML", "CSS", "Tailwind CSS", "MobX", "Axios", "Visual Studio", "Git"],
+      "technologies": [".NET", "C#", "REST API", "N-tier Architecture", "AutoMapper", "Hangfire", "EF Core", "IIS", "Amazon S3", "SQL", "JWT", "ASP.NET Core Identity", "xUnit", "GitHub Actions", "FluentValidation", "React", "TypeScript", "JavaScript", "HTML", "CSS", "Tailwind CSS", "MobX", "Axios", "Visual Studio", "Git"],
       "gitUrl": "",
       "previewUrl": "",
       "gitText": "View Code",
@@ -213,6 +216,188 @@
       "gitText": "View Code",
       "previewText": "Live Demo",
       "previewId": "blockchain"
+    },
+
+    {
+      "id": 11,
+      "title": "Hangfire Report Integration",
+      "subtitle": "Automated daily commission report with Hangfire",
+      "description_title": "Project Description",
+      "description": "I designed the dynamic commission report process from scratch. First, I added a “Commission Report” tab to the report management screen of the ERP software we developed using .NET. For this report, I created a stored procedure on MSSQL to prepare all the required data directly on the database side. This approach provided a centralized and controllable data processing structure, making the report generation more stable.|Next, I set up a scheduler using Hangfire. Thanks to this setup, the commission report is automatically triggered every night at 12:00 AM and sent via email to the relevant recipients. By fully automating the process, I eliminated manual workload and ensured timely and consistent delivery of the report.",
+      "media": [
+        { "type": "image", "src": "/images/detail/hangfire-report-1.png" },
+        { "type": "image", "src": "/images/detail/hangfire-report-2.png" }
+      ],
+      "technologies_title": "Technologies Used",
+      "technologies": ["C#", ".NET", "REST API", "SQL", "EF Core", "Hangfire", "HTML", "CSS", "JavaScript", "Bootstrap", "Git"],
+      "gitUrl": "",
+      "previewUrl": "",
+      "gitText": "View Code",
+      "previewText": "Live Demo",
+      "previewId": "hangfire"
+    },
+
+    {
+      "id": 12,
+      "title": "Cep Marketim",
+      "subtitle": "This app allows users to scan product QR codes to view price, origin, ingredients, and other features",
+      "description_title": "Project Description",
+      "description": "I developed this mobile application to allow users to instantly access detailed information about products by simply scanning their barcodes in a store. The app displays key product details such as price, origin, ingredients, and other specifications. Each scanned product is automatically added to the cart, and users can see the total amount of their purchases without needing to go to the checkout. I integrated the product database of partner markets to offer a fast and convenient shopping experience. I built the back-end with Java, designed the front-end using XML, and used Firebase Cloud as the database solution.",
+      "media": [{ "type": "video", "src": "/images/detail/cep-market.mp4" }],
+      "technologies_title": "Technologies Used",
+      "technologies": ["Java", "Android Studio", "Firebase", "SDK", "XML", "Git"],
+      "gitUrl": "https://github.com/emirmaydemir/CepMarketimAndroid",
+      "previewUrl": "",
+      "gitText": "View Code",
+      "previewText": "Live Demo",
+      "previewId": "cep-market"
+    },
+
+    {
+      "id": 13,
+      "title": "Cep Marketim Blog",
+      "subtitle": "A page for sharing suggestions and complaints for the Cep Marketim app",
+      "description_title": "Project Description",
+      "description": "This page, developed with Django (Python), serves as a platform for users of the Cep Marketim app to easily submit suggestions, complaints, and feedback. Users can share their thoughts on the app's functionality and features, contributing to an improved user experience.",
+      "media": [{ "type": "image", "src": "/images/detail/cep-marketim-blog-1.png" }],
+      "technologies_title": "Technologies Used",
+      "technologies": ["Django", "Python", "Git"],
+      "gitUrl": "https://github.com/emirmaydemir/blogprojesiCepMarketim",
+      "previewUrl": "",
+      "gitText": "View Code",
+      "previewText": "Live Demo",
+      "previewId": "cep-market-blog"
+    },
+
+    {
+      "id": 14,
+      "title": "Stadium Project",
+      "subtitle": "Stadium Ticketing System in Java",
+      "description_title": "Project Description",
+      "description": "This desktop application allows fans to view the seating layout of the stadium and purchase tickets by selecting available seats in their preferred stands. The system provides both season and single-match ticket options, while also displaying match times and real-time stadium occupancy. Developed in Java, the project makes use of object-oriented programming (OOP) principles to ensure clean code structure and scalability. The user interface was created using Swing, and Java Derby was used for database operations.",
+      "media": [
+        { "type": "image", "src": "/images/detail/stadium-project-1.png" },
+        { "type": "image", "src": "/images/detail/stadium-project-2.png" }
+      ],
+      "technologies_title": "Technologies Used",
+      "technologies": ["Java", "Swing", "Java Derby", "OOP", "Git"],
+      "gitUrl": "https://github.com/emirmaydemir/ProjeStadyum_Java",
+      "previewUrl": "",
+      "gitText": "View Code",
+      "previewText": "Live Demo",
+      "previewId": "stadium"
+    },
+
+    {
+      "id": 15,
+      "title": "Music Recommendation App",
+      "subtitle": "AI-Powered Personalized Music Recommendation System",
+      "description_title": "Project Description",
+      "description": "##🎵 AI-Powered Personalized Music Recommendation System | Music holds a significant place in human life. Its many benefits, such as strengthening memory, balancing mood, and providing motivation, are supported by scientific studies. In line with this, I developed a system that recommends music based on people's moods and music preferences. This system aims to provide suggestions by analyzing the genres that best suit the user's musical taste. | ##🎯 Project Objective | The main goal of my project was to develop an AI algorithm that suggests music that users may like, based on their listening habits and preferences. Today, there are thousands of different music genres and platforms, making it difficult to find the right music. With this application, the goal is to help users quickly access music that suits their taste. | ##🧠 Technologies and Approach | Backend: Python | Modeling: A recommendation engine was built using the KNN (K-Nearest Neighbors) algorithm with the Scikit-learn library. | Data Analysis: Music data obtained from Spotify playlists was processed with the help of the Pandas library. | Data Source: Music data was obtained by analyzing users' playlists via the Spotify API. | ##📊 Model Training and Recommendation Mechanism | The project consists of two main phases: | Feature Extraction and Model Training: Music data retrieved from Spotify was used to create a dataset, identifying characteristics like tempo, genre, energy, and danceability. The model was trained using these features. | Recommendation System: The trained model provides recommendations based on the playlist ID or song link provided by the user. The recommendations are made by selecting the most suitable songs from the general music pool in the system. | ##🧩 Use Cases | Recommendation via Playlist ID: The user inputs a playlist ID into the system. The system creates a user profile based on the characteristics of the songs in the playlist and recommends new songs with similar features. | Recommendation via Single Song: The user inputs a song link, and the system lists songs similar in genre and technical features to the entered song. | ##📱 Multi-Platform Support | This system is not limited to desktop environments. The Python-based API is configured to handle requests from various applications over a local network. Thus, the recommendation system can be integrated into mobile, web, or desktop applications. | ##🌍 Expanding and Updating Music Pool | The system currently recommends music primarily based on genre. However, in the near future, the goal is to provide richer and more diverse suggestions by considering attributes such as tempo, instrumentation, and vocal structure of songs. | ##🚀 Results and Future Plans | With this project, users will not only find music they love but also experience an open approach to discovering new genres. The expansion of the application's user base will also enhance the accuracy and success of the system. This AI-powered recommendation system could eventually evolve into a discovery platform that could shape the future of the music industry. |",
+      "media": [
+        { "type": "image", "src": "/images/detail/music-recommendation-app-1.jpg" },
+        { "type": "image", "src": "/images/detail/music-recommendation-app-2.jpg" },
+        { "type": "image", "src": "/images/detail/music-recommendation-app-3.jpg" }
+      ],
+      "technologies_title": "Technologies Used",
+      "technologies": ["Python", "Scikit-learn", "KNN", "Pandas", "Spotify API", "Git"],
+      "gitUrl": "https://github.com/emirmaydemir/music-recommendation-system",
+      "previewUrl": "",
+      "gitText": "View Code",
+      "previewText": "Live Demo",
+      "previewId": "music-recommendation"
+    },
+
+    {
+      "id": 16,
+      "title": "MultinomialNB Word Analysis",
+      "subtitle": "Multi-Word Ambiguity Resolution",
+      "description_title": "Project Description",
+      "description": "In this project, I used the Naive Bayes algorithm to address the multi-word ambiguity problem. In many languages, the same word can have multiple meanings, creating a significant challenge in natural language processing (NLP). For instance, the word 'sağ' can refer to direction or health. To resolve such ambiguities, I developed a specialized model.|##Dataset Preparation | For this project, I prepared two different datasets containing words like 'sağ' and 'dil'. In these datasets, I classified the sentences based on the context of these words, determining whether 'sağ' referred to direction or health. The data was organized in Excel files, and using this data, I developed a model to resolve the ambiguity. |##Model Setup | After preparing the dataset, I converted the sentences into numerical data by vectorizing them with the TF-IDF (Term Frequency-Inverse Document Frequency) method. This method evaluates the importance of each word in the sentence. Then, I used the Naive Bayes algorithm to train the model on the training dataset. |##Model Training and Evaluation | Using the training data, I created a Naive Bayes classifier model, which was then tested on the test data. The results were quite successful; the model made accurate predictions to resolve the ambiguity in the given sentences. The accuracy on the test data was 73.6%, which indicates that the model is highly effective at resolving word ambiguity in sentences. The F1 score was calculated to be 0.693, an important metric showing the model's success in correct classification. |##Conclusion | This project is an important step as an example of a system developed using the Naive Bayes algorithm to resolve multi-word ambiguity in language. The datasets I created for the words 'sağ' and 'dil' show how such problems can be addressed and what methods can be used for correct classification. The model’s accuracy and success demonstrate its potential application to more complex language problems in the future. |",
+      "media": [
+        { "type": "image", "src": "/images/detail/multinomialnb-1.png" },
+        { "type": "image", "src": "/images/detail/multinomialnb-2.png" }
+      ],
+      "technologies_title": "Technologies Used",
+      "technologies": ["Python", "Scikit-learn", "KNN", "Pandas", "Spotify API", "Git"],
+      "gitUrl": "https://github.com/emirmaydemir/MultinomialNB-classifier-for-text",
+      "previewUrl": "",
+      "gitText": "View Code",
+      "previewText": "Live Demo",
+      "previewId": "multinomialnb"
+    },
+
+    {
+      "id": 17,
+      "title": "LightDetect",
+      "subtitle": "A vision-based system that detects traffic light colors",
+      "description_title": "Project Description",
+      "description": "In this project, I developed a system to detect the colors of traffic lights. Using image processing techniques, I created a software capable of accurately detecting red, yellow, and green colors. The main goal of the system is to identify the traffic light in images and determine which color corresponds to the correct signal, i.e., red, yellow, or green. When these colors are clearly visible on the traffic light, the system detects each one and encloses it within a rectangle. This ensures that the correct light is detected. However, sometimes nearby objects with the same color as the traffic light can be mistakenly detected and enclosed within the rectangle.|As a result, the process of distinguishing colors and detecting the correct light was quite successful. The code I wrote is able to separate the colors in the traffic light accurately, thanks to the threshold values I set. However, in some images, similar colors around the light can cause errors in the results. Although this only leads to incorrect shape detection, the color detection part works flawlessly. The system correctly separates each color in the image and accurately encloses the relevant light within a rectangle. This project lays the foundation for a system that can accurately detect traffic lights.",
+      "media": [
+        { "type": "image", "src": "/images/detail/lightdetect-1.jpg" },
+        { "type": "image", "src": "/images/detail/lightdetect-2.jpg" },
+        { "type": "image", "src": "/images/detail/lightdetect-3.jpg" }
+      ],
+      "technologies_title": "Technologies Used",
+      "technologies": ["MATLAB", "Image Processing", "Color Masks", "Bounding Boxes", "Git"],
+      "gitUrl": "https://github.com/emirmaydemir/LightDetect",
+      "previewUrl": "",
+      "gitText": "View Code",
+      "previewText": "Live Demo",
+      "previewId": "lightdetect"
+    },
+
+    {
+      "id": 18,
+      "title": "Kenny Catch App",
+      "subtitle": "Reflex training game",
+      "description_title": "Project Description",
+      "description": "In this project, I designed a reflex development game based on catching a character moving quickly on the screen. It was written using Java in Android Studio. The goal of the game is for the player to react quickly and catch the moving character. This way, I aimed to help players improve their reflexes while also providing an enjoyable experience.",
+      "media": [{ "type": "image", "src": "/images/detail/kenny-catch-app-1.png" }],
+      "technologies_title": "Technologies Used",
+      "technologies": ["Java", "Android Studio", "XML", "SDK", "Git"],
+      "gitUrl": "https://github.com/emirmaydemir/Game_AndroidStudio",
+      "previewUrl": "",
+      "gitText": "View Code",
+      "previewText": "Live Demo",
+      "previewId": "kenny-catch"
+    },
+
+    {
+      "id": 19,
+      "title": "Student Registration System",
+      "subtitle": "Course Registration System Developed for Marmara University",
+      "description_title": "Project Description",
+      "description": "In this project, I developed a platform aimed at cloning the course registration system of Marmara University. The system allows students to select courses and teachers, remove courses, and send them for advisor approval. Students can easily view information such as course credits, hours, and instructor details. Additionally, administrators can log in to add, delete, and update courses in the system. During the development of the project, I used C#, SQL Management Studio, Entity Framework, RestSharp, SVN, Telerik, and API services. As a result, I created a user-friendly and efficient course registration system.",
+      "media": [
+        { "type": "image", "src": "/images/detail/student-registration-system-1.jpg" },
+        { "type": "image", "src": "/images/detail/student-registration-system-2.jpg" },
+        { "type": "image", "src": "/images/detail/student-registration-system-3.jpg" },
+        { "type": "image", "src": "/images/detail/student-registration-system-4.jpg" }
+      ],
+      "technologies_title": "Technologies Used",
+      "technologies": [".NET", "C#", "REST API", "EF Core", "IIS", "SQL", "RestSharp", "Visual Studio", "Telerik", "OOP", "SVN"],
+      "gitUrl": "https://github.com/emirmaydemir/Student-Registration-System",
+      "previewUrl": "",
+      "gitText": "View Code",
+      "previewText": "Live Demo",
+      "previewId": "student-registration-system"
+    },
+
+    {
+      "id": 20,
+      "title": "Haxball Bot",
+      "subtitle": "A Haxball bot with multiple maps, bot commands, player controls, and more",
+      "description_title": "Project Description",
+      "description": "In this project, I developed a Haxball bot using JavaScript, featuring multiple map support, bot commands, player controls, and more. My goal was to provide players with a richer and more engaging gaming experience, enhancing interaction and competition within the game.",
+      "media": [{ "type": "image", "src": "/images/detail/haxball-bot-1.png" }],
+      "technologies_title": "Technologies Used",
+      "technologies": ["JavaScript"],
+      "gitUrl": "https://github.com/emirmaydemir/Haxball-Bot",
+      "previewUrl": "",
+      "gitText": "View Code",
+      "previewText": "Live Demo",
+      "previewId": "haxball-bot"
     }
   ]
 }

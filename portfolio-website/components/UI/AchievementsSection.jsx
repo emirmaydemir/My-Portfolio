@@ -5,8 +5,8 @@ import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/autoplay";
 import { motion } from "framer-motion";
-import { SiDotnet, SiSharp, SiReact, SiNextdotjs, SiTypescript, SiJavascript, SiHtml5, SiCss3, SiTailwindcss, SiPython, SiGithub, SiSubversion, SiBootstrap, SiAxios, SiAndroidstudio, SiPostman, SiGithubactions, SiGoogleads, SiGoogleanalytics, SiCloudinary } from "react-icons/si";
-import { FaAws, FaJava, FaDatabase, FaRegCheckCircle, FaGitAlt, FaGoogle } from "react-icons/fa";
+import { SiDotnet, SiSharp, SiReact, SiNextdotjs, SiTypescript, SiJavascript, SiHtml5, SiCss3, SiTailwindcss, SiPython, SiGithub, SiSubversion, SiBootstrap, SiAxios, SiAndroidstudio, SiPostman, SiGithubactions, SiGoogleads, SiGoogleanalytics, SiCloudinary, SiMobx } from "react-icons/si";
+import { FaAws, FaJava, FaDatabase, FaRegCheckCircle, FaGitAlt, FaGoogle, FaServer } from "react-icons/fa";
 import { TbApi, TbSeo } from "react-icons/tb";
 import { DiVisualstudio } from "react-icons/di";
 import { MdArchitecture } from "react-icons/md";
@@ -23,6 +23,7 @@ const skills = [
   { name: "CI/CD", icon: SiGithubactions, color: "#F5F5F5" },
   { name: "ERP Software Development", icon: GrCloudSoftware, color: "#B0BEC5" },
   { name: "Axios", icon: SiAxios, color: "#5A29A0" },
+  { name: "MobX", icon: SiMobx, color: "#FF9955" },
   { name: "React", icon: SiReact, color: "#61DBFB" },
   { name: "Next.js", icon: SiNextdotjs, color: "#000000" },
   { name: "TypeScript", icon: SiTypescript, color: "#3178C6" },
@@ -31,6 +32,7 @@ const skills = [
   { name: "CSS3", icon: SiCss3, color: "#264de4" },
   { name: "Tailwind CSS", icon: SiTailwindcss, color: "#38bdf8" },
   { name: "Bootstrap", icon: SiBootstrap, color: "#7952B3" },
+  { name: "IIS", icon: FaServer, color: "#4B6EAF" },
   { name: "Amazon S3", icon: FaAws, color: "#FF9900" },
   { name: "Cloudinary", icon: SiCloudinary, color: "#3448C5" },
   { name: "Analytics", icon: SiGoogleanalytics, color: "#F57C00" },

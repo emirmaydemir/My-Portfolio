@@ -20,14 +20,29 @@ export default function ProjectDescription({ description, descriptionTitle }) {
     });
   };
 
+  const renderParagraph = (text, index) => {
+    const trimmed = text.trim();
+
+    // Eğer paragraf '##' ile başlıyorsa alt başlık olarak render et
+    if (trimmed.startsWith("##")) {
+      return (
+        <h3 key={index} className="text-xl font-extrabold mt-6 mb-2 text-gray-900 dark:text-gray-300">
+          {trimmed.replace(/^##\s*/, "")}
+        </h3>
+      );
+    }
+
+    return (
+      <p key={index} className="text-gray-900 dark:text-gray-300 leading-relaxed mb-4">
+        {renderTextWithBold(trimmed)}
+      </p>
+    );
+  };
+
   return (
     <div className="mt-10">
       <h2 className="text-2xl font-bold mb-2">{descriptionTitle}</h2>
-      {paragraphs.map((para, index) => (
-        <p key={index} className="text-gray-900 dark:text-gray-300 leading-relaxed mb-4">
-          {renderTextWithBold(para.trim())}
-        </p>
-      ))}
+      {paragraphs.map((para, index) => renderParagraph(para, index))}
     </div>
   );
 }

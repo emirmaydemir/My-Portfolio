@@ -77,10 +77,13 @@
       "title": "eOfis ERP Programı",
       "subtitle": "Çalıştığım firmada .NET tabanlı ERP sisteminde full-stack geliştirici olarak görev aldım.",
       "description_title": "Proje Açıklaması",
-      "description": "",
-      "media": [{ "type": "image", "src": "/images/detail/smart-shop-1.jpg" }],
+      "description": "##Genel Rolüm ve Sorumluluklarım|Çalıştığım projede full-stack developer olarak görev alıyorum. Backend tarafında .NET Core ile RESTful API’ler geliştiriyorum. SQL veritabanı kullanarak veri işlemlerini yönetiyor, veritabanı normalizasyonunu sağlıyorum. Hangfire entegrasyonuyla zamanlanmış görevler oluşturuyor, GitHub Actions ile CI/CD süreçlerini yönetilebilir hale getiriyorum. Sunucu tarafında API'leri yayınlıyor, sunucu yönetimini doğrudan üstleniyorum. Ayrıca birim testleri yazarak yazılım kalitesini artırıyor, loglama işlemlerini de yapılandırıyorum. Frontend tarafında ise React, HTML, CSS ve JavaScript kullanarak kullanıcı dostu arayüzler geliştiriyorum.|##Yaptığım Önemli İşler|Projeyi baştan sona web'e geçirerek erişimi kolaylaştırdım. Müşteriye özel sözleşme entegrasyonu, teklif altyapısı, iyzico ile ödeme altyapısı, Hangfire üzerinden zamanlanmış raporlama görevleri gibi kritik modüllerin kurulum ve entegrasyonlarını gerçekleştirdim. Özellikle sözleşme ve teklif altyapılarını tamamen dinamik hale getirerek, her kullanıcıya özel içerikler sunulmasını sağladım.|**Sözleşme Modülü**|Sözleşme tarafında hem Türkçe hem İngilizce metinleri SQL veritabanında dinamik olarak saklayarak, her müşteriye özel sözleşme çıktıları oluşturulmasını sağladım. Bu sayede müşterilere özel içerikler sunabilen esnek bir sistem kurdum.|**Teklif Modülü**|Teklif altyapısında her müşteriye özel PDF teklif dosyalarının dinamik olarak sunucuda oluşturulmasını sağladım. Sunucuda saklanan teklif şablonları üzerinden otomatik PDF üretimi yapılmasını sağladım.|**Ödeme Entegrasyonu ve Otomatik Tahsilat**|İyzico entegrasyonu ile sistem üzerinden doğrudan kullanıcıdan ödeme alınmasını sağladım. Ayrıca Hangfire ile her gün iki kez borçlu firmalar için otomatik ödeme talebi sistemini kurarak manuel takip ihtiyacını ortadan kaldırdım.|**Raporlama Altyapısı**|Firmaya özel mali müşavir, ödeme durumu, gecikmeli ofisler ve cari hesap gibi kritik raporların SQL prosedürlerini yazarak Hangfire ile zamanlı şekilde tetiklenmesini sağladım. Bu raporlar belirli periyotlarla oluşturularak yöneticilere mail yoluyla ulaştırılıyor.|**Geçiş Süreci (.NET → .NET Core) **|Şu anda üzerinde çalıştığımız en önemli işlerden biri, tüm sistemin .NET Framework'ten .NET Core mimarisine taşınması. Böylece projeyi tamamen web tabanlı hale getirerek platform bağımsız, her yerden erişilebilir bir hale getiriyoruz.|##Sunucu Yönetimi|Projede kullanılan sunucular, Turkcell Superonline üzerinden kiralanan Gebze Datacenter’da barındırılmaktadır. Yedekleme ve ekstra depolama ihtiyaçları ise Microsoft Azure üzerinden sağlanmaktadır.|##Versiyon Kontrol Sistemi|Geliştirme süreçlerinde versiyon kontrol sistemi olarak VisualSVN Server üzerinden barındırılan SVN kullanılmaktadır. Geliştiriciler, TortoiseSVN kullanarak repository'lere erişmekte, her bir repository için erişim yetkileri ayrı ayrı yönetilmektedir.|##Proje Yapısı ve Modüller|Proje şu modülleri içermektedir: istemci programlar, RESTful API’ler ve MSSQL veritabanları. OfficeSharpERP projesi kapsamında toplamda 4 veritabanı, 1 FTP sunucu, 16 REST API, 7 istemci program, 2 mobil uygulama ve 3 web panel bulunmaktadır.|##OfficeSharpERP Sistem Akışı|Tüm istemci programları veritabanına doğrudan erişemez. Veriye erişim REST API’ler üzerinden sağlanır. Bu yapı, iş mantığını istemciden izole eder ve güvenliği artırır. Tüm veri işlemleri API katmanında yetki kontrolleriyle gerçekleştirilir.|##Veritabanı Yapısı|Projede kullanılan başlıca veritabanları şunlardır: |Zeugma: Ana kullanıcılar ve lisans bilgilerini tutar. |OfficeSharpERP: Yönetim paneli için iş mantığına ait tüm verileri barındırır. |OfficeSharpReport: Raporlar için hazırlanmış denormalize edilmiş özel veri tablolarını içerir. |Hangfire: Zamanlanmış görevler ile ilgili tüm bilgileri saklar ve otomatik temizleme işlemleri gerçekleştirir.|##FTP Sunucusu Kullanımı|FTP sunucusu, istemci program versiyonlarını, proje backuplarını, 3. parti yazılımları, kaynak kodları, fatura XML’lerini ve eski sözleşme/teklif dosyalarını barındırmak için kullanılır.|##REST API Mimarisi|API yapısı MVC (Model-View-Controller) mimarisine dayanır. Her modül bağımsız bir API projesi olarak yapılandırılmıştır. Veri tabanı modelleri DTO’lar aracılığıyla dış dünyaya açılır, AutoMapper ile veri modelleri eşleştirilir.|##Worker Yapısı|API'de tekrar eden veri işlemlerini kolaylaştırmak için kullanılan bir yapıdır. Her worker, sistemde belirli görevleri yerine getirir: veri okuma, ekleme, silme ve güncelleme. Her biri belirli kurallara göre çalışır ve ihtiyaç halinde veritabanı işlemlerini otomatik hale getirir. |**ReadWorker (Veri Okuma) **|Veritabanındaki tablo veya görünümlerden (view) veri çeker. Tüm verileri ya da belirli filtrelerle (örneğin firmaId’si 2 olanlar) seçilen verileri getirebilir. Karmaşık sorgular yazmak yerine kısa tanımlarla işlem yapılmasını sağlar. |**CreateWorker (Veri Ekleme) **|Yeni veri kaydı yapmak için kullanılır. Tek bir kayıt ya da birden fazla kayıt ekleyebilir. Eklenen veriye kimin eklediği bilgisi de otomatik eklenir. |**DeleteWorker (Veri Silme) **|Veritabanından satır siler. Silinecek veriyi tek tek, toplu halde ya da belli kurallara göre belirleyebilirsin. Yanlışlıkla tüm verinin silinmemesi için boş çalıştırılamaz. |**UpdateWorker (Veri Güncelleme) **|Kayıtların içeriğini güncellemek için kullanılır. Tek bir kayıt, birden fazla kayıt ya da belirli bir kritere uyan kayıtlar güncellenebilir. |**ReadWorkerUtility**|Bir tablodaki tüm verileri basitçe çekmek için kullanılır. Tüm sütun ve satırları getirir. |##Validasyon|API projelerine gelen bir isteğin işlenmeden önce, kontrol edilmesi gerektiğinde ilgili Worker içerisinde Validate fonksiyonu kullanılır. Validate fonksiyonu ilgili kontrolleri yapar, eğer kontrol başarılı ise boş string, başarısız ile ilgili hata mesajını döner. Worker, Validate fonksiyonunun cevabına bakarak işleme devam edip etmeyeceğine karar verir. Eğer boş string döndüyse işlemi gerçekleştirip sonucunu istemci programa gönderir. Eğer hata mesajı döndü ise ilgili hata mesajını istemci programa gönderir. |##İstek Yetkisi - Token|API isteklerinin çalışabilmesi için geçerli bir token gerekir. Kullanıcı sisteme giriş yaptığında sistem tarafından bir token (GUID) oluşturulur, veritabanına kaydedilir ve kullanıcıya gönderilir. Kullanıcı her istekte bu token'ı iletmek zorundadır. Geçersiz ya da eksik token içeren istekler reddedilir. |##AuthActionFilter|API’de her isteğin öncesinde ve sonrasında kontrol yapılmasını sağlar. Controller’lara eklenerek loglama ve yetkilendirme işlemleri yapılır. İstek çalışmadan önce token geçerliliği, kullanıcı yetkisi gibi kontroller yapılır. Tüm kontroller geçerse istek işlenir. |##Veri Tabanı Yönetimi|Veri tabanı yönetimini de yaptığım projede düzenli yedekleme, veri eşitleme, loglama ve performansı artırmak amacıyla kullanılan bazı önemli trigger’lar bulunamktadır. |**Yedekleme**|Veri tabanı yedekleri, Scheduler API projesindeki Hangfire zamanlayıcısı sayesinde her gün saat 02:00'de otomatik olarak alınır. Bu işlem sırasında sBackup prosedürü tetiklenerek OfficeSharpERP ve OfficeSharpReport veri tabanlarının yedeği oluşturulur ve Microsoft Azure bulut sistemine yüklenir. |**Eşitleme**|Geliştirme ortamı olarak kullanılan sunucuda yapılan veri tabanı güncellemeleri, canlı sistemlere geçmeden önce diğer veri tabanlarıyla senkronize edilmelidir. Bu işlem, manuel olarak yapılması halinde hata riski taşıdığı için Devart dbForge Studio for SQL Server aracı ile gerçekleştirilir. |**Loglama**|Veri tabanındaki tüm insert, update ve delete işlemleri, sistem tarafından otomatik olarak kaydedilir. |**Önemli Trigger’lar**|Bazı işlemler doğrudan API yanıt süresini etkilememesi için asenkron olarak gerçekleştirilir.Bu durumlarda, ilgili işlem trigger ile ara tabloya yazılır ve belirli zaman aralıklarında çalışan CRON görevleri tarafından işlenir. |",
+      "media": [
+        { "type": "image", "src": "/images/detail/eofis-erp-1.png" },
+        { "type": "image", "src": "/images/detail/eofis-erp-2.png" }
+      ],
       "technologies_title": "Kullanılan Teknolojiler",
-      "technologies": [".NET", "REST API", "N-tier Architecture", "AutoMapper", "Hangfire", "EF Core", "AWS S3", "SQL", "JWT", "ASP.NET Core Identity", "xUnit", "GitHub Actions", "FluentValidation", "React", "TypeScript", "JavaScript", "HTML", "CSS", "Tailwind CSS", "MobX", "Axios", "Visual Studio", "Git"],
+      "technologies": [".NET", "C#", "REST API", "N-tier Architecture", "AutoMapper", "Hangfire", "EF Core", "IIS", "Amazon S3", "SQL", "JWT", "ASP.NET Core Identity", "xUnit", "GitHub Actions", "FluentValidation", "React", "TypeScript", "JavaScript", "HTML", "CSS", "Tailwind CSS", "MobX", "Axios", "Visual Studio", "Git"],
       "gitUrl": "",
       "previewUrl": "",
       "gitText": "Kodları Görüntüle",
@@ -213,6 +216,188 @@
       "gitText": "Kodları Görüntüle",
       "previewText": "Canlı Demo",
       "previewId": "blockchain"
+    },
+
+    {
+      "id": 11,
+      "title": "Hangfire Rapor Entegrasyonu",
+      "subtitle": "Hangfire ile günlük komisyon raporu sürecini otomatikleştirdim",
+      "description_title": "Proje Açıklaması",
+      "description": "Dinamik komisyon raporu oluşturma sürecini baştan sona kurguladım. İlk olarak, .NET ile geliştirdiğimiz ERP yazılımının rapor yönetimi ekranına “Komisyon Raporu” sekmesini ekledim. Bu rapor için MSSQL üzerinde bir stored procedure oluşturarak ihtiyaç duyulan tüm verileri veritabanı tarafında hazırladım. Bu sayede veri işleme süreci merkezi ve kontrol edilebilir bir yapıya kavuştu, raporun üretimi de daha stabil hale geldi.|Ardından Hangfire’ı kullanarak bir zamanlayıcı oluşturdum. Bu yapı sayesinde komisyon raporu her gece saat 00:00’da otomatik olarak tetikleniyor ve hazırlanan rapor, ilgili kişilere e-posta yoluyla iletiliyor. Sürecin tamamını otomatikleştirerek manuel iş yükünü ortadan kaldırdım ve raporun zamanında, düzenli bir şekilde iletilmesini sağladım.",
+      "media": [
+        { "type": "image", "src": "/images/detail/hangfire-report-1.png" },
+        { "type": "image", "src": "/images/detail/hangfire-report-2.png" }
+      ],
+      "technologies_title": "Kullanılan Teknolojiler",
+      "technologies": ["C#", ".NET", "REST API", "SQL", "EF Core", "Hangfire", "HTML", "CSS", "JavaScript", "Bootstrap", "Git"],
+      "gitUrl": "",
+      "previewUrl": "",
+      "gitText": "Kodları Görüntüle",
+      "previewText": "Canlı Demo",
+      "previewId": "hangfire"
+    },
+
+    {
+      "id": 12,
+      "title": "Cep Marketim",
+      "subtitle": "Ürünlerin QR kodunu okutarak fiyat, menşei, içerik ve diğer özelliklerini görebildiğiniz mobil uygulama",
+      "description_title": "Proje Açıklaması",
+      "description": "Bu mobil uygulamayı geliştirerek kullanıcıların marketteki ürünlerin barkodlarını okutarak ürünle ilgili detaylı bilgilere anında ulaşmasını sağladım. Ürünün fiyatı, menşei, içeriği ve diğer tüm özellikleri uygulama üzerinden görüntülenebiliyor. Barkodu okunan ürünler otomatik olarak sepete ekleniyor ve kullanıcılar toplam tutarı kasaya gitmeden görebiliyor. Anlaşmalı marketlerin ürünlerini veritabanına ekleyerek, alışveriş sürecini dijitalleştirdim ve kullanıcıya daha hızlı, kolay bir deneyim sundum. Uygulamanın back-end kısmını Java ile, front-end’ini XML ile geliştirdim. Veritabanı olarak Firebase Cloud kullandım.",
+      "media": [{ "type": "video", "src": "/images/detail/cep-market.mp4" }],
+      "technologies_title": "Kullanılan Teknolojiler",
+      "technologies": ["Java", "Android Studio", "Firebase", "SDK", "XML", "Git"],
+      "gitUrl": "https://github.com/emirmaydemir/CepMarketimAndroid",
+      "previewUrl": "",
+      "gitText": "Kodları Görüntüle",
+      "previewText": "Canlı Demo",
+      "previewId": "cep-market"
+    },
+
+    {
+      "id": 13,
+      "title": "Cep Marketim Blog",
+      "subtitle": "Cep Marketim uygulaması için öneri ve şikayetlerin paylaşıldığı sayfa",
+      "description_title": "Proje Açıklaması",
+      "description": "Cep Marketim uygulaması için Django (Python) ile geliştirilen bu sayfa, kullanıcıların uygulama hakkında öneri, şikayet ve geri bildirimlerini kolayca iletebileceği bir platform sunmaktadır. Kullanıcılar, uygulamanın işleyişi ve özellikleriyle ilgili fikirlerini paylaşarak, daha iyi bir deneyim için katkıda bulunabilirler.",
+      "media": [{ "type": "image", "src": "/images/detail/cep-marketim-blog-1.png" }],
+      "technologies_title": "Kullanılan Teknolojiler",
+      "technologies": ["Django", "Python", "Git"],
+      "gitUrl": "https://github.com/emirmaydemir/blogprojesiCepMarketim",
+      "previewUrl": "",
+      "gitText": "Kodları Görüntüle",
+      "previewText": "Canlı Demo",
+      "previewId": "cep-market-blog"
+    },
+
+    {
+      "id": 14,
+      "title": "Stadyum Projesi",
+      "subtitle": "Stadyum Oturma Planı ile Akıllı Biletleme Sistemi",
+      "description_title": "Proje Açıklaması",
+      "description": "Bu masaüstü uygulaması ile taraftarlar, stadyumun oturma planını inceleyerek istedikleri tribünden uygun koltukları seçip bilet satın alabilmektedir. Kullanıcılara kombine ve tek maçlık bilet seçenekleri sunan sistem, ayrıca maç saatlerini ve stadyumun anlık doluluk oranını da görüntüleme imkânı sağlamaktadır. Java programlama dili kullanılarak geliştirilen bu projede, nesne yönelimli programlama (OOP) prensipleriyle modüler ve sürdürülebilir bir yapı oluşturulmuştur. Arayüz geliştirmeleri için Swing kütüphanesi tercih edilmiş, veritabanı işlemleri ise Java Derby teknolojisi ile gerçekleştirilmiştir.",
+      "media": [
+        { "type": "image", "src": "/images/detail/stadium-project-1.png" },
+        { "type": "image", "src": "/images/detail/stadium-project-2.png" }
+      ],
+      "technologies_title": "Kullanılan Teknolojiler",
+      "technologies": ["Java", "Swing", "Java Derby", "OOP", "Git"],
+      "gitUrl": "https://github.com/emirmaydemir/ProjeStadyum_Java",
+      "previewUrl": "",
+      "gitText": "Kodları Görüntüle",
+      "previewText": "Canlı Demo",
+      "previewId": "stadium"
+    },
+
+    {
+      "id": 15,
+      "title": "Müzik Öneri Uygulaması",
+      "subtitle": "Yapay Zeka Destekli Kişiselleştirilmiş Müzik Öneri Sistemi",
+      "description_title": "Proje Açıklaması",
+      "description": "##🎵 Yapay Zeka Destekli Kişiselleştirilmiş Müzik Öneri Sistemi|Müzik, insan hayatında oldukça önemli bir yere sahip. Hafızayı güçlendirmesi, ruh halini dengelemesi ve motivasyon sağlaması gibi pek çok faydası bilimsel çalışmalarla desteklenmektedir. Ben de bu doğrultuda, insanların ruh haline ve müzik tercihlerine göre dinleyebileceği müzikleri öneren bir sistem geliştirdim. Bu sistem, kullanıcıların müzik zevkine en uygun türleri analiz ederek öneri sunmayı amaçlıyor. |##🎯 Projenin Amacı|Projemin temel amacı, kullanıcıların beğenebileceği müzikleri, onların dinleme alışkanlıklarına ve tercihlerine göre öneren bir yapay zeka algoritması geliştirmekti. Günümüzde binlerce farklı müzik türü ve platform bulunmakta, bu da doğru müziği bulmayı zorlaştırıyor. Bu uygulamayla, kullanıcıların zevklerine hitap eden müziklere daha hızlı ulaşmaları hedefleniyor. |##🧠 Kullanılan Teknolojiler ve Yaklaşım|**Backend:** Python|**Modelleme:** Scikit-learn kütüphanesi kullanılarak KNN (K-Nearest Neighbors) algoritması ile öneri motoru oluşturuldu. |**Veri Analizi:** Pandas kütüphanesi yardımıyla Spotify çalma listelerinden elde edilen müzik verileri işlendi. |**Veri Kaynağı:** Spotify API üzerinden kullanıcıların çalma listeleri analiz edilerek şarkı bilgileri alındı. |##📊 Model Eğitimi ve Öneri Mekanizması|Projede iki ana aşama bulunuyor: |**Özellik Çıkartımı ve Model Eğitimi:** Spotify'dan çekilen müzik verilerinden tempo, tür, enerji, dans edilebilirlik gibi nitelikler belirlenerek veri seti oluşturuldu. Bu verilerle model eğitildi. |**Öneri Sistemi:** Eğitilen model, kullanıcıdan alınan playlist ID'si veya şarkı bağlantısına göre önerilerde bulunuyor. Bu öneriler, sistemde yer alan genel müzik havuzundan en uygun şarkılar seçilerek kullanıcıya sunuluyor. |##🧩 Kullanım Senaryoları|**Playlist ID ile Öneri:** Kullanıcı sistemde playlist ID’sini girer. Sistem, bu playlist'teki şarkıların özelliklerine göre kullanıcı profili oluşturur ve benzer özelliklere sahip yeni şarkılar önerir. |**Tek Şarkı Üzerinden Öneri:** Kullanıcı bir şarkı linki girer, sistem bu şarkının türüne ve teknik özelliklerine benzer şarkılar listeler. |##📱 Çoklu Platform Desteği|Bu sistemi sadece masaüstü ortamla sınırlı tutmadım. Python ile geliştirilen API, yerel ağ üzerinden farklı uygulamalardan gelen istekleri karşılayacak şekilde yapılandırıldı. Böylece ister mobil, ister web ister masaüstü uygulamalar bu öneri sistemine entegre edilebilir. |##🌍 Genişleyen ve Güncellenen Müzik Havuzu|Sistem şu anda temel olarak müzik türü üzerinden öneri yapmakta. Ancak yakın gelecekte şarkıların tempo, enstrümantasyon ve vokal yapısı gibi birçok nitelik de dikkate alınarak daha zengin ve çeşitli öneriler sunulması hedefleniyor. |##🚀 Sonuç ve Gelecek Planları|Bu proje sayesinde kullanıcılar sadece sevdikleri müzikleri bulmakla kalmayacak, aynı zamanda yeni türlere de açık olacakları bir deneyim yaşayacaklar. Uygulamanın daha fazla kullanıcıya ulaşması, sistemin doğruluğunu ve başarısını da artıracak. Yapay zeka destekli bu öneri sistemi, ilerleyen dönemlerde müzik dünyasına yön verebilecek bir keşif platformuna dönüşebilir. |",
+      "media": [
+        { "type": "image", "src": "/images/detail/music-recommendation-app-1.jpg" },
+        { "type": "image", "src": "/images/detail/music-recommendation-app-2.jpg" },
+        { "type": "image", "src": "/images/detail/music-recommendation-app-3.jpg" }
+      ],
+      "technologies_title": "Kullanılan Teknolojiler",
+      "technologies": ["Python", "Scikit-learn", "KNN", "Pandas", "Spotify API", "Git"],
+      "gitUrl": "https://github.com/emirmaydemir/music-recommendation-system",
+      "previewUrl": "",
+      "gitText": "Kodları Görüntüle",
+      "previewText": "Canlı Demo",
+      "previewId": "music-recommendation"
+    },
+
+    {
+      "id": 16,
+      "title": "MultinomialNB Kelime Analizi",
+      "subtitle": "Çoklu-Kelime Anlam Belirsizliği Çözümü",
+      "description_title": "Proje Açıklaması",
+      "description": "Bu projede, çoklu-kelime anlam belirsizliği problemini çözmek amacıyla Naive Bayes algoritması kullandım. Çoğu dilde, aynı kelime birden fazla farklı anlam taşıyabiliyor ve bu da doğal dil işleme (NLP) alanında önemli bir zorluk oluşturuyor. Örneğin, sağ kelimesi hem yön olarak, hem de sağlıkla ilgili anlamlar taşıyabiliyor. Bu tür anlam belirsizliklerini çözmek için özel bir model geliştirdim. |##Veri Kümesi Hazırlığı|Proje için, sağ ve dil gibi kelimeleri içeren iki farklı veri kümesi hazırladım. Bu veri kümelerinde her bir cümlede geçen bu kelimelerin hangi anlamda kullanıldığını belirleyerek cümleleri sınıflandırdım. Cümleler, sağ kelimesinin yön anlamı ve sağlık anlamı gibi farklı sınıflara ayrıldı. Bu verileri Excel dosyalarında düzenleyip, bu veriler üzerinde çalışarak anlam belirsizliğini çözmeye yönelik bir model geliştirdim. |##Modelin Kurulumu|Veri setini oluşturduktan sonra, cümleleri TF-IDF (Term Frequency-Inverse Document Frequency) yöntemi ile vektörleştirerek sayısal verilere dönüştürdüm. Bu yöntem, cümledeki her kelimenin önemli olup olmadığını değerlendiriyor. Ardından, Naive Bayes algoritmasını kullanarak eğitim veri kümesi üzerinde modelimi eğittim.|##Model Eğitimi ve Değerlendirme|Eğitim verisini kullanarak Naive Bayes sınıflandırıcı modelini oluşturdum ve ardından test verisi üzerinde modelimi test ettim. Sonuçlar oldukça başarılıydı; model, verilen cümlelerdeki anlam belirsizliğini çözmek için doğru tahminlerde bulundu. |Test verisi üzerindeki doğruluk oranı %73.6 çıktı, bu da modelimin cümlelerdeki anlam belirsizliklerini çözme konusunda oldukça etkili olduğunu gösteriyor. F1 skoru ise 0.693 olarak hesaplandı, bu da modelin doğru sınıflandırma yapmada ne kadar başarılı olduğunu gösteren önemli bir metrik. |##Sonuç|Bu proje, dildeki çoklu-kelime anlam belirsizliğini çözmek için Naive Bayes algoritması kullanarak geliştirilmiş bir sistemin örneği olarak önemli bir adım. Sağ ve dil kelimeleri için oluşturduğum veri setleri, bu tür problemlerin nasıl çözülebileceğini ve doğru sınıflandırma yapabilmek için hangi yöntemlerin kullanılabileceğini gösteriyor. Modelin doğruluğu ve başarısı, gelecekte daha karmaşık dil problemleri için de uygulanabilir. |",
+      "media": [
+        { "type": "image", "src": "/images/detail/multinomialnb-1.png" },
+        { "type": "image", "src": "/images/detail/multinomialnb-2.png" }
+      ],
+      "technologies_title": "Kullanılan Teknolojiler",
+      "technologies": ["Python", "Scikit-learn", "KNN", "Pandas", "Spotify API", "Git"],
+      "gitUrl": "https://github.com/emirmaydemir/MultinomialNB-classifier-for-text",
+      "previewUrl": "",
+      "gitText": "Kodları Görüntüle",
+      "previewText": "Canlı Demo",
+      "previewId": "multinomialnb"
+    },
+
+    {
+      "id": 17,
+      "title": "LightDetect",
+      "subtitle": "Trafik ışıklarının renklerini tespit eden görüntü işleme tabanlı sistem",
+      "description_title": "Proje Açıklaması",
+      "description": "Bu projede, trafik ışıklarının renklerini tespit eden bir sistem geliştirdim. Görüntü işleme tekniklerini kullanarak, kırmızı, sarı ve yeşil renkleri doğru bir şekilde algılayabilen bir yazılım oluşturduk. Sistemin temel amacı, görüntülerdeki trafik ışığını tespit edip doğru sinyalin, yani kırmızı, sarı veya yeşil ışığın, hangi renk olduğunu belirlemek. Trafik ışığı üzerinde bu renkler net bir şekilde algılandığında, sistem her birini belirleyerek bir dikdörtgen içine alır. Böylece, doğru ışığın tespit edildiğinden emin olunur. Ancak, bazen çevredeki objeler, trafik ışığı ile aynı renkte olduğunda, sistem yanlışlıkla bu objeleri de tespit edip, dikdörtgen içine alabiliyor.|Sonuç olarak, renkleri ayırt etme ve doğru ışığı tespit etme süreci oldukça başarılı oldu. Yazdığım kod, belirlediğim eşik değerleri sayesinde trafik ışığındaki renkleri doğru bir şekilde ayırabiliyor. Fakat, bazı görüntülerde ışığın çevresindeki benzer renkler yüzünden hatalı sonuçlar ortaya çıkabiliyor. Bu, sadece şekil tespitinin hatalı olmasına yol açsa da, renk algılama kısmı kusursuz şekilde çalışıyor. Sistem, görüntüdeki her bir rengi doğru şekilde ayrıştırarak, ilgili ışığı doğru bir biçimde dikdörtgen içine alıyor. Bu proje, trafik ışıklarını doğru bir şekilde tespit edebilen bir sistemin temelini atıyor.",
+      "media": [
+        { "type": "image", "src": "/images/detail/lightdetect-1.jpg" },
+        { "type": "image", "src": "/images/detail/lightdetect-2.jpg" },
+        { "type": "image", "src": "/images/detail/lightdetect-3.jpg" }
+      ],
+      "technologies_title": "Kullanılan Teknolojiler",
+      "technologies": ["MATLAB", "Image Processing", "Color Masks", "Bounding Boxes", "Git"],
+      "gitUrl": "https://github.com/emirmaydemir/LightDetect",
+      "previewUrl": "",
+      "gitText": "Kodları Görüntüle",
+      "previewText": "Canlı Demo",
+      "previewId": "lightdetect"
+    },
+
+    {
+      "id": 18,
+      "title": "Kenny Catch Uygulaması",
+      "subtitle": "Refkleks geliştirme oyunu",
+      "description_title": "Proje Açıklaması",
+      "description": "Bu projede, ekran üzerinde hızla hareket eden bir karakteri yakalamaya dayalı bir refleks geliştirme oyunu tasarladım. Android Studio üzerinde Java diliyle yazdım. Oyunun amacı, oyuncunun hızlı bir şekilde reaksiyon vererek hareket eden karakteri yakalamak. Böylece, oyuncuların reflekslerini geliştirmelerini ve aynı zamanda eğlenceli bir deneyim yaşamalarını hedefledim.",
+      "media": [{ "type": "image", "src": "/images/detail/kenny-catch-app-1.png" }],
+      "technologies_title": "Kullanılan Teknolojiler",
+      "technologies": ["Java", "Android Studio", "XML", "SDK", "Git"],
+      "gitUrl": "https://github.com/emirmaydemir/Game_AndroidStudio",
+      "previewUrl": "",
+      "gitText": "Kodları Görüntüle",
+      "previewText": "Canlı Demo",
+      "previewId": "kenny-catch"
+    },
+
+    {
+      "id": 19,
+      "title": "Öğrenci Kayıt Sistemi",
+      "subtitle": "Marmara Üniversitesi için geliştirdiğim ders kayıt sistemi",
+      "description_title": "Proje Açıklaması",
+      "description": "Bu projede, Marmara Üniversitesi'nin ders kayıt sistemini klonlamaya yönelik bir platform geliştirdim. Sistemde, öğrenciler dersleri ve öğretmenleri seçebilir, dersleri silebilir ve danışman onayına gönderebilirler. Öğrenciler, derslerin kredi, saat ve öğretim görevlisi gibi bilgilerini kolayca görüntüleyebilirler. Ayrıca, admin girişi yaparak sisteme ders ekleme, silme ve güncelleme işlemleri de gerçekleştirilebilir. Projeyi geliştirirken C#, SQL Management Studio, Entity Framework, RestSharp, SVN, Telerik ve API servislerini kullandım. Bu sayede, kullanıcı dostu ve verimli bir ders kayıt sistemi oluşturmuş oldum.",
+      "media": [
+        { "type": "image", "src": "/images/detail/student-registration-system-1.jpg" },
+        { "type": "image", "src": "/images/detail/student-registration-system-2.jpg" },
+        { "type": "image", "src": "/images/detail/student-registration-system-3.jpg" },
+        { "type": "image", "src": "/images/detail/student-registration-system-4.jpg" }
+      ],
+      "technologies_title": "Kullanılan Teknolojiler",
+      "technologies": [".NET", "C#", "REST API", "EF Core", "IIS", "SQL", "RestSharp", "Visual Studio", "Telerik", "OOP", "SVN"],
+      "gitUrl": "https://github.com/emirmaydemir/Student-Registration-System",
+      "previewUrl": "",
+      "gitText": "Kodları Görüntüle",
+      "previewText": "Canlı Demo",
+      "previewId": "student-registration-system"
+    },
+
+    {
+      "id": 20,
+      "title": "Haxball Botu",
+      "subtitle": "Çoklu harita, bot komutları, oyuncu kontrolleri ve daha fazlasını içeren bir Haxball botu geliştirdim",
+      "description_title": "Proje Açıklaması",
+      "description": "Bu projede, JavaScript kullanarak çoklu harita desteği, bot komutları, oyuncu kontrolleri ve daha fazlasını içeren bir Haxball botu geliştirdim. Amacım, oyunculara daha zengin ve eğlenceli bir oyun deneyimi sunmak, oyun içindeki etkileşimi ve rekabeti artırmaktır.",
+      "media": [{ "type": "image", "src": "/images/detail/haxball-bot-1.png" }],
+      "technologies_title": "Kullanılan Teknolojiler",
+      "technologies": ["JavaScript"],
+      "gitUrl": "https://github.com/emirmaydemir/Haxball-Bot",
+      "previewUrl": "",
+      "gitText": "Kodları Görüntüle",
+      "previewText": "Canlı Demo",
+      "previewId": "haxball-bot"
     }
   ]
 }

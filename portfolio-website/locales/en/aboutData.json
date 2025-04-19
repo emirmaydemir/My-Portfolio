@@ -13,25 +13,29 @@
       "id": 1,
       "title": "Next.js 15 & React - The Complete Guide",
       "institution": "Udemy",
-      "date": "Issued October 2024"
+      "date": "Issued October 2024",
+      "link": "https://www.udemy.com/certificate/UC-ebae91a9-ef3f-4d50-b3f1-6e60fd9254b2/"
     },
     {
       "id": 2,
       "title": "Complete guide to building an app with .Net Core and React",
       "institution": "Udemy",
-      "date": "Issued November 2023"
+      "date": "Issued November 2023",
+      "link": "https://www.udemy.com/course/complete-guide-to-building-an-app-with-net-core-and-react/"
     },
     {
       "id": 3,
       "title": "Android Mobile Application Course: Kotlin & Java",
       "institution": "Udemy",
-      "date": "Issued March 2021"
+      "date": "Issued March 2021",
+      "link": "https://www.udemy.com/certificate/UC-591383b1-8be8-4ae7-a708-c5fb20ecfc3e/"
     },
     {
       "id": 4,
       "title": "JavaScript Algorithms and Data Structures",
       "institution": "freeCodeCamp",
-      "date": "Issued April 2025"
+      "date": "Issued April 2025",
+      "link": "https://www.freecodecamp.org/"
     }
   ],
   "publications": [
@@ -39,13 +43,15 @@
       "id": 1,
       "title": "Note Ideas Notebook",
       "date": "June 9, 2021",
-      "description": "This is a note-taking application developed using the Java programming language on Android Studio. On the database side, the Room library is used to simplify working with SQL objects."
+      "description": "This is a note-taking application developed using the Java programming language on Android Studio. On the database side, the Room library is used to simplify working with SQL objects.",
+      "link": "https://play.google.com/store/apps/details?id=com.noteideas.notdefterim"
     },
     {
       "id": 2,
       "title": "Inoksist Industrial Stainless Bolts Stainless Nuts",
       "date": "October 23, 2024",
-      "description": "This project is a modern, user-friendly website developed using Next.js and React for a stainless bolt company. It features dynamic content management and responsive design."
+      "description": "This project is a modern, user-friendly website developed using Next.js and React for a stainless bolt company. It features dynamic content management and responsive design.",
+      "link": "https://www.inoksist.com.tr/"
     }
   ]
 }
