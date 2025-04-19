@@ -1,0 +1,13 @@
+RewriteEngine On
+
+# Eğer dosya yoksa, .html uzantısıyla var mı diye kontrol et
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*)$ $1.html [L]
+
+# İsteğe bağlı: .html uzantısını URL'den gizle
+RewriteCond %{THE_REQUEST} "^[^ ]+ /(.+)\.html "
+RewriteRule ^(.+)\.html$ /$1 [R=301,L]
+
+# 404 fallback (isteğe bağlı, 404 sayfan varsa)
+ErrorDocument 404 /404.html
