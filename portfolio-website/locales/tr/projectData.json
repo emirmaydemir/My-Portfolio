@@ -126,7 +126,7 @@
       "project_id": "14",
       "project_title": "Stadyum Projesi",
       "project_description": "Stadyum Oturma Planı ile Akıllı Biletleme Sistemi",
-      "project_image": "/images/projects/stadyum-projesi.PNG",
+      "project_image": "/images/projects/stadyum-projesi.png",
       "project_tag": ["All", "Desktop", "Backend"],
       "project_gitUrl": "https://github.com/emirmaydemir/ProjeStadyum_Java",
       "project_previewUrl": "stadium"
