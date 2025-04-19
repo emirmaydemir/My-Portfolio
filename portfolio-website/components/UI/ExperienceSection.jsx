@@ -19,9 +19,9 @@ export default function ExperienceSection({ experienceContent, experienceText })
           const isInView = useInView(ref, { once: false, amount: 0.4 });
 
           return (
-            <motion.a key={exp.id} ref={ref} href={exp.url} target="_blank" rel="noopener noreferrer" initial={{ opacity: 0, y: 50 }} animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }} transition={{ duration: 0.6, ease: "easeOut" }} className="relative flex items-stretch group">
+            <motion.a key={exp.id} ref={ref} href={exp.url} target="_blank" rel="noopener noreferrer" initial={{ opacity: 0, y: 50 }} animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }} transition={{ duration: 0.6, ease: "easeOut" }} className="flex flex-col sm:flex-row items-stretch relative group">
               {/* Sol: İkon ve Çizgi */}
-              <div className="relative flex flex-col items-center mr-6">
+              <div className="sm:relative absolute -top-4 -left-5 sm:top-0 sm:left-0 flex flex-col items-center mr-6">
                 <div className="w-10 h-10 rounded-full bg-primary-500 flex items-center justify-center text-black shadow-lg z-10 group-hover:scale-110 transition-transform duration-300">{exp.icon === "work" ? <Briefcase size={20} /> : <GraduationCap size={20} />}</div>
                 <div className="w-px bg-black dark:bg-white flex-1 mt-1"></div>
               </div>

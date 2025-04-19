@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import ProjectCard from "@/components/UI/ProjectCard";
 import ProjectTag from "@/components/UI/ProjectTag";
 import { motion, useInView } from "framer-motion";
@@ -11,6 +11,19 @@ function ProjectsSection({ projectContent, projectText }) {
   const [visibleProjectsCount, setVisibleProjectsCount] = useState(6);
   const ref = useRef(null);
   const isInView = useInView(ref, { once: false });
+  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+
+  // Ekran boyutu değiştiğinde güncelleme
+  useEffect(() => {
+    const handleResize = () => {
+      setScreenWidth(window.innerWidth); // Ekran boyutunu güncelle
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   const handleTagChange = (newTag) => {
     setTag(newTag);
@@ -54,7 +67,7 @@ function ProjectsSection({ projectContent, projectText }) {
         <ProjectTag onClick={() => handleTagChange("Web")} name="Web" isSelected={tag === "Web"} />
         <ProjectTag onClick={() => handleTagChange("Mobile")} name="Mobile" isSelected={tag === "Mobile"} />
         <ProjectTag onClick={() => handleTagChange("Desktop")} name="Desktop" isSelected={tag === "Desktop"} />
-        <ProjectTag onClick={() => handleTagChange("Backend")} name="Backend & ERP" isSelected={tag === "Backend"} />
+        <ProjectTag onClick={() => handleTagChange("Backend")} name={screenWidth < 363 ? "Backend" : "Backend & ERP"} isSelected={tag === "Backend"} />
         <ProjectTag onClick={() => handleTagChange("AI")} name="AI / Data / Vision" isSelected={tag === "AI"} />
       </div>
       <ul ref={ref} className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-8 md:gap-12">

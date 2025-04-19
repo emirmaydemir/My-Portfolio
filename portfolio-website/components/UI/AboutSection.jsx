@@ -28,7 +28,7 @@ const AboutSection = ({ aboutContent, certifications, publications }) => {
       content: (
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 justify-items-center">
           {[".NET Core", "C#", "Rest API", "EF Core", "Clean Architecture", "SOLID", "Multi-Project Solution", "CI/CD", "CQRS and Mediator pattern", "ERP Software", "Dependency Injection", "SignalR", "OOP", "Data Structures", "React.js", "Next.js", "CSS", "Tailwind CSS", "Bootstrap", "TypeScript", "JavaScript", "Mobx", "AutoMapper", "XML", "JSON", "Visual Studio", "Android Studio", "Java", "Firebase", "SDK", "IIS Server", "SQL", "LINQ", "AWS S3", "Git", "GitHub", "Subversion", "Postman", "Unit Testing", "Python"].map((skill, i) => (
-            <div key={i} className="w-36 h-12 flex items-center justify-center rounded-full shadow-lg bg-gradient-to-r from-gray-700 to-gray-800 hover:from-primary-500 hover:to-secondary-600 transition-transform duration-300 transform hover:scale-105 px-2">
+            <div key={i} className="w-36 h-12 max-[420px]:w-28 max-[440px]:h-10 flex items-center justify-center rounded-full shadow-lg bg-gradient-to-r from-gray-700 to-gray-800 hover:from-primary-500 hover:to-secondary-600 transition-transform duration-300 transform hover:scale-105 px-2">
               <span className="text-xs lg:text-sm font-medium text-white text-center">{skill}</span>
             </div>
           ))}

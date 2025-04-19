@@ -80,10 +80,10 @@ const EmailSection = ({ emailContent }) => {
   return (
     <motion.section id="contact" className="grid lg:grid-cols-2 my-12 lg:my-12 py-5 sm:py-24 gap-4 relative" variants={containerVariants} initial="hidden" whileInView="visible" viewport={{ once: false, amount: 0.3 }}>
       {/* Arka plan efekti */}
-      <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2" />
+      <div className="pointer-events-none bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2" />
 
       {/* Sol taraf - metin ve sosyal linkler */}
-      <motion.div className="z-10" variants={itemVariants}>
+      <motion.div className="z-9" variants={itemVariants}>
         <h5 className="text-xl font-bold text-black dark:text-white my-2">{emailContent.email_title}</h5>
         <p className="text-gray-700 dark:text-[#ADB7BE] mb-4 max-w-md">{emailContent.email_description}</p>
         <div className="socials flex flex-row gap-2">
