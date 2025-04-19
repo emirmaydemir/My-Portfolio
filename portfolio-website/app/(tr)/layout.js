@@ -7,6 +7,7 @@ import { Fragment } from "react";
 import Navbar from "@/components/UI/Navbar";
 import ScrollToTopButton from "@/components/UI/ScrollToTopButton";
 import NavbarData from "@/locales/tr/navbarData.json";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -35,6 +36,7 @@ export default function RootLayout({ children }) {
           </Fragment>
         </body>
       </LanguageProvider>
+      <GoogleAnalytics gaId="G-KYYVFCFBD9" />
     </html>
   );
 }
