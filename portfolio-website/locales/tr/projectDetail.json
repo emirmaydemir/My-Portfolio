@@ -7,14 +7,14 @@
       "description_title": "Proje Açıklaması",
       "description": "Android Studio üzerinde Java programlama diliyle geliştirilen bu not uygulaması, kullanıcıların hızlı, güvenli ve pratik şekilde notlarını yönetmelerine olanak tanır. Veritabanı tarafında, SQL işlemlerini kolaylaştıran ve modern Android mimarisiyle uyumlu Room kütüphanesi kullanılmıştır.|Uygulama, reklamsız ve tamamen ücretsiz olarak sunulmakta olup, sade tasarımı ve basit kullanıcı arayüzüyle her seviyeden kullanıcıya hitap eder. Not ekleme, silme, güncelleme ve paylaşma gibi temel işlemler son derece kolay ve hızlı bir şekilde gerçekleştirilebilir.|Kullanıcıların ihtiyaçlarına göre özelleştirme imkânı sunan uygulama notlara arka plan rengi atama, yazı tipini değiştirme ve renklerle kategorize etme gibi görsel düzenlemelere olanak tanır. Ayrıca güçlü şifreleme özelliği sayesinde kişisel notlar güvenle korunabilir.|Her bir not tarih ve saat bilgisiyle saklanır. Bu sayede geçmiş notlara kolayca erişim sağlanabilir. Notlara görsel ve sesli içerik eklenebilmesiyle birlikte, uygulama çok yönlü ve zengin bir not deneyimi sunar.| **Öne Çıkan Özellikler:**| • Arka plan rengini değiştirme|• Notları şifreleme ve şifre çözme|• Notlara resim ekleme ve silme|• Ses kaydı ekleme veya silme|• Notlara link ekleme ve kaldırma|• Notlara tarih ve saat bilgisi ekleme|• Yazı tipini değiştirme|• Notlar arasında arama yapma|• Çoklu not silme|• Not sıralama seçenekleri|• Notları kategorilere ayırma|• Diğer uygulamalarda paylaşma|",
       "media": [
-        { "type": "image", "src": "/images/detail/note-ideas-1.png" },
-        { "type": "image", "src": "/images/detail/note-ideas-2.png" },
-        { "type": "image", "src": "/images/detail/note-ideas-3.png" },
-        { "type": "image", "src": "/images/detail/note-ideas-4.png" },
-        { "type": "image", "src": "/images/detail/note-ideas-5.png" },
-        { "type": "image", "src": "/images/detail/note-ideas-6.png" },
-        { "type": "image", "src": "/images/detail/note-ideas-7.png" },
-        { "type": "image", "src": "/images/detail/note-ideas-8.png" }
+        { "type": "image", "src": "/images/detail/note-ideas-1.webp" },
+        { "type": "image", "src": "/images/detail/note-ideas-2.webp" },
+        { "type": "image", "src": "/images/detail/note-ideas-3.webp" },
+        { "type": "image", "src": "/images/detail/note-ideas-4.webp" },
+        { "type": "image", "src": "/images/detail/note-ideas-5.webp" },
+        { "type": "image", "src": "/images/detail/note-ideas-6.webp" },
+        { "type": "image", "src": "/images/detail/note-ideas-7.webp" },
+        { "type": "image", "src": "/images/detail/note-ideas-8.webp" }
       ],
       "technologies_title": "Kullanılan Teknolojiler",
       "technologies": ["Java", "Android Studio", "SQL", "Git"],
@@ -32,13 +32,13 @@
       "description_title": "Proje Açıklaması",
       "description": "Bu web sitesi, paslanmaz civata ve somun tedarikçisine özel olarak React ve Next.js teknolojileriyle geliştirilmiştir. Projeyi Next.js ile hayata geçirme nedenim, React ile oluşturulan geleneksel SPA yapılarının kaynak kodlarını gizleyememesi ve arama motorları için yeterince optimize olmamasıdır. Next.js’in sunduğu **Sunucu Taraflı Render (SSR)** özelliği sayesinde, sayfa içerikleri HTML olarak sunulmakta ve bu da SEO açısından önemli avantajlar sağlamaktadır. Böylece sayfa içeriği arama motorları tarafından daha iyi taranabilir ve dizine eklenebilir hale gelmiştir.|React kullanıcı arayüzleri oluşturmak için güçlü bir kütüphane olsa da SEO açısından bazı sınırlamalara sahiptir. Bunun temel nedeni, React’ın sanal DOM kullanması ve bu nedenle tarayıcının ilk yüklemede HTML içeriğini göstermemesi, dolayısıyla arama motorlarının içeriği algılayamamasıdır. Bu projede ise Next.js’in SSR yaklaşımıyla bu sorunlar minimize edilmiştir. Ayrıca zengin meta etiketleri, json-ld yapılandırılmış veriler ve semantik HTML kullanımı ile sayfa içeriği arama motorları için optimize edilmiştir. Google Search Console, Analytics ve Ads entegrasyonları sağlanarak projenin performans takibi ve pazarlama verimliliği artırılmıştır.|SEO çalışmaları kapsamında hedef kitleye uygun anahtar kelime analizi yapılmış, sayfalar bu doğrultuda yapılandırılmıştır. Görsellerin hızlı yüklenmesi için tüm medya içerikleri **Cloudinary** platformunda barındırılarak sunucu yükü azaltılmıştır. Ek olarak, AWS Amplify gibi bulut tabanlı servisler ile barındırma hedeflenmiş, böylece hem yüksek performanslı hem de ölçeklenebilir bir yapı elde edilmiştir. Sonuç olarak, kullanıcı deneyimiyle birlikte teknik altyapı ve SEO dostu yaklaşımın harmanlandığı profesyonel bir web platformu ortaya çıkarılmıştır.",
       "media": [
-        { "type": "image", "src": "/images/detail/inoksist-1.png" },
-        { "type": "image", "src": "/images/detail/inoksist-2.png" },
-        { "type": "image", "src": "/images/detail/inoksist-3.png" },
-        { "type": "image", "src": "/images/detail/inoksist-4.png" },
-        { "type": "image", "src": "/images/detail/inoksist-5.png" },
-        { "type": "image", "src": "/images/detail/inoksist-6.png" },
-        { "type": "image", "src": "/images/detail/inoksist-7.png" }
+        { "type": "image", "src": "/images/detail/inoksist-1.webp" },
+        { "type": "image", "src": "/images/detail/inoksist-2.webp" },
+        { "type": "image", "src": "/images/detail/inoksist-3.webp" },
+        { "type": "image", "src": "/images/detail/inoksist-4.webp" },
+        { "type": "image", "src": "/images/detail/inoksist-5.webp" },
+        { "type": "image", "src": "/images/detail/inoksist-6.webp" },
+        { "type": "image", "src": "/images/detail/inoksist-7.webp" }
       ],
       "technologies_title": "Kullanılan Teknolojiler",
       "technologies": ["React", "NextJS", "JavaScript", "HTML", "CSS", "Git", "Google Ads", "SEO", "Analytics", "Search Console", "Cloudinary"],
@@ -56,12 +56,12 @@
       "description_title": "Proje Açıklaması",
       "description": "Bu modern portfolyo web sitesi, kişisel projelerimi, yazılım alanındaki deneyimlerimi ve edindiğim sertifikaları sergilemek amacıyla geliştirilmiştir. Kullanıcı dostu arayüzü ve responsive tasarımıyla farklı cihazlarda sorunsuz bir deneyim sunar. Site, hem teknik becerilerimi hem de tasarım anlayışımı yansıtarak profesyonel bir dijital kimlik oluşturur.",
       "media": [
-        { "type": "image", "src": "/images/detail/portfolio-web-1.png" },
-        { "type": "image", "src": "/images/detail/portfolio-web-2.png" },
-        { "type": "image", "src": "/images/detail/portfolio-web-3.png" },
-        { "type": "image", "src": "/images/detail/portfolio-web-4.png" },
-        { "type": "image", "src": "/images/detail/portfolio-web-5.png" },
-        { "type": "image", "src": "/images/detail/portfolio-web-6.png" }
+        { "type": "image", "src": "/images/detail/portfolio-web-1.webp" },
+        { "type": "image", "src": "/images/detail/portfolio-web-2.webp" },
+        { "type": "image", "src": "/images/detail/portfolio-web-3.webp" },
+        { "type": "image", "src": "/images/detail/portfolio-web-4.webp" },
+        { "type": "image", "src": "/images/detail/portfolio-web-5.webp" },
+        { "type": "image", "src": "/images/detail/portfolio-web-6.webp" }
       ],
       "technologies_title": "Kullanılan Teknolojiler",
       "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap", "Git"],
@@ -79,8 +79,8 @@
       "description_title": "Proje Açıklaması",
       "description": "##Genel Rolüm ve Sorumluluklarım|Çalıştığım projede full-stack developer olarak görev alıyorum. Backend tarafında .NET Core ile RESTful API’ler geliştiriyorum. SQL veritabanı kullanarak veri işlemlerini yönetiyor, veritabanı normalizasyonunu sağlıyorum. Hangfire entegrasyonuyla zamanlanmış görevler oluşturuyor, GitHub Actions ile CI/CD süreçlerini yönetilebilir hale getiriyorum. Sunucu tarafında API'leri yayınlıyor, sunucu yönetimini doğrudan üstleniyorum. Ayrıca birim testleri yazarak yazılım kalitesini artırıyor, loglama işlemlerini de yapılandırıyorum. Frontend tarafında ise React, HTML, CSS ve JavaScript kullanarak kullanıcı dostu arayüzler geliştiriyorum.|##Yaptığım Önemli İşler|Projeyi baştan sona web'e geçirerek erişimi kolaylaştırdım. Müşteriye özel sözleşme entegrasyonu, teklif altyapısı, iyzico ile ödeme altyapısı, Hangfire üzerinden zamanlanmış raporlama görevleri gibi kritik modüllerin kurulum ve entegrasyonlarını gerçekleştirdim. Özellikle sözleşme ve teklif altyapılarını tamamen dinamik hale getirerek, her kullanıcıya özel içerikler sunulmasını sağladım.|**Sözleşme Modülü**|Sözleşme tarafında hem Türkçe hem İngilizce metinleri SQL veritabanında dinamik olarak saklayarak, her müşteriye özel sözleşme çıktıları oluşturulmasını sağladım. Bu sayede müşterilere özel içerikler sunabilen esnek bir sistem kurdum.|**Teklif Modülü**|Teklif altyapısında her müşteriye özel PDF teklif dosyalarının dinamik olarak sunucuda oluşturulmasını sağladım. Sunucuda saklanan teklif şablonları üzerinden otomatik PDF üretimi yapılmasını sağladım.|**Ödeme Entegrasyonu ve Otomatik Tahsilat**|İyzico entegrasyonu ile sistem üzerinden doğrudan kullanıcıdan ödeme alınmasını sağladım. Ayrıca Hangfire ile her gün iki kez borçlu firmalar için otomatik ödeme talebi sistemini kurarak manuel takip ihtiyacını ortadan kaldırdım.|**Raporlama Altyapısı**|Firmaya özel mali müşavir, ödeme durumu, gecikmeli ofisler ve cari hesap gibi kritik raporların SQL prosedürlerini yazarak Hangfire ile zamanlı şekilde tetiklenmesini sağladım. Bu raporlar belirli periyotlarla oluşturularak yöneticilere mail yoluyla ulaştırılıyor.|**Geçiş Süreci (.NET → .NET Core) **|Şu anda üzerinde çalıştığımız en önemli işlerden biri, tüm sistemin .NET Framework'ten .NET Core mimarisine taşınması. Böylece projeyi tamamen web tabanlı hale getirerek platform bağımsız, her yerden erişilebilir bir hale getiriyoruz.|##Sunucu Yönetimi|Projede kullanılan sunucular, Turkcell Superonline üzerinden kiralanan Gebze Datacenter’da barındırılmaktadır. Yedekleme ve ekstra depolama ihtiyaçları ise Microsoft Azure üzerinden sağlanmaktadır.|##Versiyon Kontrol Sistemi|Geliştirme süreçlerinde versiyon kontrol sistemi olarak VisualSVN Server üzerinden barındırılan SVN kullanılmaktadır. Geliştiriciler, TortoiseSVN kullanarak repository'lere erişmekte, her bir repository için erişim yetkileri ayrı ayrı yönetilmektedir.|##Proje Yapısı ve Modüller|Proje şu modülleri içermektedir: istemci programlar, RESTful API’ler ve MSSQL veritabanları. OfficeSharpERP projesi kapsamında toplamda 4 veritabanı, 1 FTP sunucu, 16 REST API, 7 istemci program, 2 mobil uygulama ve 3 web panel bulunmaktadır.|##OfficeSharpERP Sistem Akışı|Tüm istemci programları veritabanına doğrudan erişemez. Veriye erişim REST API’ler üzerinden sağlanır. Bu yapı, iş mantığını istemciden izole eder ve güvenliği artırır. Tüm veri işlemleri API katmanında yetki kontrolleriyle gerçekleştirilir.|##Veritabanı Yapısı|Projede kullanılan başlıca veritabanları şunlardır: |Zeugma: Ana kullanıcılar ve lisans bilgilerini tutar. |OfficeSharpERP: Yönetim paneli için iş mantığına ait tüm verileri barındırır. |OfficeSharpReport: Raporlar için hazırlanmış denormalize edilmiş özel veri tablolarını içerir. |Hangfire: Zamanlanmış görevler ile ilgili tüm bilgileri saklar ve otomatik temizleme işlemleri gerçekleştirir.|##FTP Sunucusu Kullanımı|FTP sunucusu, istemci program versiyonlarını, proje backuplarını, 3. parti yazılımları, kaynak kodları, fatura XML’lerini ve eski sözleşme/teklif dosyalarını barındırmak için kullanılır.|##REST API Mimarisi|API yapısı MVC (Model-View-Controller) mimarisine dayanır. Her modül bağımsız bir API projesi olarak yapılandırılmıştır. Veri tabanı modelleri DTO’lar aracılığıyla dış dünyaya açılır, AutoMapper ile veri modelleri eşleştirilir.|##Worker Yapısı|API'de tekrar eden veri işlemlerini kolaylaştırmak için kullanılan bir yapıdır. Her worker, sistemde belirli görevleri yerine getirir: veri okuma, ekleme, silme ve güncelleme. Her biri belirli kurallara göre çalışır ve ihtiyaç halinde veritabanı işlemlerini otomatik hale getirir. |**ReadWorker (Veri Okuma) **|Veritabanındaki tablo veya görünümlerden (view) veri çeker. Tüm verileri ya da belirli filtrelerle (örneğin firmaId’si 2 olanlar) seçilen verileri getirebilir. Karmaşık sorgular yazmak yerine kısa tanımlarla işlem yapılmasını sağlar. |**CreateWorker (Veri Ekleme) **|Yeni veri kaydı yapmak için kullanılır. Tek bir kayıt ya da birden fazla kayıt ekleyebilir. Eklenen veriye kimin eklediği bilgisi de otomatik eklenir. |**DeleteWorker (Veri Silme) **|Veritabanından satır siler. Silinecek veriyi tek tek, toplu halde ya da belli kurallara göre belirleyebilirsin. Yanlışlıkla tüm verinin silinmemesi için boş çalıştırılamaz. |**UpdateWorker (Veri Güncelleme) **|Kayıtların içeriğini güncellemek için kullanılır. Tek bir kayıt, birden fazla kayıt ya da belirli bir kritere uyan kayıtlar güncellenebilir. |**ReadWorkerUtility**|Bir tablodaki tüm verileri basitçe çekmek için kullanılır. Tüm sütun ve satırları getirir. |##Validasyon|API projelerine gelen bir isteğin işlenmeden önce, kontrol edilmesi gerektiğinde ilgili Worker içerisinde Validate fonksiyonu kullanılır. Validate fonksiyonu ilgili kontrolleri yapar, eğer kontrol başarılı ise boş string, başarısız ile ilgili hata mesajını döner. Worker, Validate fonksiyonunun cevabına bakarak işleme devam edip etmeyeceğine karar verir. Eğer boş string döndüyse işlemi gerçekleştirip sonucunu istemci programa gönderir. Eğer hata mesajı döndü ise ilgili hata mesajını istemci programa gönderir. |##İstek Yetkisi - Token|API isteklerinin çalışabilmesi için geçerli bir token gerekir. Kullanıcı sisteme giriş yaptığında sistem tarafından bir token (GUID) oluşturulur, veritabanına kaydedilir ve kullanıcıya gönderilir. Kullanıcı her istekte bu token'ı iletmek zorundadır. Geçersiz ya da eksik token içeren istekler reddedilir. |##AuthActionFilter|API’de her isteğin öncesinde ve sonrasında kontrol yapılmasını sağlar. Controller’lara eklenerek loglama ve yetkilendirme işlemleri yapılır. İstek çalışmadan önce token geçerliliği, kullanıcı yetkisi gibi kontroller yapılır. Tüm kontroller geçerse istek işlenir. |##Veri Tabanı Yönetimi|Veri tabanı yönetimini de yaptığım projede düzenli yedekleme, veri eşitleme, loglama ve performansı artırmak amacıyla kullanılan bazı önemli trigger’lar bulunamktadır. |**Yedekleme**|Veri tabanı yedekleri, Scheduler API projesindeki Hangfire zamanlayıcısı sayesinde her gün saat 02:00'de otomatik olarak alınır. Bu işlem sırasında sBackup prosedürü tetiklenerek OfficeSharpERP ve OfficeSharpReport veri tabanlarının yedeği oluşturulur ve Microsoft Azure bulut sistemine yüklenir. |**Eşitleme**|Geliştirme ortamı olarak kullanılan sunucuda yapılan veri tabanı güncellemeleri, canlı sistemlere geçmeden önce diğer veri tabanlarıyla senkronize edilmelidir. Bu işlem, manuel olarak yapılması halinde hata riski taşıdığı için Devart dbForge Studio for SQL Server aracı ile gerçekleştirilir. |**Loglama**|Veri tabanındaki tüm insert, update ve delete işlemleri, sistem tarafından otomatik olarak kaydedilir. |**Önemli Trigger’lar**|Bazı işlemler doğrudan API yanıt süresini etkilememesi için asenkron olarak gerçekleştirilir.Bu durumlarda, ilgili işlem trigger ile ara tabloya yazılır ve belirli zaman aralıklarında çalışan CRON görevleri tarafından işlenir. |",
       "media": [
-        { "type": "image", "src": "/images/detail/eofis-erp-1.png" },
-        { "type": "image", "src": "/images/detail/eofis-erp-2.png" }
+        { "type": "image", "src": "/images/detail/eofis-erp-1.webp" },
+        { "type": "image", "src": "/images/detail/eofis-erp-2.webp" }
       ],
       "technologies_title": "Kullanılan Teknolojiler",
       "technologies": [".NET", "C#", "REST API", "N-tier Architecture", "AutoMapper", "Hangfire", "EF Core", "IIS", "Amazon S3", "SQL", "JWT", "ASP.NET Core Identity", "xUnit", "GitHub Actions", "FluentValidation", "React", "TypeScript", "JavaScript", "HTML", "CSS", "Tailwind CSS", "MobX", "Axios", "Visual Studio", "Git"],
@@ -98,11 +98,11 @@
       "description_title": "Proje Açıklaması",
       "description": "Reactivities, kullanıcıların etkinlik oluşturabildiği, etkinliklere katılabildiği ve diğer katılımcılarla etkileşime geçebildiği sosyal bir platformdur. Etkinlik zamanlaması, yorum yapma, kullanıcı profilleri oluşturma, fotoğraf yükleme, katılımcı listesi görüntüleme ve takip etme gibi birçok özellik barındırır. Gerçek zamanlı sohbet desteği sayesinde kullanıcılar etkinlikler hakkında anlık olarak iletişim kurabilir.|Bu proje, ASP.NET Core ile geliştirilmiş bir Web API ve React (TypeScript) ile yazılmış istemci tarafı uygulamasından oluşan çok katmanlı bir mimariye sahiptir. Temiz Mimari (Clean Architecture) yaklaşımı ile tasarlanmış olan backend tarafında CQRS ve Mediator pattern kullanılmıştır. Otomatik mapping işlemleri için AutoMapper, durum yönetimi için MobX ve kullanıcı kimlik doğrulaması için ASP.NET Core Identity kullanılmıştır. Gerçek zamanlı özellikler SignalR ile sağlanırken, formlar Zod ve React Hook Form ile doğrulama destekli olarak geliştirilmiştir.|Uygulamanın kullanıcı arayüzü Semantic UI ile tasarlanmış ve responsive yapıdadır. Projenin geliştirme süreci boyunca Azure’a deployment yapılabilir yapıda hazırlanmış ve tüm kodlama Visual Studio Code üzerinde gerçekleştirilmiştir. Bu proje, hem frontend hem de backend geliştirme yeteneklerini aynı anda sergileyerek, modern web uygulama geliştirme pratiğini baştan sona sunan kapsamlı bir projedir.",
       "media": [
-        { "type": "image", "src": "/images/detail/reactivities-1.png" },
-        { "type": "image", "src": "/images/detail/reactivities-2.png" },
-        { "type": "image", "src": "/images/detail/reactivities-3.png" },
-        { "type": "image", "src": "/images/detail/reactivities-4.png" },
-        { "type": "image", "src": "/images/detail/reactivities-5.png" }
+        { "type": "image", "src": "/images/detail/reactivities-1.webp" },
+        { "type": "image", "src": "/images/detail/reactivities-2.webp" },
+        { "type": "image", "src": "/images/detail/reactivities-3.webp" },
+        { "type": "image", "src": "/images/detail/reactivities-4.webp" },
+        { "type": "image", "src": "/images/detail/reactivities-5.webp" }
       ],
       "technologies_title": "Kullanılan Teknolojiler",
       "technologies": [".NET", "REST API", "CQRS", "Mediator Pattern", "AutoMapper", "ASP.NET Core Identity", "SignalR", "FluentValidation", "React", "TypeScript", "MobX", "Axios", "Visual Studio", "Azure", "SQL", "JWT", "Cloudinary", "Git"],
@@ -136,9 +136,9 @@
       "description_title": "Proje Açıklaması",
       "description": "Hastaneler, hastalar ve donörleri tek bir sistemde bir araya getiren kapsamlı bir kan bankası uygulaması geliştirdim. Bu projede, veritabanı yapısını normalizasyon kurallarına uygun şekilde tasarladım ve SQL tarafında kan gruplarına ait stok bilgilerini gösteren view’lar gibi pek çok yapıyı aktif olarak kullandım. SQL veritabanıyla bağlantılı çalışan sistemde hastane kayıtları, hasta bilgileri ve donör profilleri arasında ilişkisel bir yapı kurarak veri bütünlüğünü sağladım. Ayrıca, sistemin ihtiyaç duyduğu tüm veri işlemleri için güvenilir ve optimize sorgular yazdım. Veritabanı üzerinde oluşturduğum tablolar, stored procedure'lar ve trigger'lar sayesinde sistemin hem performansını artırdım hem de hata payını minimuma indirdim.|Uygulamanın arayüzünü C# programlama dili kullanarak .NET Windows Forms teknolojisiyle geliştirdim. Toplamda 10 adet ekran tasarlayarak her biri farklı bir işlevi karşılayan kullanıcı dostu formlar oluşturdum. Bu ekranlarda tablo görünümleri, kontroller, progressbar’lar gibi çeşitli araçlar kullanarak kayıt ekleme, güncelleme, silme ve listeleme işlemleri sağladım. Böylece, yetkili kullanıcılar donör başvurularını yönetebiliyor, hastaların ihtiyaç duyduğu kan gruplarını anlık olarak görüntüleyebiliyor ve hastane bazında stok durumlarını detaylı biçimde takip edebiliyor. Proje sonucunda, yönetilebilirliği yüksek, kullanıcı dostu ve işlevsel bir kan bankası yönetim sistemi ortaya çıkardım.",
       "media": [
-        { "type": "image", "src": "/images/detail/bloodbank-1.jpg" },
-        { "type": "image", "src": "/images/detail/bloodbank-2.jpg" },
-        { "type": "image", "src": "/images/detail/bloodbank-3.jpg" }
+        { "type": "image", "src": "/images/detail/bloodbank-1.webp" },
+        { "type": "image", "src": "/images/detail/bloodbank-2.webp" },
+        { "type": "image", "src": "/images/detail/bloodbank-3.webp" }
       ],
       "technologies_title": "Kullanılan Teknolojiler",
       "technologies": [".NET", "C#", "SQL", "Git"],
@@ -156,13 +156,13 @@
       "description_title": "Proje Açıklaması",
       "description": "Bu mobil uygulama, Android Studio ortamında Java diliyle geliştirilmiş olup, günlük hayatta sık karşılaşılan bir soruna çözüm sunmayı amaçlamaktadır: Farklı mağazalar arasında ürün fiyatlarını karşılaştırarak harcamaları azaltmayı hedefler. Uygulama, kullanıcıların aradıkları ürünü kolayca bulmalarını ve çeşitli perakendecilerdeki fiyat bilgilerine anında erişmelerini sağlar. Aynı zamanda, alışveriş sepetindeki ürünlerin toplam maliyetini hesaplayarak, kullanıcıların mağazaları tek tek dolaşmasına gerek kalmadan zaman kazanmalarına ve kasada beklenmedik fiyatlarla karşılaşmamalarına yardımcı olur.|JDBC ve Firebase entegrasyonları sayesinde uygulama, hem üreticilerin ürün verilerini eklemesine olanak tanır hem de son kullanıcılara gerçek zamanlı fiyat karşılaştırmaları ve detaylı ürün bilgileri sunar. QR kod ve mobil ödeme teknolojileri ile kullanıcılar hem zamandan hem de ekonomik açıdan tasarruf sağlar. Ürünlere ait kullanıcı yorumları da Firebase veritabanında tutulmakta olup, kullanıcıların deneyimlerini paylaşmalarına ve diğer kullanıcıların bu yorumlardan faydalanarak daha bilinçli alışveriş kararları almalarına olanak tanır. Bu sayede uygulama, sadece fiyat karşılaştırması sunmakla kalmaz, aynı zamanda sosyal geri bildirimlerle desteklenen kapsamlı bir alışveriş rehberine dönüşür.|Veri erişimini optimize etmek ve arama işlemlerini hızlandırmak amacıyla HashMap veri yapısı kullanılmıştır. HashMap, anahtar-değer mantığıyla çalışarak ürün isimleri veya barkod gibi benzersiz tanımlayıcılar üzerinden hızlı ve etkili veri sorgulama imkânı sunar. Böylece kullanıcılar bir anahtar kelime girdiğinde, uygulama veri setinin tamamını taramak yerine ilgili bilgiyi anında getirerek performansı artırır.|Ayrıca uygulama, alışveriş sepetini dinamik olarak yönetebilmek için LinkedList veri yapısını kullanır. Bu yapı sayesinde kullanıcılar, sepete ürün ekleme ve çıkarma işlemlerini verimli bir şekilde gerçekleştirebilir. Geri alma (undo) işlevselliği için ise Stack veri yapısı tercih edilmiştir. Böylece kullanıcılar istemeden sildikleri ürünleri kolayca geri alabilirler. Tüm bu veri yapıları, nesne yönelimli programlama (OOP) prensipleriyle bir araya getirilerek uygulamanın performansını artırır, esnekliğini güçlendirir ve kullanıcı deneyimini iyileştirir.",
       "media": [
-        { "type": "image", "src": "/images/detail/smart-shop-1.jpg" },
-        { "type": "image", "src": "/images/detail/smart-shop-2.jpg" },
-        { "type": "image", "src": "/images/detail/smart-shop-3.jpg" },
-        { "type": "image", "src": "/images/detail/smart-shop-4.jpg" },
-        { "type": "image", "src": "/images/detail/smart-shop-5.jpg" },
-        { "type": "image", "src": "/images/detail/smart-shop-6.jpg" },
-        { "type": "image", "src": "/images/detail/smart-shop-7.jpg" }
+        { "type": "image", "src": "/images/detail/smart-shop-1.webp" },
+        { "type": "image", "src": "/images/detail/smart-shop-2.webp" },
+        { "type": "image", "src": "/images/detail/smart-shop-3.webp" },
+        { "type": "image", "src": "/images/detail/smart-shop-4.webp" },
+        { "type": "image", "src": "/images/detail/smart-shop-5.webp" },
+        { "type": "image", "src": "/images/detail/smart-shop-6.webp" },
+        { "type": "image", "src": "/images/detail/smart-shop-7.webp" }
       ],
       "technologies_title": "Kullanılan Teknolojiler",
       "technologies": ["Java", "Android Studio", "Firebase", "Data Structures", "OOP", "XML", "Git"],
@@ -180,10 +180,10 @@
       "description_title": "Proje Açıklaması",
       "description": "eOfis panel web sitesinin geliştirilmesinde fullstack geliştirici olarak aktif rol aldım. Projenin back-end kısmında .NET teknolojisini kullanarak veri işleme, kullanıcı yönetimi, rezervasyon ve ödeme işlemlerine dair iş mantığını geliştirdim. Front-end tarafında ise HTML, CSS ve JavaScript ile kullanıcı arayüzünü tasarlayarak kullanıcıların işlemlerini hızlı ve kolay bir şekilde gerçekleştirmelerini sağladım. Panelin dashboard ekranında kullanıcılar günlük çağrı sayısını, gelen-giden kargoları, yapılan sözleşme sayılarını ve cari durumlarını kolayca görüntüleyebiliyor. Bu sayede şirket yöneticileri ve çalışanlar günlük operasyonel akışı tek bir ekrandan takip edebiliyor. Raporlar ekranı üzerinden personel giriş-çıkışları detaylı şekilde izlenebiliyor, böylece personel devamlılıkları ve vardiya planlamaları daha verimli hâle getiriliyor.|Finans sekmesinde kullanıcılar ödeme bilgilerini görüntüleyebiliyor, geçmiş ödemeleri kontrol edebiliyor ve fiyat bilgilendirmelerine ulaşabiliyor. Panel aracılığıyla eOfis’e ait herhangi bir ofis için hızlıca rezervasyon yapılabiliyor. Kullanıcılar aynı zamanda hizmetlerle ilgili geri bildirim göndererek sistemin gelişimine katkıda bulunabiliyor. Etkinlik takvimi sayesinde özel kampanyalar ve indirimler de sistem üzerinden takip edilebiliyor. Tüm bu modüllerin yazılım geliştirme süreçlerinde analizden kodlamaya kadar aktif görev alarak, projeye bütünsel katkı sağladım. Geliştirdiğim bu sistem sayesinde hem şirket çalışanları hem de müşteriler için süreçler daha erişilebilir, yönetilebilir ve kullanıcı dostu bir hâle getirildi.",
       "media": [
-        { "type": "image", "src": "/images/detail/eofis-panel-1.png" },
-        { "type": "image", "src": "/images/detail/eofis-panel-2.png" },
-        { "type": "image", "src": "/images/detail/eofis-panel-3.png" },
-        { "type": "image", "src": "/images/detail/eofis-panel-4.png" }
+        { "type": "image", "src": "/images/detail/eofis-panel-1.webp" },
+        { "type": "image", "src": "/images/detail/eofis-panel-2.webp" },
+        { "type": "image", "src": "/images/detail/eofis-panel-3.webp" },
+        { "type": "image", "src": "/images/detail/eofis-panel-4.webp" }
       ],
       "technologies_title": "Kullanılan Teknolojiler",
       "technologies": [".NET", "REST API", "SQL", "HTML", "CSS", "JavaScript", "Bootstrap"],
@@ -201,13 +201,13 @@
       "description_title": "Proje Açıklaması",
       "description": "Bu proje, üniversitelerin öğrenci veya öğretim görevlilerine yönelik şeffaf ve güvenli bir ödül sistemi oluşturmayı hedefleyen blok zincir tabanlı bir uygulamadır. Kullanıcılar, belirlenen görevleri tamamlayarak ödül kazandıkları merkeziyetsiz bir yapı içerisinde işlem yapabilmektedir. Geliştirilen sistem sayesinde kullanıcıların ödülleri, blok zincir üzerinde şeffaf bir şekilde takip edilebilmekte, aynı zamanda bu yapı sayesinde ödül süreçleri güvenli, sürdürülebilir ve denetlenebilir bir hale getirilmektedir. Üniversiteler bu sistemi kullanarak hem öğrencilere hem de akademik personele adil ve izlenebilir ödül süreçleri sunabilir, böylece katılımı ve bağlılığı artırabilir. |Projenin teknik altyapısında, RESTful API uç noktaları kullanıcılar kadar kontrol mekanizmaları için de özel olarak tasarlanmıştır. Kullanıcılar, kayıt uç noktası üzerinden kullanıcı adı, e-posta ve şifre bilgilerini JSON formatında göndererek sisteme kayıt olabilirken sistem, bu bilgileri doğrulayıp uygunluğu durumunda kullanıcıyı veritabanına kaydetmektedir. Uygulamanın ilk etapta geliştirilen kullanıcı arayüzü, kayıt ve giriş işlemlerini gerçekleştirmek üzere tasarlanmıştır. Bu sayede kullanıcılar sisteme kolayca giriş yapabilir ve kendi hesaplarına erişebilir hale gelmektedir. |Sisteme giriş yapan kullanıcılar, ana sayfada kendi blok zincir cüzdan adreslerini görüntüleyebilir, ödül miktarlarını görebilir ve adreslerini kopyalayabilirler. Sayfanın alt kısmında yer alan butonlar aracılığıyla kullanıcılar sistemdeki zinciri güncelleyebilir veya görevler sayfasına geçiş yapabilir. Görevler sayfasında kullanıcıya atanmış mevcut görevlerin listesi sunulmakta ve görevler tamamlandıkça sistem tarafından otomatik olarak işlenmektedir. Bu yapı, kullanıcıların etkileşimlerini hem kolaylaştırmakta hem de blok zincir ile doğrudan bir ilişki kurmalarını sağlamaktadır. |Sistemin önemli bileşenlerinden biri de geliştirilen P2P ağıdır. Kullanıcılar arası iletişimi sağlayan bu ağ, WebSocket protokolü ile çalışmakta ve tamamen dağıtık bir mimariyi temel almaktadır. Merkezi bir sunucuya ihtiyaç duymadan çalışan bu yapı sayesinde, her kullanıcı sistemde aktif bir düğüm haline gelmekte ve veri paylaşımı doğrudan kullanıcılar arasında gerçekleşmektedir. Bu yapı, hem blok zincir zincirinin doğrulanmasını hem de ağ üzerindeki işlemlerin hızla yayılmasını mümkün kılmaktadır. Sonuç olarak geliştirilen uygulama, kullanıcı dostu arayüzü, güvenilir veri akışı ve blok zincir teknolojisinin gücü ile merkeziyetsiz ödül sistemlerine yenilikçi bir örnek sunmaktadır.",
       "media": [
-        { "type": "image", "src": "/images/detail/blockchain-1.jpg" },
-        { "type": "image", "src": "/images/detail/blockchain-2.jpg" },
-        { "type": "image", "src": "/images/detail/blockchain-3.jpg" },
-        { "type": "image", "src": "/images/detail/blockchain-4.jpg" },
-        { "type": "image", "src": "/images/detail/blockchain-5.jpg" },
-        { "type": "image", "src": "/images/detail/blockchain-6.jpg" },
-        { "type": "image", "src": "/images/detail/blockchain-7.jpg" }
+        { "type": "image", "src": "/images/detail/blockchain-1.webp" },
+        { "type": "image", "src": "/images/detail/blockchain-2.webp" },
+        { "type": "image", "src": "/images/detail/blockchain-3.webp" },
+        { "type": "image", "src": "/images/detail/blockchain-4.webp" },
+        { "type": "image", "src": "/images/detail/blockchain-5.webp" },
+        { "type": "image", "src": "/images/detail/blockchain-6.webp" },
+        { "type": "image", "src": "/images/detail/blockchain-7.webp" }
       ],
       "technologies_title": "Kullanılan Teknolojiler",
       "technologies": ["C#", ".NET", "REST API", "SQL", "EF Core", "WebSocket", "Git"],
@@ -225,8 +225,8 @@
       "description_title": "Proje Açıklaması",
       "description": "Dinamik komisyon raporu oluşturma sürecini baştan sona kurguladım. İlk olarak, .NET ile geliştirdiğimiz ERP yazılımının rapor yönetimi ekranına “Komisyon Raporu” sekmesini ekledim. Bu rapor için MSSQL üzerinde bir stored procedure oluşturarak ihtiyaç duyulan tüm verileri veritabanı tarafında hazırladım. Bu sayede veri işleme süreci merkezi ve kontrol edilebilir bir yapıya kavuştu, raporun üretimi de daha stabil hale geldi.|Ardından Hangfire’ı kullanarak bir zamanlayıcı oluşturdum. Bu yapı sayesinde komisyon raporu her gece saat 00:00’da otomatik olarak tetikleniyor ve hazırlanan rapor, ilgili kişilere e-posta yoluyla iletiliyor. Sürecin tamamını otomatikleştirerek manuel iş yükünü ortadan kaldırdım ve raporun zamanında, düzenli bir şekilde iletilmesini sağladım.",
       "media": [
-        { "type": "image", "src": "/images/detail/hangfire-report-1.png" },
-        { "type": "image", "src": "/images/detail/hangfire-report-2.png" }
+        { "type": "image", "src": "/images/detail/hangfire-report-1.webp" },
+        { "type": "image", "src": "/images/detail/hangfire-report-2.webp" }
       ],
       "technologies_title": "Kullanılan Teknolojiler",
       "technologies": ["C#", ".NET", "REST API", "SQL", "EF Core", "Hangfire", "HTML", "CSS", "JavaScript", "Bootstrap", "Git"],
@@ -259,7 +259,7 @@
       "subtitle": "Cep Marketim uygulaması için öneri ve şikayetlerin paylaşıldığı sayfa",
       "description_title": "Proje Açıklaması",
       "description": "Cep Marketim uygulaması için Django (Python) ile geliştirilen bu sayfa, kullanıcıların uygulama hakkında öneri, şikayet ve geri bildirimlerini kolayca iletebileceği bir platform sunmaktadır. Kullanıcılar, uygulamanın işleyişi ve özellikleriyle ilgili fikirlerini paylaşarak, daha iyi bir deneyim için katkıda bulunabilirler.",
-      "media": [{ "type": "image", "src": "/images/detail/cep-marketim-blog-1.png" }],
+      "media": [{ "type": "image", "src": "/images/detail/cep-marketim-blog-1.webp" }],
       "technologies_title": "Kullanılan Teknolojiler",
       "technologies": ["Django", "Python", "Git"],
       "gitUrl": "https://github.com/emirmaydemir/blogprojesiCepMarketim",
@@ -276,8 +276,8 @@
       "description_title": "Proje Açıklaması",
       "description": "Bu masaüstü uygulaması ile taraftarlar, stadyumun oturma planını inceleyerek istedikleri tribünden uygun koltukları seçip bilet satın alabilmektedir. Kullanıcılara kombine ve tek maçlık bilet seçenekleri sunan sistem, ayrıca maç saatlerini ve stadyumun anlık doluluk oranını da görüntüleme imkânı sağlamaktadır. Java programlama dili kullanılarak geliştirilen bu projede, nesne yönelimli programlama (OOP) prensipleriyle modüler ve sürdürülebilir bir yapı oluşturulmuştur. Arayüz geliştirmeleri için Swing kütüphanesi tercih edilmiş, veritabanı işlemleri ise Java Derby teknolojisi ile gerçekleştirilmiştir.",
       "media": [
-        { "type": "image", "src": "/images/detail/stadium-project-1.png" },
-        { "type": "image", "src": "/images/detail/stadium-project-2.png" }
+        { "type": "image", "src": "/images/detail/stadium-project-1.webp" },
+        { "type": "image", "src": "/images/detail/stadium-project-2.webp" }
       ],
       "technologies_title": "Kullanılan Teknolojiler",
       "technologies": ["Java", "Swing", "Java Derby", "OOP", "Git"],
@@ -295,9 +295,9 @@
       "description_title": "Proje Açıklaması",
       "description": "##🎵 Yapay Zeka Destekli Kişiselleştirilmiş Müzik Öneri Sistemi|Müzik, insan hayatında oldukça önemli bir yere sahip. Hafızayı güçlendirmesi, ruh halini dengelemesi ve motivasyon sağlaması gibi pek çok faydası bilimsel çalışmalarla desteklenmektedir. Ben de bu doğrultuda, insanların ruh haline ve müzik tercihlerine göre dinleyebileceği müzikleri öneren bir sistem geliştirdim. Bu sistem, kullanıcıların müzik zevkine en uygun türleri analiz ederek öneri sunmayı amaçlıyor. |##🎯 Projenin Amacı|Projemin temel amacı, kullanıcıların beğenebileceği müzikleri, onların dinleme alışkanlıklarına ve tercihlerine göre öneren bir yapay zeka algoritması geliştirmekti. Günümüzde binlerce farklı müzik türü ve platform bulunmakta, bu da doğru müziği bulmayı zorlaştırıyor. Bu uygulamayla, kullanıcıların zevklerine hitap eden müziklere daha hızlı ulaşmaları hedefleniyor. |##🧠 Kullanılan Teknolojiler ve Yaklaşım|**Backend:** Python|**Modelleme:** Scikit-learn kütüphanesi kullanılarak KNN (K-Nearest Neighbors) algoritması ile öneri motoru oluşturuldu. |**Veri Analizi:** Pandas kütüphanesi yardımıyla Spotify çalma listelerinden elde edilen müzik verileri işlendi. |**Veri Kaynağı:** Spotify API üzerinden kullanıcıların çalma listeleri analiz edilerek şarkı bilgileri alındı. |##📊 Model Eğitimi ve Öneri Mekanizması|Projede iki ana aşama bulunuyor: |**Özellik Çıkartımı ve Model Eğitimi:** Spotify'dan çekilen müzik verilerinden tempo, tür, enerji, dans edilebilirlik gibi nitelikler belirlenerek veri seti oluşturuldu. Bu verilerle model eğitildi. |**Öneri Sistemi:** Eğitilen model, kullanıcıdan alınan playlist ID'si veya şarkı bağlantısına göre önerilerde bulunuyor. Bu öneriler, sistemde yer alan genel müzik havuzundan en uygun şarkılar seçilerek kullanıcıya sunuluyor. |##🧩 Kullanım Senaryoları|**Playlist ID ile Öneri:** Kullanıcı sistemde playlist ID’sini girer. Sistem, bu playlist'teki şarkıların özelliklerine göre kullanıcı profili oluşturur ve benzer özelliklere sahip yeni şarkılar önerir. |**Tek Şarkı Üzerinden Öneri:** Kullanıcı bir şarkı linki girer, sistem bu şarkının türüne ve teknik özelliklerine benzer şarkılar listeler. |##📱 Çoklu Platform Desteği|Bu sistemi sadece masaüstü ortamla sınırlı tutmadım. Python ile geliştirilen API, yerel ağ üzerinden farklı uygulamalardan gelen istekleri karşılayacak şekilde yapılandırıldı. Böylece ister mobil, ister web ister masaüstü uygulamalar bu öneri sistemine entegre edilebilir. |##🌍 Genişleyen ve Güncellenen Müzik Havuzu|Sistem şu anda temel olarak müzik türü üzerinden öneri yapmakta. Ancak yakın gelecekte şarkıların tempo, enstrümantasyon ve vokal yapısı gibi birçok nitelik de dikkate alınarak daha zengin ve çeşitli öneriler sunulması hedefleniyor. |##🚀 Sonuç ve Gelecek Planları|Bu proje sayesinde kullanıcılar sadece sevdikleri müzikleri bulmakla kalmayacak, aynı zamanda yeni türlere de açık olacakları bir deneyim yaşayacaklar. Uygulamanın daha fazla kullanıcıya ulaşması, sistemin doğruluğunu ve başarısını da artıracak. Yapay zeka destekli bu öneri sistemi, ilerleyen dönemlerde müzik dünyasına yön verebilecek bir keşif platformuna dönüşebilir. |",
       "media": [
-        { "type": "image", "src": "/images/detail/music-recommendation-app-1.jpg" },
-        { "type": "image", "src": "/images/detail/music-recommendation-app-2.jpg" },
-        { "type": "image", "src": "/images/detail/music-recommendation-app-3.jpg" }
+        { "type": "image", "src": "/images/detail/music-recommendation-app-1.webp" },
+        { "type": "image", "src": "/images/detail/music-recommendation-app-2.webp" },
+        { "type": "image", "src": "/images/detail/music-recommendation-app-3.webp" }
       ],
       "technologies_title": "Kullanılan Teknolojiler",
       "technologies": ["Python", "Scikit-learn", "KNN", "Pandas", "Spotify API", "Git"],
@@ -315,8 +315,8 @@
       "description_title": "Proje Açıklaması",
       "description": "Bu projede, çoklu-kelime anlam belirsizliği problemini çözmek amacıyla Naive Bayes algoritması kullandım. Çoğu dilde, aynı kelime birden fazla farklı anlam taşıyabiliyor ve bu da doğal dil işleme (NLP) alanında önemli bir zorluk oluşturuyor. Örneğin, sağ kelimesi hem yön olarak, hem de sağlıkla ilgili anlamlar taşıyabiliyor. Bu tür anlam belirsizliklerini çözmek için özel bir model geliştirdim. |##Veri Kümesi Hazırlığı|Proje için, sağ ve dil gibi kelimeleri içeren iki farklı veri kümesi hazırladım. Bu veri kümelerinde her bir cümlede geçen bu kelimelerin hangi anlamda kullanıldığını belirleyerek cümleleri sınıflandırdım. Cümleler, sağ kelimesinin yön anlamı ve sağlık anlamı gibi farklı sınıflara ayrıldı. Bu verileri Excel dosyalarında düzenleyip, bu veriler üzerinde çalışarak anlam belirsizliğini çözmeye yönelik bir model geliştirdim. |##Modelin Kurulumu|Veri setini oluşturduktan sonra, cümleleri TF-IDF (Term Frequency-Inverse Document Frequency) yöntemi ile vektörleştirerek sayısal verilere dönüştürdüm. Bu yöntem, cümledeki her kelimenin önemli olup olmadığını değerlendiriyor. Ardından, Naive Bayes algoritmasını kullanarak eğitim veri kümesi üzerinde modelimi eğittim.|##Model Eğitimi ve Değerlendirme|Eğitim verisini kullanarak Naive Bayes sınıflandırıcı modelini oluşturdum ve ardından test verisi üzerinde modelimi test ettim. Sonuçlar oldukça başarılıydı; model, verilen cümlelerdeki anlam belirsizliğini çözmek için doğru tahminlerde bulundu. |Test verisi üzerindeki doğruluk oranı %73.6 çıktı, bu da modelimin cümlelerdeki anlam belirsizliklerini çözme konusunda oldukça etkili olduğunu gösteriyor. F1 skoru ise 0.693 olarak hesaplandı, bu da modelin doğru sınıflandırma yapmada ne kadar başarılı olduğunu gösteren önemli bir metrik. |##Sonuç|Bu proje, dildeki çoklu-kelime anlam belirsizliğini çözmek için Naive Bayes algoritması kullanarak geliştirilmiş bir sistemin örneği olarak önemli bir adım. Sağ ve dil kelimeleri için oluşturduğum veri setleri, bu tür problemlerin nasıl çözülebileceğini ve doğru sınıflandırma yapabilmek için hangi yöntemlerin kullanılabileceğini gösteriyor. Modelin doğruluğu ve başarısı, gelecekte daha karmaşık dil problemleri için de uygulanabilir. |",
       "media": [
-        { "type": "image", "src": "/images/detail/multinomialnb-1.png" },
-        { "type": "image", "src": "/images/detail/multinomialnb-2.png" }
+        { "type": "image", "src": "/images/detail/multinomialnb-1.webp" },
+        { "type": "image", "src": "/images/detail/multinomialnb-2.webp" }
       ],
       "technologies_title": "Kullanılan Teknolojiler",
       "technologies": ["Python", "Scikit-learn", "KNN", "Pandas", "Spotify API", "Git"],
@@ -334,9 +334,9 @@
       "description_title": "Proje Açıklaması",
       "description": "Bu projede, trafik ışıklarının renklerini tespit eden bir sistem geliştirdim. Görüntü işleme tekniklerini kullanarak, kırmızı, sarı ve yeşil renkleri doğru bir şekilde algılayabilen bir yazılım oluşturduk. Sistemin temel amacı, görüntülerdeki trafik ışığını tespit edip doğru sinyalin, yani kırmızı, sarı veya yeşil ışığın, hangi renk olduğunu belirlemek. Trafik ışığı üzerinde bu renkler net bir şekilde algılandığında, sistem her birini belirleyerek bir dikdörtgen içine alır. Böylece, doğru ışığın tespit edildiğinden emin olunur. Ancak, bazen çevredeki objeler, trafik ışığı ile aynı renkte olduğunda, sistem yanlışlıkla bu objeleri de tespit edip, dikdörtgen içine alabiliyor.|Sonuç olarak, renkleri ayırt etme ve doğru ışığı tespit etme süreci oldukça başarılı oldu. Yazdığım kod, belirlediğim eşik değerleri sayesinde trafik ışığındaki renkleri doğru bir şekilde ayırabiliyor. Fakat, bazı görüntülerde ışığın çevresindeki benzer renkler yüzünden hatalı sonuçlar ortaya çıkabiliyor. Bu, sadece şekil tespitinin hatalı olmasına yol açsa da, renk algılama kısmı kusursuz şekilde çalışıyor. Sistem, görüntüdeki her bir rengi doğru şekilde ayrıştırarak, ilgili ışığı doğru bir biçimde dikdörtgen içine alıyor. Bu proje, trafik ışıklarını doğru bir şekilde tespit edebilen bir sistemin temelini atıyor.",
       "media": [
-        { "type": "image", "src": "/images/detail/lightdetect-1.jpg" },
-        { "type": "image", "src": "/images/detail/lightdetect-2.jpg" },
-        { "type": "image", "src": "/images/detail/lightdetect-3.jpg" }
+        { "type": "image", "src": "/images/detail/lightdetect-1.webp" },
+        { "type": "image", "src": "/images/detail/lightdetect-2.webp" },
+        { "type": "image", "src": "/images/detail/lightdetect-3.webp" }
       ],
       "technologies_title": "Kullanılan Teknolojiler",
       "technologies": ["MATLAB", "Image Processing", "Color Masks", "Bounding Boxes", "Git"],
@@ -353,7 +353,7 @@
       "subtitle": "Refkleks geliştirme oyunu",
       "description_title": "Proje Açıklaması",
       "description": "Bu projede, ekran üzerinde hızla hareket eden bir karakteri yakalamaya dayalı bir refleks geliştirme oyunu tasarladım. Android Studio üzerinde Java diliyle yazdım. Oyunun amacı, oyuncunun hızlı bir şekilde reaksiyon vererek hareket eden karakteri yakalamak. Böylece, oyuncuların reflekslerini geliştirmelerini ve aynı zamanda eğlenceli bir deneyim yaşamalarını hedefledim.",
-      "media": [{ "type": "image", "src": "/images/detail/kenny-catch-app-1.png" }],
+      "media": [{ "type": "image", "src": "/images/detail/kenny-catch-app-1.webp" }],
       "technologies_title": "Kullanılan Teknolojiler",
       "technologies": ["Java", "Android Studio", "XML", "SDK", "Git"],
       "gitUrl": "https://github.com/emirmaydemir/Game_AndroidStudio",
@@ -370,10 +370,10 @@
       "description_title": "Proje Açıklaması",
       "description": "Bu projede, Marmara Üniversitesi'nin ders kayıt sistemini klonlamaya yönelik bir platform geliştirdim. Sistemde, öğrenciler dersleri ve öğretmenleri seçebilir, dersleri silebilir ve danışman onayına gönderebilirler. Öğrenciler, derslerin kredi, saat ve öğretim görevlisi gibi bilgilerini kolayca görüntüleyebilirler. Ayrıca, admin girişi yaparak sisteme ders ekleme, silme ve güncelleme işlemleri de gerçekleştirilebilir. Projeyi geliştirirken C#, SQL Management Studio, Entity Framework, RestSharp, SVN, Telerik ve API servislerini kullandım. Bu sayede, kullanıcı dostu ve verimli bir ders kayıt sistemi oluşturmuş oldum.",
       "media": [
-        { "type": "image", "src": "/images/detail/student-registration-system-1.jpg" },
-        { "type": "image", "src": "/images/detail/student-registration-system-2.jpg" },
-        { "type": "image", "src": "/images/detail/student-registration-system-3.jpg" },
-        { "type": "image", "src": "/images/detail/student-registration-system-4.jpg" }
+        { "type": "image", "src": "/images/detail/student-registration-system-1.webp" },
+        { "type": "image", "src": "/images/detail/student-registration-system-2.webp" },
+        { "type": "image", "src": "/images/detail/student-registration-system-3.webp" },
+        { "type": "image", "src": "/images/detail/student-registration-system-4.webp" }
       ],
       "technologies_title": "Kullanılan Teknolojiler",
       "technologies": [".NET", "C#", "REST API", "EF Core", "IIS", "SQL", "RestSharp", "Visual Studio", "Telerik", "OOP", "SVN"],
@@ -390,7 +390,7 @@
       "subtitle": "Çoklu harita, bot komutları, oyuncu kontrolleri ve daha fazlasını içeren bir Haxball botu geliştirdim",
       "description_title": "Proje Açıklaması",
       "description": "Bu projede, JavaScript kullanarak çoklu harita desteği, bot komutları, oyuncu kontrolleri ve daha fazlasını içeren bir Haxball botu geliştirdim. Amacım, oyunculara daha zengin ve eğlenceli bir oyun deneyimi sunmak, oyun içindeki etkileşimi ve rekabeti artırmaktır.",
-      "media": [{ "type": "image", "src": "/images/detail/haxball-bot-1.png" }],
+      "media": [{ "type": "image", "src": "/images/detail/haxball-bot-1.webp" }],
       "technologies_title": "Kullanılan Teknolojiler",
       "technologies": ["JavaScript"],
       "gitUrl": "https://github.com/emirmaydemir/Haxball-Bot",

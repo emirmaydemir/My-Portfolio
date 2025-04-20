@@ -57,7 +57,7 @@ const HeroSection = ({ heroContent }) => {
           {/* Mobile (<1024px): Card layout */}
           <div className="lg:hidden p-4 bg-gray-800 rounded-2xl shadow-md flex items-center mb-4">
             <div className="relative w-32 h-32 flex-shrink-0 mr-4">
-              <Image src="/images/hero-image.png" alt="emir-aydemir-image" fill className="rounded-full object-cover" />
+              <Image src="/images/hero-image.webp" alt="emir-aydemir-image" fill className="rounded-full object-cover" priority />
             </div>
             <div className="flex flex-col space-y-2 flex-1">
               {/* Contact Button */}
@@ -87,7 +87,7 @@ const HeroSection = ({ heroContent }) => {
         {/* Medium & Desktop Image: show >=1024px */}
         <motion.div initial={{ opacity: 0, scale: 0.5 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.5 }} className="hidden lg:block col-span-4 place-self-start ml-10 lg:mt-0">
           <div className="rounded-full bg-[#4b656d] w-[20px] h-[20px] lg:w-[350px] lg:h-[350px] xl:w-[400px] xl:h-[400px] 2xl:w-[400px] 2xl:h-[400px] relative mx-auto">
-            <Image src="/images/hero-image.png" alt="emir-aydemir-image" className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" width={300} height={300} />
+            <Image src="/images/hero-image.webp" alt="emir-aydemir-image" className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" width={300} height={300} priority />
           </div>
         </motion.div>
       </div>

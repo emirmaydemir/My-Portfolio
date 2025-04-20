@@ -38,11 +38,12 @@ const Navbar = ({ navbarContent }) => {
           className="text-2xl md:text-4xl font-bold text-black dark:text-white ml-2"
         >
           <Image
-            src={darkMode ? "/images/emir-aydemir-logo-black.png" : "/images/emir-aydemir-logo-white.png"} // Dark mode'a göre resim değişimi
+            src={darkMode ? "/images/emir-aydemir-logo-black.webp" : "/images/emir-aydemir-logo-white.webp"} // Dark mode'a göre resim değişimi
             alt="Logo"
             width={150} // Logo genişliği
             height={50} // Logo yüksekliği
             className="h-16 md:h-20 w-auto object-contain"
+            priority
           />
         </Link>
 

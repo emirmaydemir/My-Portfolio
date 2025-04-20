@@ -85,7 +85,7 @@ const AboutSection = ({ aboutContent, certifications, publications }) => {
       <div className="xl:grid xl:grid-cols-2 items-center mb-16 px-5">
         {/* Resim */}
         <motion.div ref={imageRef} initial={{ x: -100, opacity: 0 }} animate={isImageInView ? { x: 0, opacity: 1 } : { x: -100, opacity: 0 }} transition={{ duration: 0.6, ease: "easeOut" }} className="flex justify-center mb-5">
-          <Image src="/images/about-image.png" width={475} height={475} alt="About Me" />
+          <Image src="/images/about-image.webp" width={475} height={475} alt="About Me" />
         </motion.div>
 
         {/* Yazı */}

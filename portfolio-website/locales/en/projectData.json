@@ -9,7 +9,7 @@
       "project_id": "1",
       "project_title": "Note Ideas - Notebook App",
       "project_description": "Developed using Java in Android Studio, this note-taking application offers a user-friendly and functional experience",
-      "project_image": "/images/projects/note-ideas-app.png",
+      "project_image": "/images/projects/note-ideas-app.webp",
       "project_tag": ["All", "Mobile"],
       "project_gitUrl": "https://github.com/emirmaydemir/advanced-note-app",
       "project_previewUrl": "note-ideas"
@@ -18,7 +18,7 @@
       "project_id": "2",
       "project_title": "Inoksist Industry",
       "project_description": "Developed using Next.js, this SEO-friendly website was built for a stainless fastener supplier",
-      "project_image": "/images/projects/inoksist-web-site.png",
+      "project_image": "/images/projects/inoksist-web-site.webp",
       "project_tag": ["All", "Web"],
       "project_gitUrl": "https://github.com/emirmaydemir/Inoksist-Industry-Web",
       "project_previewUrl": "inoksist"
@@ -27,7 +27,7 @@
       "project_id": "3",
       "project_title": "Portfolio Website",
       "project_description": "A website I developed to showcase my projects and skills",
-      "project_image": "/images/projects/portfolio-web.png",
+      "project_image": "/images/projects/portfolio-web.webp",
       "project_tag": ["All", "Web"],
       "project_gitUrl": "https://github.com/emirmaydemir/emirmaydemir.github.io",
       "project_previewUrl": "portfolio-web"
@@ -36,7 +36,7 @@
       "project_id": "4",
       "project_title": "eOfis ERP System",
       "project_description": "Worked as a full-stack developer on a .NET-based ERP system at my company",
-      "project_image": "/images/projects/eOfis-erp-program.png",
+      "project_image": "/images/projects/eOfis-erp-program.webp",
       "project_tag": ["All", "Backend", "Desktop"],
       "project_gitUrl": "projects/eofis-erp",
       "project_previewUrl": "eofis-erp"
@@ -45,7 +45,7 @@
       "project_id": "5",
       "project_title": "Reactivities",
       "project_description": "My project developed with React and .NET, where users can share and join events",
-      "project_image": "/images/projects/re-activity-web.png",
+      "project_image": "/images/projects/re-activity-web.webp",
       "project_tag": ["All", "Web", "Backend"],
       "project_gitUrl": "https://github.com/emirmaydemir/Reactivities",
       "project_previewUrl": "reactivities"
@@ -54,7 +54,7 @@
       "project_id": "6",
       "project_title": "Iyzico Payment Integration",
       "project_description": "I implemented the payment integration with Iyzico for the eOfis company",
-      "project_image": "/images/projects/payment-integration.png",
+      "project_image": "/images/projects/payment-integration.webp",
       "project_tag": ["All", "Backend"],
       "project_gitUrl": "https://paneltest.eofis.com.tr/",
       "project_previewUrl": "iyzico-integration"
@@ -63,7 +63,7 @@
       "project_id": "7",
       "project_title": "BloodBank",
       "project_description": "A blood bank system that connects hospitals, patients, and donors",
-      "project_image": "/images/projects/bloodbank-desktop-app.png",
+      "project_image": "/images/projects/bloodbank-desktop-app.webp",
       "project_tag": ["All", "Desktop", "Backend"],
       "project_gitUrl": "https://github.com/emirmaydemir/BloodBank2",
       "project_previewUrl": "bloodbank"
@@ -72,7 +72,7 @@
       "project_id": "8",
       "project_title": "Smart Shopping App",
       "project_description": "My project offering an economic and fast shopping experience with price comparison and mobile payment support",
-      "project_image": "/images/projects/shop-mobile-app.png",
+      "project_image": "/images/projects/shop-mobile-app.webp",
       "project_tag": ["All", "Mobile"],
       "project_gitUrl": "https://github.com/emirmaydemir/ShopApp",
       "project_previewUrl": "smart-shopping"
@@ -81,7 +81,7 @@
       "project_id": "9",
       "project_title": "eOfis Panel Web",
       "project_description": "I participated as a full-stack developer in the development of the eOfis panel website",
-      "project_image": "/images/projects/eofis-panel.png",
+      "project_image": "/images/projects/eofis-panel.webp",
       "project_tag": ["All", "Web"],
       "project_gitUrl": "https://paneltest.eofis.com.tr/",
       "project_previewUrl": "eofis-panel"
@@ -90,7 +90,7 @@
       "project_id": "10",
       "project_title": "Blockchain Project",
       "project_description": "Users earn rewards by completing tasks in a decentralized system",
-      "project_image": "/images/projects/blockchain.jpg",
+      "project_image": "/images/projects/blockchain.webp",
       "project_tag": ["All", "Backend"],
       "project_gitUrl": "https://github.com/emirmaydemir/Blockchain-Project",
       "project_previewUrl": "blockchain"
@@ -99,7 +99,7 @@
       "project_id": "11",
       "project_title": "Hangfire Report Integration",
       "project_description": "Automated daily commission report with Hangfire",
-      "project_image": "/images/projects/hangfire.png",
+      "project_image": "/images/projects/hangfire.webp",
       "project_tag": ["All", "Backend"],
       "project_gitUrl": "projects/hangfire",
       "project_previewUrl": "hangfire"
@@ -108,7 +108,7 @@
       "project_id": "12",
       "project_title": "Cep Marketim",
       "project_description": "This app allows users to scan product QR codes to view price, origin, ingredients, and other features",
-      "project_image": "/images/projects/cep-marketim-app.png",
+      "project_image": "/images/projects/cep-marketim-app.webp",
       "project_tag": ["All", "Mobile"],
       "project_gitUrl": "https://github.com/emirmaydemir/CepMarketimAndroid",
       "project_previewUrl": "cep-market"
@@ -117,7 +117,7 @@
       "project_id": "13",
       "project_title": "Cep Marketim Blog",
       "project_description": "A page for sharing suggestions and complaints for the Cep Marketim app",
-      "project_image": "/images/projects/cep-marketim-web-blog.png",
+      "project_image": "/images/projects/cep-marketim-web-blog.webp",
       "project_tag": ["All", "Web"],
       "project_gitUrl": "https://github.com/emirmaydemir/blogprojesiCepMarketim",
       "project_previewUrl": "cep-market-blog"
@@ -126,7 +126,7 @@
       "project_id": "14",
       "project_title": "Stadium Project",
       "project_description": "Stadium Ticketing System in Java",
-      "project_image": "/images/projects/stadyum-projesi.png",
+      "project_image": "/images/projects/stadyum-projesi.webp",
       "project_tag": ["All", "Desktop", "Backend"],
       "project_gitUrl": "https://github.com/emirmaydemir/ProjeStadyum_Java",
       "project_previewUrl": "stadium"
@@ -135,7 +135,7 @@
       "project_id": "15",
       "project_title": "Music Recommendation App",
       "project_description": "AI-Powered Personalized Music Recommendation System",
-      "project_image": "/images/projects/music-recommendation-system.png",
+      "project_image": "/images/projects/music-recommendation-system.webp",
       "project_tag": ["All", "AI"],
       "project_gitUrl": "https://github.com/emirmaydemir/music-recommendation-system",
       "project_previewUrl": "music-recommendation"
@@ -144,7 +144,7 @@
       "project_id": "16",
       "project_title": "MultinomialNB Word Analysis",
       "project_description": "Multi-Word Ambiguity Resolution",
-      "project_image": "/images/projects//Naive-Bayes.png",
+      "project_image": "/images/projects//Naive-Bayes.webp",
       "project_tag": ["All", "AI"],
       "project_gitUrl": "https://github.com/emirmaydemir/MultinomialNB-classifier-for-text",
       "project_previewUrl": "multinomialnb"
@@ -153,7 +153,7 @@
       "project_id": "17",
       "project_title": "LightDetect",
       "project_description": "A vision-based system that detects traffic light colors",
-      "project_image": "/images/projects/traffic-light-color-detection.png",
+      "project_image": "/images/projects/traffic-light-color-detection.webp",
       "project_tag": ["All", "AI"],
       "project_gitUrl": "https://github.com/emirmaydemir/LightDetect",
       "project_previewUrl": "lightdetect"
@@ -162,7 +162,7 @@
       "project_id": "18",
       "project_title": "Kenny Catch App",
       "project_description": "Reflex training game",
-      "project_image": "/images/projects/kenny-catch-app.png",
+      "project_image": "/images/projects/kenny-catch-app.webp",
       "project_tag": ["All", "Mobile"],
       "project_gitUrl": "https://github.com/emirmaydemir/Game_AndroidStudio",
       "project_previewUrl": "kenny-catch"
@@ -171,7 +171,7 @@
       "project_id": "19",
       "project_title": "Student Registration System",
       "project_description": "Course Registration System Developed for Marmara University",
-      "project_image": "/images/projects/student-registration-system.png",
+      "project_image": "/images/projects/student-registration-system.webp",
       "project_tag": ["All", "Desktop"],
       "project_gitUrl": "https://github.com/emirmaydemir/Student-Registration-System",
       "project_previewUrl": "student-registration-system"
@@ -180,7 +180,7 @@
       "project_id": "20",
       "project_title": "Haxball Bot",
       "project_description": "A Haxball bot with multiple maps, bot commands, player controls, and more",
-      "project_image": "/images/projects/haxball-bot.png",
+      "project_image": "/images/projects/haxball-bot.webp",
       "project_tag": ["All", "Web"],
       "project_gitUrl": "https://github.com/emirmaydemir/Haxball-Bot",
       "project_previewUrl": "haxball-bot"
