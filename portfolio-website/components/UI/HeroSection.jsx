@@ -64,7 +64,7 @@ const HeroSection = ({ heroContent }) => {
           {/* Mobile (<1024px): Card layout */}
           <div className="lg:hidden p-4 bg-gray-800 rounded-2xl shadow-md flex items-center mb-4">
             <div className="relative w-32 h-32 flex-shrink-0 mr-4">
-              <Image src="/images/hero-image.webp" alt="emir-aydemir-image" fill className="rounded-full object-cover" priority />
+              <Image width={160} height={160} src="/images/hero-image.webp" alt="emir-aydemir-image" className="rounded-full object-cover" sizes="(max-width: 768px) 160px, (min-width: 769px) 300px" />
             </div>
             <div className="flex flex-col space-y-2 flex-1">
               {/* Contact Button */}
