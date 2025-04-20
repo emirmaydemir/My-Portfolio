@@ -57,7 +57,7 @@ const Navbar = ({ navbarContent }) => {
         </div>
 
         {/* Sağ - Dil, Tema, Menü Toggle */}
-        <div className="flex items-center space-x-4 gap-2 md:gap-3 mr-2">
+        <div className="flex items-center space-x-4 gap-2 md:gap-3 mr-2 mb-1 md:mb-0">
           <LanguageChanger />
           <button onClick={toggleTheme} className="text-black dark:text-white hover:text-yellow-400 transition" aria-label="Toggle Theme">
             {darkMode ? <SunIcon className="w-7 h-7 md:w-8 md:h-8" /> : <MoonIcon className="w-7 h-7 md:w-8 md:h-8" />}

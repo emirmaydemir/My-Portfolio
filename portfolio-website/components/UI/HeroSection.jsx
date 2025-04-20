@@ -32,6 +32,13 @@ const HeroSection = ({ heroContent }) => {
           }
         }
 
+        @media (min-width: 1024px) and (max-width: 1100px) {
+          .hero-image-custom-size {
+            width: 20rem !important;
+            height: 20rem !important;
+          }
+        }
+
         @media (min-width: 1024px) and (max-width: 1535px) {
           .custom-description {
             font-size: 1.125rem; /* 18px — normalde lg:text-base (16px idi) */
@@ -86,7 +93,7 @@ const HeroSection = ({ heroContent }) => {
 
         {/* Medium & Desktop Image: show >=1024px */}
         <motion.div initial={{ opacity: 0, scale: 0.5 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.5 }} className="hidden lg:block col-span-4 place-self-start ml-10 lg:mt-0">
-          <div className="rounded-full bg-[#4b656d] w-[20px] h-[20px] lg:w-[350px] lg:h-[350px] xl:w-[400px] xl:h-[400px] 2xl:w-[400px] 2xl:h-[400px] relative mx-auto">
+          <div className="rounded-full bg-[#4b656d] w-[20px] h-[20px] lg:w-[350px] lg:h-[350px] xl:w-[400px] xl:h-[400px] 2xl:w-[400px] 2xl:h-[400px] relative mx-auto hero-image-custom-size">
             <Image src="/images/hero-image.webp" alt="emir-aydemir-image" className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" width={300} height={300} priority />
           </div>
         </motion.div>
