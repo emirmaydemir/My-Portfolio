@@ -49,7 +49,7 @@ const iconMap = {
 export default function Technologies({ technologies, technologiesTitle }) {
   return (
     <div className="mt-10">
-      <h2 className="text-2xl font-bold mb-4">{technologiesTitle}</h2>
+      <h2 className="text-xl md:text-2xl lg:text-4xl font-bold mb-4">{technologiesTitle}</h2>
       <div className="flex flex-wrap gap-3">
         {technologies.map((tech, index) => {
           const iconData = iconMap[tech] || { icon: FcApproval, color: "#6B7280" }; // varsayılan gri
@@ -57,8 +57,8 @@ export default function Technologies({ technologies, technologiesTitle }) {
 
           return (
             <div key={index} className="flex items-center gap-2 bg-gray-900 dark:bg-white px-3 py-1 rounded-full text-sm shadow hover:scale-105 transition-transform duration-300 cursor-pointer">
-              <Icon className="text-xl" style={{ color: iconData.color }} />
-              <span className="text-white dark:text-black md:text-base font-medium">{tech}</span>
+              <Icon className="text-base md:text-xl" style={{ color: iconData.color }} />
+              <span className="text-white dark:text-black text-xs md:text-base font-medium">{tech}</span>
             </div>
           );
         })}

@@ -11,7 +11,7 @@ export default function ProjectDescription({ description, descriptionTitle }) {
       // Eğer metin ** ile çevrilmişse, bunu <strong> ile sar
       if (index % 2 !== 0) {
         return (
-          <strong className="font-extrabold" key={index}>
+          <strong className="text-md md:text-lg font-extrabold" key={index}>
             {part}
           </strong>
         );
@@ -26,14 +26,14 @@ export default function ProjectDescription({ description, descriptionTitle }) {
     // Eğer paragraf '##' ile başlıyorsa alt başlık olarak render et
     if (trimmed.startsWith("##")) {
       return (
-        <h3 key={index} className="text-xl font-extrabold mt-6 mb-2 text-gray-900 dark:text-gray-300">
+        <h3 key={index} className="text-lg md:text-xl lg:text-2xl font-extrabold mt-6 mb-2 text-gray-900 dark:text-gray-300">
           {trimmed.replace(/^##\s*/, "")}
         </h3>
       );
     }
 
     return (
-      <p key={index} className="text-gray-900 dark:text-gray-300 leading-relaxed mb-4">
+      <p key={index} className="text-sm text-justify md:text-base lg:text-lg text-gray-900 dark:text-gray-300 leading-relaxed mb-4">
         {renderTextWithBold(trimmed)}
       </p>
     );
@@ -41,7 +41,7 @@ export default function ProjectDescription({ description, descriptionTitle }) {
 
   return (
     <div className="mt-10">
-      <h2 className="text-2xl font-bold mb-2">{descriptionTitle}</h2>
+      <h2 className="text-xl md:text-2xl lg:text-4xl font-bold mb-2">{descriptionTitle}</h2>
       {paragraphs.map((para, index) => renderParagraph(para, index))}
     </div>
   );
